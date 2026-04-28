@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jedi Recommender System - Cyberpunk Terminal</title>
+  <meta name="description" content="Configure and run the Jedi Recommender System.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scanlines"></div>
+  <div class="background-grid"></div>
+  
+  <div class="container">
+    <header class="glitch-header">
+      <h1 class="glitch" data-text="JEDI RECOMMENDER">JEDI RECOMMENDER</h1>
+      <p class="subtitle">SYS.CORE.V.2.0.4 // UNAUTHORIZED ACCESS</p>
+    </header>
+
+    <main class="dashboard">
+      <section class="panel control-panel">
+        <div class="panel-header">
+          <h2>[ CONFIGURATION PARAMETERS ]</h2>
+          <span class="status blink">ONLINE</span>
+        </div>
+        
+        <form id="recommender-form" class="cyber-form">
+          <div class="form-group" id="genre-select-group">
+            <label>EXCLUDE GENRES</label>
+            <div class="cyber-multi-select" id="genre-multi-select">
+              <div class="selected-tags" id="selected-genres-tags"></div>
+              <input type="text" class="cyber-input select-search" id="genre-search" placeholder="Select genres...">
+              <div class="select-dropdown" id="genre-dropdown"></div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="exclude-keywords">EXCLUDE KEYWORDS</label>
+            <input type="text" id="exclude-keywords" name="exclude-keywords" placeholder="e.g. zombie, vampire" class="cyber-input">
+            <span class="focus-border"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="exclude-actors">EXCLUDE ACTORS</label>
+            <input type="text" id="exclude-actors" name="exclude-actors" placeholder="e.g. Nicolas Cage" class="cyber-input">
+            <span class="focus-border"></span>
+          </div>
+
+          <div class="grid-2-col">
+            <div class="form-group">
+              <label for="imdb-min">IMDB MIN SCORE</label>
+              <input type="text" inputmode="decimal" id="imdb-min" name="imdb-min" placeholder="5.2" class="cyber-input">
+              <span class="focus-border"></span>
+            </div>
+            <div class="form-group">
+              <label for="imdb-max">IMDB MAX SCORE</label>
+              <input type="text" inputmode="decimal" id="imdb-max" name="imdb-max" placeholder="10.0" class="cyber-input">
+              <span class="focus-border"></span>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="imdb-min-votes">IMDB MIN VOTES</label>
+            <input type="number" min="0" id="imdb-min-votes" name="imdb-min-votes" placeholder="1000" class="cyber-input">
+            <span class="focus-border"></span>
+          </div>
+
+          <div class="grid-2-col">
+            <div class="form-group">
+              <label for="year-min">MIN YEAR</label>
+              <input type="number" min="1900" id="year-min" name="year-min" placeholder="1900" class="cyber-input">
+              <span class="focus-border"></span>
+            </div>
+            <div class="form-group">
+              <label for="year-max">MAX YEAR</label>
+              <input type="number" min="1900" id="year-max" name="year-max" placeholder="2026" class="cyber-input">
+              <span class="focus-border"></span>
+            </div>
+          </div>
+
+          <div class="form-group checkbox-group">
+            <label class="cyber-checkbox-container">
+              <input type="checkbox" id="dry-run" name="dry-run">
+              <span class="checkmark"></span>
+              SIMULATION MODE (DRY RUN)
+            </label>
+          </div>
+
+          <div class="action-bar">
+            <button type="submit" class="cyber-button" id="execute-btn">
+              <span class="button-text">INITIALIZE SEQUENCE</span>
+              <span class="button-glitch"></span>
+            </button>
+          </div>
+        </form>
+      </section>
+
+      <section class="panel terminal-panel">
+        <div class="panel-header">
+          <h2>[ SYSTEM TERMINAL ]</h2>
+          <div class="window-controls">
+            <span class="win-btn win-min"></span>
+            <span class="win-btn win-max"></span>
+            <span class="win-btn win-close"></span>
+          </div>
+        </div>
+        <div class="terminal-window" id="terminal-output">
+          <div class="log-line sys">Booting Jedi Recommender Core OS v.2.4.1...</div>
+          <div class="log-line sys">Establishing secure connection to MDBList... OK</div>
+          <div class="log-line sys">Ready for user input.</div>
+          <div class="cursor blink">_</div>
+        </div>
+      </section>
+    </main>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
