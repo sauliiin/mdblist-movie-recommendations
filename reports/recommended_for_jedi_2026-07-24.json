@@ -1,0 +1,6697 @@
+{
+  "generated_at": "2026-07-24T16:13:41+00:00",
+  "seed": "2026-07-24",
+  "dry_run": false,
+  "fine_tuning": {
+    "excluded_genres": [
+      "Action",
+      "Children",
+      "Comedy",
+      "Family",
+      "Kids",
+      "Musical",
+      "Romance",
+      "Superhero",
+      "Western",
+      "War",
+      "Short",
+      "Sport"
+    ],
+    "excluded_keywords": [],
+    "excluded_actors": [
+      "Nicolas Cage"
+    ],
+    "imdb_min": 6.2,
+    "imdb_max": null,
+    "imdb_min_votes": 1000,
+    "effective_imdb_min": 6.2,
+    "effective_imdb_max": null,
+    "effective_imdb_min_votes": 1000,
+    "year_min": 2018,
+    "year_max": null
+  },
+  "errors": [],
+  "source_list": {
+    "username": "mestreyodarossi",
+    "slug": "last-watched",
+    "watched_count": 459
+  },
+  "blocked_lists": {
+    "username": "mestreyodarossi",
+    "slugs": [
+      "combina-com-voce",
+      "lastest-movie-releases",
+      "surprise-me",
+      "trending-movies"
+    ],
+    "counts": {
+      "combina-com-voce": 639,
+      "lastest-movie-releases": 150,
+      "surprise-me": 450,
+      "trending-movies": 225
+    },
+    "excluded_identities": 1464
+  },
+  "target_list": {
+    "id": 192140,
+    "user_id": 50394,
+    "user_name": "mestreyodarossi",
+    "name": "Recommended for Jedi",
+    "slug": "recommended-for-jedi",
+    "description": null,
+    "mediatype": null,
+    "items": 100,
+    "likes": 0,
+    "type": "static",
+    "dynamic": false,
+    "private": false,
+    "ranked": 0,
+    "last_updated_at": "2026-07-24T16:01:21.813Z",
+    "refreshed_at": null,
+    "next_update_at": null,
+    "status": 11,
+    "added_items": null,
+    "removed_items": null
+  },
+  "profile": {
+    "generated_from": [
+      {
+        "title": "Greta",
+        "year": 2019,
+        "tmdb": 471506
+      },
+      {
+        "title": "Blink Twice",
+        "year": 2024,
+        "tmdb": 840705
+      },
+      {
+        "title": "Bad Times at the El Royale",
+        "year": 2018,
+        "tmdb": 446021
+      },
+      {
+        "title": "Night Teeth",
+        "year": 2021,
+        "tmdb": 669671
+      },
+      {
+        "title": "The Others",
+        "year": 2001,
+        "tmdb": 1933
+      },
+      {
+        "title": "The Possession of Michael King",
+        "year": 2014,
+        "tmdb": 272692
+      },
+      {
+        "title": "The Marsh King's Daughter",
+        "year": 2023,
+        "tmdb": 798362
+      }
+    ],
+    "keyword_weights": {
+      "murder": 6,
+      "blood": 5,
+      "death": 4,
+      "father-daughter-relationship": 4,
+      "knife": 4,
+      "violence": 4,
+      "baffled": 3,
+      "blood-splatter": 3,
+      "bound-and-gagged": 3,
+      "brutality": 3,
+      "candle": 3,
+      "cigarette-smoking": 3,
+      "crying": 3,
+      "danger": 3,
+      "escape-attempt": 3,
+      "fear": 3,
+      "female-nudity": 3,
+      "female-protagonist": 3,
+      "fire": 3,
+      "gore": 3,
+      "gun": 3,
+      "hotel": 3,
+      "kidnapping": 3,
+      "manipulation": 3,
+      "nightmare": 3,
+      "panic": 3,
+      "photograph": 3,
+      "rescue": 3,
+      "revenge": 3,
+      "secret": 3,
+      "shot-in-the-head": 3,
+      "shot-to-death": 3,
+      "stabbing": 3,
+      "suspense": 3,
+      "tattoo": 3,
+      "woman-bound-and-gagged": 3,
+      "african-american": 2,
+      "anger": 2,
+      "apology": 2,
+      "best-friend": 2,
+      "betrayal": 2,
+      "blood-stain": 2,
+      "bloody-face": 2,
+      "broken-glass": 2,
+      "brother": 2,
+      "brother-sister-relationship": 2,
+      "building-on-fire": 2,
+      "car": 2,
+      "cell-phone": 2,
+      "cemetery": 2,
+      "claustrophobia": 2,
+      "close-up-of-eyes": 2,
+      "coffee": 2,
+      "coin": 2,
+      "corpse": 2,
+      "criminal": 2,
+      "crying-woman": 2,
+      "dead-body": 2,
+      "dead-dog": 2,
+      "death-of-friend": 2,
+      "deception": 2,
+      "disarming-someone": 2,
+      "disc-jockey": 2,
+      "double-cross": 2,
+      "downpour": 2,
+      "drinking-coffee": 2,
+      "eavesdropping": 2,
+      "escape": 2,
+      "evil": 2,
+      "fake-accent": 2,
+      "family-relationships": 2,
+      "fight": 2,
+      "friend": 2,
+      "friendship": 2,
+      "girl": 2,
+      "gunshot": 2,
+      "hallucination": 2,
+      "handcuffed-to-a-bed": 2,
+      "handcuffs": 2,
+      "heavy-rain": 2,
+      "held-at-gunpoint": 2,
+      "hidden-money": 2,
+      "hit-with-a-bottle": 2,
+      "hostage": 2,
+      "hotel-fire": 2,
+      "invitation": 2,
+      "knocked-unconscious": 2,
+      "lie": 2,
+      "locked-door": 2,
+      "locking-a-door": 2,
+      "loss-of-friend": 2,
+      "man-murders-a-woman": 2,
+      "mansion": 2,
+      "medium": 2,
+      "memory-loss": 2,
+      "mercilessness": 2,
+      "metronome": 2,
+      "mirror": 2,
+      "money": 2,
+      "mother-daughter-relationship": 2,
+      "mysterious-woman": 2,
+      "near-death-experience": 2,
+      "news-report": 2,
+      "noise": 2,
+      "old-woman": 2,
+      "paranoia": 2,
+      "paranormal-phenomenon": 2,
+      "party": 2,
+      "piano": 2,
+      "pistol": 2,
+      "police-station": 2,
+      "power": 2,
+      "psychic": 2,
+      "psychological-manipulation": 2,
+      "psychopath": 2,
+      "punched-in-the-face": 2,
+      "rainstorm": 2,
+      "reading-a-book": 2,
+      "restaurant": 2,
+      "rifle": 2,
+      "sadism": 2,
+      "sadist": 2,
+      "scream": 2,
+      "screaming": 2,
+      "screaming-in-fear": 2,
+      "serial-killer": 2,
+      "servant": 2,
+      "shooting": 2,
+      "shot-in-the-back": 2,
+      "shot-in-the-chest": 2,
+      "shotgun": 2,
+      "stabbed-in-the-hand": 2,
+      "stabbed-to-death": 2,
+      "suicide": 2,
+      "suicide-attempt": 2,
+      "sunglasses": 2,
+      "surprise-ending": 2,
+      "survival": 2,
+      "suspicion": 2,
+      "text-message": 2,
+      "tied-up": 2,
+      "villainess": 2,
+      "voyeurism": 2,
+      "waitress": 2,
+      "widow": 2,
+      "woman-shoots-a-man": 2,
+      "woman-wears-a-wig": 2,
+      "woman-wears-sunglasses": 2
+    },
+    "keyword_ids": {
+      "psychopath": 2528,
+      "evil": 1629,
+      "friend": 34465,
+      "kidnapping": 295360,
+      "murder": 295374,
+      "restaurant": 295305,
+      "female-protagonist": 295471,
+      "suicide": 295285,
+      "piano": 295205,
+      "coffee": 295611,
+      "father-daughter-relationship": 295274,
+      "shot-to-death": 295600,
+      "shooting": 296233,
+      "gun": 295895,
+      "friendship": 295218,
+      "metronome": 297416,
+      "fake-accent": 49701,
+      "woman-shoots-a-man": 59556,
+      "cell-phone": 295612,
+      "violence": 295395,
+      "noise": 35792,
+      "nightmare": 295641,
+      "tied-up": 297539,
+      "villainess": 295477,
+      "suspense": 295553,
+      "bound-and-gagged": 296310,
+      "gore": 295392,
+      "blood": 295390,
+      "waitress": 295429,
+      "photograph": 295240,
+      "candle": 295759,
+      "hallucination": 296452,
+      "woman-wears-sunglasses": 62993,
+      "widow": 296122,
+      "reading-a-book": 13565,
+      "crying": 295409,
+      "crying-woman": 45385,
+      "best-friend": 295906,
+      "invitation": 296036,
+      "drinking-coffee": 50582,
+      "text-message": 13466,
+      "old-woman": 295470,
+      "manipulation": 295750,
+      "close-up-of-eyes": 34968,
+      "mysterious-woman": 298424,
+      "locked-door": 298661,
+      "broken-glass": 15523,
+      "african-american": 295270,
+      "police-station": 296202,
+      "psychological-manipulation": 46179,
+      "heavy-rain": 47345,
+      "downpour": 44688,
+      "rainstorm": 21837,
+      "dead-dog": 298169,
+      "lie": 11645,
+      "family-relationships": 295210,
+      "claustrophobia": 298669,
+      "locking-a-door": 45344,
+      "sadist": 296604,
+      "sadism": 296605,
+      "suspicion": 296567,
+      "bloody-face": 49093,
+      "eavesdropping": 19033,
+      "dead-body": 295475,
+      "handcuffs": 296831,
+      "handcuffed-to-a-bed": 50450,
+      "woman-bound-and-gagged": 51527,
+      "escape-attempt": 296411,
+      "gunshot": 296192,
+      "serial-killer": 295949,
+      "blood-stain": 47761,
+      "criminal": 295263,
+      "rescue": 295262,
+      "apology": 13587,
+      "woman-wears-a-wig": 47892,
+      "female-nudity": 37952,
+      "stabbing": 296687,
+      "fire": 295822,
+      "money": 295779,
+      "knife": 295805,
+      "memory-loss": 296227,
+      "death": 295372,
+      "tattoo": 295698,
+      "hidden-money": 25011,
+      "party": 295913,
+      "pistol": 44256,
+      "shot-in-the-chest": 44285,
+      "hostage": 295856,
+      "hotel": 296037,
+      "servant": 14769,
+      "betrayal": 295720,
+      "revenge": 295387,
+      "anger": 295767,
+      "double-cross": 296413,
+      "loss-of-friend": 45354,
+      "sunglasses": 296608,
+      "power": 295832,
+      "held-at-gunpoint": 295638,
+      "shot-in-the-head": 44553,
+      "escape": 295855,
+      "blood-splatter": 295854,
+      "brutality": 295566,
+      "stabbed-in-the-hand": 50711,
+      "deception": 295721,
+      "punched-in-the-face": 45034,
+      "screaming": 14634,
+      "stabbed-to-death": 295857,
+      "panic": 295828,
+      "corpse": 295756,
+      "fear": 295815,
+      "survival": 295927,
+      "paranoia": 295757,
+      "danger": 43170,
+      "mercilessness": 16721,
+      "near-death-experience": 296421,
+      "disc-jockey": 298800,
+      "knocked-unconscious": 34170,
+      "cigarette-smoking": 295317,
+      "disarming-someone": 47047,
+      "death-of-friend": 296702,
+      "shot-in-the-back": 45111,
+      "hotel-fire": 65997,
+      "building-on-fire": 23693,
+      "screaming-in-fear": 51157,
+      "man-murders-a-woman": 49822,
+      "hit-with-a-bottle": 64888,
+      "shotgun": 296412,
+      "coin": 24364,
+      "news-report": 296516,
+      "fight": 295220,
+      "secret": 295267,
+      "surprise-ending": 295859,
+      "voyeurism": 296026,
+      "girl": 295431,
+      "brother": 296198,
+      "car": 296799,
+      "mansion": 295230,
+      "cemetery": 2027,
+      "suicide-attempt": 3281,
+      "baffled": 392351,
+      "rifle": 296550,
+      "scream": 296804,
+      "medium": 302986,
+      "brother-sister-relationship": 295207,
+      "mother-daughter-relationship": 295397,
+      "mirror": 295938,
+      "psychic": 297620,
+      "paranormal-phenomenon": 44404
+    },
+    "daily_keywords": [
+      "anger",
+      "baffled",
+      "close-up-of-eyes",
+      "drinking-coffee",
+      "father-daughter-relationship",
+      "fight",
+      "held-at-gunpoint",
+      "hit-with-a-bottle",
+      "knife",
+      "lie",
+      "locked-door",
+      "medium",
+      "memory-loss",
+      "metronome",
+      "mysterious-woman",
+      "nightmare",
+      "paranormal-phenomenon",
+      "photograph",
+      "piano",
+      "psychic",
+      "psychopath",
+      "reading-a-book",
+      "revenge",
+      "servant",
+      "shot-in-the-back",
+      "tattoo",
+      "text-message",
+      "tied-up",
+      "widow"
+    ],
+    "genre_weights": {
+      "Thriller": 6,
+      "Drama": 5,
+      "Mystery": 5,
+      "Crime": 3,
+      "Horror": 3,
+      "Action": 1,
+      "Fantasy": 1
+    },
+    "certification_weights": {
+      "R": 6,
+      "PG-13": 1
+    },
+    "country_weights": {
+      "us": 6,
+      "gb": 1
+    },
+    "imdb_mean": 6.371428571428571,
+    "imdb_std": 0.6818342607875268,
+    "imdb_votes_median": 42102.0,
+    "years": [
+      2019.0,
+      2024.0,
+      2018.0,
+      2021.0,
+      2001.0,
+      2014.0,
+      2023.0
+    ],
+    "year_mean": 2017.142857142857,
+    "runtimes": [
+      98.0,
+      103.0,
+      141.0,
+      107.0,
+      101.0,
+      83.0,
+      109.0
+    ],
+    "runtime_mean": 106.0,
+    "age_ratings": [
+      15.0,
+      17.0,
+      17.0,
+      16.0,
+      14.0,
+      17.0,
+      15.0
+    ],
+    "age_mean": 15.857142857142858
+  },
+  "candidate_stats": {
+    "raw_candidates": 6921,
+    "enriched": 3000,
+    "filtered": 2784,
+    "errors": 0,
+    "current_count": 100,
+    "target_count": 100,
+    "preserved_count": 47,
+    "to_add_count": 53,
+    "to_remove_count": 53,
+    "invalid_current_count": 53,
+    "minimum_swaps": 50,
+    "kept_count": 47
+  },
+  "delta": {
+    "to_add": [
+      401469,
+      401545,
+      405774,
+      424139,
+      426249,
+      436387,
+      451657,
+      458723,
+      458737,
+      489927,
+      491584,
+      492616,
+      493922,
+      499932,
+      509598,
+      509635,
+      522241,
+      528949,
+      539651,
+      541524,
+      542928,
+      549294,
+      556509,
+      556984,
+      567797,
+      575452,
+      597208,
+      616651,
+      617653,
+      617708,
+      619264,
+      630240,
+      630392,
+      646385,
+      707408,
+      760104,
+      800815,
+      809970,
+      862965,
+      882598,
+      912480,
+      913290,
+      933260,
+      934433,
+      945961,
+      957314,
+      965890,
+      1023922,
+      1047020,
+      1084199,
+      1100782,
+      1114513,
+      1160360
+    ],
+    "to_remove": [
+      291351,
+      293670,
+      310131,
+      325302,
+      329865,
+      330770,
+      333357,
+      334541,
+      345911,
+      353728,
+      358807,
+      364220,
+      370178,
+      377150,
+      380620,
+      381283,
+      395814,
+      397837,
+      409297,
+      411999,
+      413337,
+      414770,
+      418078,
+      422619,
+      429101,
+      441701,
+      444395,
+      447332,
+      451877,
+      455974,
+      458305,
+      466565,
+      480733,
+      483202,
+      504585,
+      515454,
+      521935,
+      533642,
+      537788,
+      554311,
+      571384,
+      592230,
+      600184,
+      627290,
+      661791,
+      663712,
+      690248,
+      771536,
+      772515,
+      858017,
+      955531,
+      1284460,
+      1299372
+    ],
+    "kept": [
+      315205,
+      338953,
+      361292,
+      407436,
+      423333,
+      426063,
+      443463,
+      453755,
+      470044,
+      476299,
+      478860,
+      496743,
+      501170,
+      507076,
+      511819,
+      517302,
+      522369,
+      526477,
+      566038,
+      567410,
+      576845,
+      590593,
+      598896,
+      600354,
+      614282,
+      615643,
+      655187,
+      656968,
+      716258,
+      745881,
+      785084,
+      788929,
+      793998,
+      826796,
+      831395,
+      842924,
+      864370,
+      925786,
+      931944,
+      943134,
+      958487,
+      963568,
+      1047223,
+      1109255,
+      1155828,
+      1241983,
+      1330443
+    ]
+  },
+  "write_result": {
+    "added_batches": [
+      {
+        "added": {
+          "movies": 53,
+          "shows": 0,
+          "seasons": 0,
+          "episodes": 0
+        },
+        "existing": {
+          "movies": 0,
+          "shows": 0,
+          "seasons": 0,
+          "episodes": 0
+        },
+        "not_found": {
+          "movies": 0,
+          "shows": 0,
+          "seasons": 0,
+          "episodes": 0
+        },
+        "trakt_sync_queued": {
+          "movies": 0,
+          "shows": 0,
+          "seasons": 0,
+          "episodes": 0
+        }
+      }
+    ],
+    "removed_batches": [
+      {
+        "removed": {
+          "movies": 53,
+          "shows": 0,
+          "seasons": 0,
+          "episodes": 0
+        },
+        "not_found": {
+          "movies": 0,
+          "shows": 0,
+          "seasons": 0,
+          "episodes": 0
+        },
+        "trakt_sync_queued": {
+          "movies": 0,
+          "shows": 0,
+          "seasons": 0,
+          "episodes": 0
+        }
+      }
+    ],
+    "dry_run": false
+  },
+  "recommendations": [
+    {
+      "title": "Suspiria",
+      "year": 2018,
+      "ids": {
+        "tmdb": 361292,
+        "imdb": "tt1034415",
+        "mdblist": "1bwn"
+      },
+      "score": 0.91042,
+      "imdb_value": 6.7,
+      "imdb_votes": 105730,
+      "runtime": 152,
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Horror",
+        "Mystery"
+      ],
+      "country": "us",
+      "certification": "R",
+      "age_rating": 17,
+      "matched_keywords": [
+        "apology",
+        "blood",
+        "blood-splatter",
+        "bloody-face",
+        "brutality",
+        "cigarette-smoking",
+        "close-up-of-eyes",
+        "corpse",
+        "crying",
+        "danger",
+        "death",
+        "deception",
+        "disarming-someone",
+        "double-cross",
+        "eavesdropping",
+        "escape",
+        "escape-attempt",
+        "evil",
+        "fear",
+        "female-nudity",
+        "female-protagonist",
+        "fire",
+        "gore",
+        "gun",
+        "hallucination",
+        "heavy-rain",
+        "hostage",
+        "kidnapping",
+        "knife",
+        "lie"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Fantasy",
+        "Horror",
+        "Mystery"
+      ],
+      "score_components": {
+        "keywords": 1.0,
+        "genres": 1.0,
+        "imdb": 0.942337,
+        "year": 0.546818,
+        "runtime": 0.1733,
+        "age_certification": 0.774616,
+        "country": 0.857143,
+        "daily_bonus": 0.017015,
+        "jitter": 0.008771
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:fantasia",
+        "user_list:horror",
+        "user_list:newest-avarege-horor-movies",
+        "user_list:supernatural",
+        "user_list:surpise-me-again"
+      ]
+    },
+    {
+      "title": "Mowgli: Legend of the Jungle",
+      "year": 2018,
+      "ids": {
+        "tmdb": 407436,
+        "imdb": "tt2388771",
+        "mdblist": "1h79"
+      },
+      "score": 0.700906,
+      "imdb_value": 6.5,
+      "imdb_votes": 69689,
+      "runtime": 105,
+      "genres": [
+        "Adventure",
+        "Drama",
+        "Fantasy"
+      ],
+      "country": "US",
+      "certification": "PG-13",
+      "age_rating": 13,
+      "matched_keywords": [
+        "betrayal",
+        "blood",
+        "brutality",
+        "close-up-of-eyes",
+        "corpse",
+        "danger",
+        "death",
+        "death-of-friend",
+        "deception",
+        "double-cross",
+        "escape",
+        "fear",
+        "fight",
+        "fire",
+        "friendship",
+        "heavy-rain",
+        "hostage",
+        "kidnapping",
+        "knife",
+        "knocked-unconscious",
+        "loss-of-friend",
+        "mercilessness",
+        "murder",
+        "near-death-experience",
+        "panic",
+        "paranoia",
+        "rescue",
+        "revenge",
+        "rifle",
+        "shot-in-the-chest"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Fantasy"
+      ],
+      "score_components": {
+        "keywords": 0.782991,
+        "genres": 0.5,
+        "imdb": 0.993115,
+        "year": 0.546818,
+        "runtime": 0.683392,
+        "age_certification": 0.319475,
+        "country": 0.857143,
+        "daily_bonus": 0.009851,
+        "jitter": -0.008038
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:fantasia"
+      ]
+    },
+    {
+      "title": "Nosferatu",
+      "year": 2024,
+      "ids": {
+        "tmdb": 426063,
+        "imdb": "tt5040012",
+        "mdblist": "2x8c8"
+      },
+      "score": 0.744596,
+      "imdb_value": 7.1,
+      "imdb_votes": 270499,
+      "runtime": 133,
+      "genres": [
+        "Fantasy",
+        "Horror",
+        "Mystery"
+      ],
+      "country": "US",
+      "certification": "R",
+      "age_rating": 16,
+      "matched_keywords": [
+        "blood",
+        "blood-splatter",
+        "brutality",
+        "cemetery",
+        "close-up-of-eyes",
+        "corpse",
+        "danger",
+        "dead-body",
+        "death",
+        "deception",
+        "double-cross",
+        "escape",
+        "escape-attempt",
+        "evil",
+        "father-daughter-relationship",
+        "fear",
+        "fire",
+        "friendship",
+        "gore",
+        "hallucination",
+        "heavy-rain",
+        "manipulation",
+        "mansion",
+        "mercilessness",
+        "mother-daughter-relationship",
+        "murder",
+        "near-death-experience",
+        "nightmare",
+        "panic",
+        "paranoia"
+      ],
+      "matched_genres": [
+        "Fantasy",
+        "Horror",
+        "Mystery"
+      ],
+      "score_components": {
+        "keywords": 0.888563,
+        "genres": 0.75,
+        "imdb": 0.652156,
+        "year": 0.495143,
+        "runtime": 0.304826,
+        "age_certification": 0.773207,
+        "country": 0.857143,
+        "daily_bonus": 0.009851,
+        "jitter": -0.013098
+      },
+      "sources": [
+        "catalog:Horror:imdbpopular",
+        "catalog:Horror:imdbvotes",
+        "catalog:Horror:score",
+        "catalog:Mystery:imdbpopular",
+        "catalog:Mystery:imdbvotes",
+        "user_list:fantasia"
+      ]
+    },
+    {
+      "title": "Ghostland",
+      "year": 2018,
+      "ids": {
+        "tmdb": 476299,
+        "imdb": "tt6195094",
+        "mdblist": "1fsl"
+      },
+      "score": 0.611244,
+      "imdb_value": 6.4,
+      "imdb_votes": 47458,
+      "runtime": 91,
+      "genres": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "country": "FR",
+      "certification": "R",
+      "age_rating": 17,
+      "matched_keywords": [
+        "blood",
+        "cell-phone",
+        "cigarette-smoking",
+        "close-up-of-eyes",
+        "escape",
+        "female-nudity",
+        "female-protagonist",
+        "hallucination",
+        "handcuffs",
+        "mother-daughter-relationship",
+        "nightmare",
+        "screaming-in-fear",
+        "serial-killer",
+        "shot-in-the-head",
+        "violence"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "score_components": {
+        "keywords": 0.351906,
+        "genres": 1.0,
+        "imdb": 0.999754,
+        "year": 0.546818,
+        "runtime": 0.523488,
+        "age_certification": 0.774616,
+        "country": 0.0,
+        "daily_bonus": 0.004478,
+        "jitter": -0.019038
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:horror",
+        "user_list:newest-avarege-horor-movies",
+        "user_list:surpise-me-again"
+      ]
+    },
+    {
+      "title": "Doctor Sleep",
+      "year": 2019,
+      "ids": {
+        "tmdb": 501170,
+        "imdb": "tt5606664",
+        "mdblist": "1d7y"
+      },
+      "score": 0.8118,
+      "imdb_value": 7.3,
+      "imdb_votes": 246252,
+      "runtime": 152,
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Horror"
+      ],
+      "country": "US",
+      "certification": "R",
+      "age_rating": 16,
+      "matched_keywords": [
+        "african-american",
+        "anger",
+        "betrayal",
+        "blood",
+        "blood-splatter",
+        "brutality",
+        "building-on-fire",
+        "cigarette-smoking",
+        "coin",
+        "corpse",
+        "danger",
+        "death",
+        "death-of-friend",
+        "deception",
+        "double-cross",
+        "escape",
+        "evil",
+        "father-daughter-relationship",
+        "fear",
+        "female-nudity",
+        "fight",
+        "fire",
+        "friendship",
+        "girl",
+        "gore",
+        "hallucination",
+        "held-at-gunpoint",
+        "hostage",
+        "hotel",
+        "kidnapping"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Fantasy",
+        "Horror"
+      ],
+      "score_components": {
+        "keywords": 1.0,
+        "genres": 0.75,
+        "imdb": 0.508486,
+        "year": 0.570773,
+        "runtime": 0.1733,
+        "age_certification": 0.773207,
+        "country": 0.857143,
+        "daily_bonus": 0.030448,
+        "jitter": 0.009498
+      },
+      "sources": [
+        "catalog:Horror:imdbpopular",
+        "catalog:Horror:imdbvotes",
+        "user_list:fantasia"
+      ]
+    },
+    {
+      "title": "Climax",
+      "year": 2018,
+      "ids": {
+        "tmdb": 507076,
+        "imdb": "tt8359848",
+        "mdblist": "1fsx"
+      },
+      "score": 0.665705,
+      "imdb_value": 6.9,
+      "imdb_votes": 90427,
+      "runtime": 97,
+      "genres": [
+        "Drama",
+        "Horror",
+        "Music"
+      ],
+      "country": "fr",
+      "certification": "R",
+      "age_rating": 17,
+      "matched_keywords": [
+        "blood",
+        "brother-sister-relationship",
+        "brutality",
+        "cigarette-smoking",
+        "crying-woman",
+        "death",
+        "deception",
+        "disc-jockey",
+        "fear",
+        "female-nudity",
+        "fight",
+        "fire",
+        "friend",
+        "friendship",
+        "hallucination",
+        "knife",
+        "nightmare",
+        "panic",
+        "paranoia",
+        "party",
+        "scream",
+        "screaming",
+        "secret",
+        "suicide",
+        "violence"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Horror"
+      ],
+      "score_components": {
+        "keywords": 0.589443,
+        "genres": 0.666667,
+        "imdb": 0.869452,
+        "year": 0.546818,
+        "runtime": 0.632783,
+        "age_certification": 0.774616,
+        "country": 0.0,
+        "daily_bonus": 0.00806,
+        "jitter": 0.017573
+      },
+      "sources": [
+        "catalog:Horror:imdbpopular",
+        "user_list:cant-go-wrong-movies",
+        "user_list:horror",
+        "user_list:newest-avarege-horor-movies"
+      ]
+    },
+    {
+      "title": "Strange Harvest",
+      "year": 2025,
+      "ids": {
+        "tmdb": 1330443,
+        "imdb": "tt33400719",
+        "mdblist": "3kwt9"
+      },
+      "score": 0.659724,
+      "imdb_value": 6.3,
+      "imdb_votes": 7093,
+      "runtime": 94,
+      "genres": [
+        "Crime",
+        "Horror",
+        "Mystery"
+      ],
+      "country": "US",
+      "certification": "R",
+      "age_rating": 16,
+      "matched_keywords": [
+        "blood",
+        "blood-splatter",
+        "corpse",
+        "dead-body",
+        "death",
+        "gore",
+        "gun",
+        "murder",
+        "news-report",
+        "photograph",
+        "pistol",
+        "serial-killer",
+        "shot-in-the-head",
+        "shot-to-death",
+        "stabbing"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Horror",
+        "Mystery"
+      ],
+      "score_components": {
+        "keywords": 0.404692,
+        "genres": 0.916667,
+        "imdb": 0.999886,
+        "year": 0.41913,
+        "runtime": 0.572802,
+        "age_certification": 0.773207,
+        "country": 0.857143,
+        "daily_bonus": 0.002687,
+        "jitter": 0.011453
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:horror",
+        "user_list:newest-avarege-horor-movies",
+        "user_list:surpise-me-again"
+      ]
+    },
+    {
+      "title": "Good Manners",
+      "year": 2018,
+      "ids": {
+        "tmdb": 315205,
+        "imdb": "tt5480782",
+        "mdblist": "1fxq"
+      },
+      "score": 0.479858,
+      "imdb_value": 6.7,
+      "imdb_votes": 4682,
+      "runtime": 136,
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Horror",
+        "Mystery"
+      ],
+      "country": "BR",
+      "certification": "14",
+      "age_rating": 11,
+      "matched_keywords": [
+        "blood",
+        "gun",
+        "knife",
+        "photograph"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Fantasy",
+        "Horror",
+        "Mystery"
+      ],
+      "score_components": {
+        "keywords": 0.131965,
+        "genres": 1.0,
+        "imdb": 0.998838,
+        "year": 0.546818,
+        "runtime": 0.293136,
+        "age_certification": 0.138353,
+        "country": 0.0,
+        "daily_bonus": 0.006269,
+        "jitter": -0.008045
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies"
+      ]
+    },
+    {
+      "title": "Fantastic Beasts: The Secrets of Dumbledore",
+      "year": 2022,
+      "ids": {
+        "tmdb": 338953,
+        "imdb": "tt4123432",
+        "mdblist": "444yz"
+      },
+      "score": 0.45593,
+      "imdb_value": 6.2,
+      "imdb_votes": 193861,
+      "runtime": 142,
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "country": "US",
+      "certification": "PG-13",
+      "age_rating": 13,
+      "matched_keywords": [
+        "coin",
+        "danger",
+        "deception",
+        "double-cross",
+        "escape-attempt",
+        "fear",
+        "fight",
+        "fire",
+        "hallucination",
+        "hostage",
+        "knocked-unconscious",
+        "manipulation",
+        "near-death-experience",
+        "paranormal-phenomenon",
+        "power",
+        "psychopath",
+        "rescue",
+        "restaurant",
+        "shot-in-the-back",
+        "surprise-ending",
+        "suspense",
+        "villainess"
+      ],
+      "matched_genres": [
+        "Fantasy"
+      ],
+      "score_components": {
+        "keywords": 0.44868,
+        "genres": 0.083333,
+        "imdb": 0.978892,
+        "year": 0.546177,
+        "runtime": 0.273026,
+        "age_certification": 0.319475,
+        "country": 0.857143,
+        "daily_bonus": 0.007164,
+        "jitter": -0.010554
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:fantasia"
+      ]
+    },
+    {
+      "title": "Mass",
+      "year": 2021,
+      "ids": {
+        "tmdb": 423333,
+        "imdb": "tt11389748",
+        "mdblist": "1k8iv"
+      },
+      "score": 0.387355,
+      "imdb_value": 7.5,
+      "imdb_votes": 19838,
+      "runtime": 111,
+      "genres": [
+        "Drama"
+      ],
+      "country": "US",
+      "certification": "PG-13",
+      "age_rating": 13,
+      "matched_keywords": [
+        "death",
+        "violence"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.070381,
+        "genres": 0.416667,
+        "imdb": 0.86891,
+        "year": 0.570457,
+        "runtime": 0.595193,
+        "age_certification": 0.319475,
+        "country": 0.857143,
+        "daily_bonus": 0.0,
+        "jitter": 0.01065
+      },
+      "sources": [
+        "user_list:best-ever",
+        "user_list:cant-go-wrong-movies"
+      ]
+    },
+    {
+      "title": "Leave No Trace",
+      "year": 2018,
+      "ids": {
+        "tmdb": 443463,
+        "imdb": "tt3892172",
+        "mdblist": "19uk"
+      },
+      "score": 0.453569,
+      "imdb_value": 7.1,
+      "imdb_votes": 70649,
+      "runtime": 109,
+      "genres": [
+        "Adventure",
+        "Drama"
+      ],
+      "country": "US",
+      "certification": "PG",
+      "age_rating": 13,
+      "matched_keywords": [
+        "apology",
+        "cell-phone",
+        "crying",
+        "family-relationships",
+        "father-daughter-relationship",
+        "fear",
+        "girl",
+        "lie",
+        "money",
+        "mother-daughter-relationship",
+        "nightmare",
+        "photograph",
+        "reading-a-book",
+        "survival"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.29912,
+        "genres": 0.416667,
+        "imdb": 0.7992,
+        "year": 0.546818,
+        "runtime": 0.645186,
+        "age_certification": 0.269475,
+        "country": 0.857143,
+        "daily_bonus": 0.012537,
+        "jitter": -0.013348
+      },
+      "sources": [
+        "user_list:acao-e-aventura",
+        "user_list:cant-go-wrong-movies"
+      ]
+    },
+    {
+      "title": "Arctic",
+      "year": 2018,
+      "ids": {
+        "tmdb": 453755,
+        "imdb": "tt6820256",
+        "mdblist": "1at8"
+      },
+      "score": 0.459955,
+      "imdb_value": 6.8,
+      "imdb_votes": 63658,
+      "runtime": 98,
+      "genres": [
+        "Adventure",
+        "Drama"
+      ],
+      "country": "US",
+      "certification": "PG-13",
+      "age_rating": 14,
+      "matched_keywords": [
+        "apology",
+        "blood",
+        "bloody-face",
+        "crying-woman",
+        "dead-body",
+        "fire",
+        "photograph",
+        "rescue",
+        "surprise-ending",
+        "survival",
+        "violence"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.26393,
+        "genres": 0.416667,
+        "imdb": 0.930933,
+        "year": 0.546818,
+        "runtime": 0.655334,
+        "age_certification": 0.426082,
+        "country": 0.857143,
+        "daily_bonus": 0.002687,
+        "jitter": -0.014265
+      },
+      "sources": [
+        "user_list:acao-e-aventura",
+        "user_list:cant-go-wrong-movies"
+      ]
+    },
+    {
+      "title": "The Hate U Give",
+      "year": 2018,
+      "ids": {
+        "tmdb": 470044,
+        "imdb": "tt5580266",
+        "mdblist": "1byn"
+      },
+      "score": 0.513459,
+      "imdb_value": 7.5,
+      "imdb_votes": 43905,
+      "runtime": 133,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "country": "us",
+      "certification": "PG-13",
+      "age_rating": 13,
+      "matched_keywords": [
+        "african-american",
+        "brother-sister-relationship",
+        "cell-phone",
+        "death-of-friend",
+        "family-relationships",
+        "father-daughter-relationship",
+        "friend",
+        "friendship",
+        "gun",
+        "handcuffs",
+        "loss-of-friend",
+        "mother-daughter-relationship",
+        "murder",
+        "party",
+        "photograph",
+        "pistol",
+        "restaurant",
+        "tattoo",
+        "text-message"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.41349,
+        "genres": 0.666667,
+        "imdb": 0.699794,
+        "year": 0.546818,
+        "runtime": 0.304826,
+        "age_certification": 0.319475,
+        "country": 0.857143,
+        "daily_bonus": 0.010746,
+        "jitter": -0.018986
+      },
+      "sources": [
+        "user_list:best-ever",
+        "user_list:cant-go-wrong-movies"
+      ]
+    },
+    {
+      "title": "Proxima",
+      "year": 2019,
+      "ids": {
+        "tmdb": 478860,
+        "imdb": "tt7374926",
+        "mdblist": "1g0g"
+      },
+      "score": 0.389114,
+      "imdb_value": 6.3,
+      "imdb_votes": 9934,
+      "runtime": 107,
+      "genres": [
+        "Adventure",
+        "Drama",
+        "Sci-Fi"
+      ],
+      "country": "FR",
+      "certification": "12",
+      "age_rating": 12,
+      "matched_keywords": [
+        "female-nudity",
+        "female-protagonist",
+        "lie",
+        "mother-daughter-relationship"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.087977,
+        "genres": 0.416667,
+        "imdb": 0.9998,
+        "year": 0.570773,
+        "runtime": 0.674505,
+        "age_certification": 0.193087,
+        "country": 0.0,
+        "daily_bonus": 0.001791,
+        "jitter": 0.01451
+      },
+      "sources": [
+        "user_list:average-new-sci-fi-movies",
+        "user_list:cant-go-wrong-movies",
+        "user_list:science-fiction"
+      ]
+    },
+    {
+      "title": "Aniara",
+      "year": 2019,
+      "ids": {
+        "tmdb": 496743,
+        "imdb": "tt7589524",
+        "mdblist": "1awe"
+      },
+      "score": 0.384686,
+      "imdb_value": 6.3,
+      "imdb_votes": 15983,
+      "runtime": 106,
+      "genres": [
+        "Drama",
+        "Sci-Fi",
+        "Science Fiction"
+      ],
+      "country": "dk",
+      "certification": "R",
+      "age_rating": 17,
+      "matched_keywords": [
+        "female-nudity",
+        "female-protagonist"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.052786,
+        "genres": 0.416667,
+        "imdb": 0.999585,
+        "year": 0.570773,
+        "runtime": 0.678248,
+        "age_certification": 0.774616,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": -0.014912
+      },
+      "sources": [
+        "user_list:average-new-sci-fi-movies",
+        "user_list:cant-go-wrong-movies",
+        "user_list:science-fiction"
+      ]
+    },
+    {
+      "title": "Memoria",
+      "year": 2021,
+      "ids": {
+        "tmdb": 511819,
+        "imdb": "tt8399288",
+        "mdblist": "1z15"
+      },
+      "score": 0.427017,
+      "imdb_value": 6.4,
+      "imdb_votes": 12887,
+      "runtime": 136,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi",
+        "Science Fiction"
+      ],
+      "country": "CO",
+      "certification": "PG",
+      "age_rating": 13,
+      "matched_keywords": [],
+      "matched_genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "score_components": {
+        "keywords": 0.0,
+        "genres": 0.833333,
+        "imdb": 0.999952,
+        "year": 0.570457,
+        "runtime": 0.293136,
+        "age_certification": 0.269475,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": 0.019791
+      },
+      "sources": [
+        "user_list:average-new-sci-fi-movies",
+        "user_list:cant-go-wrong-movies",
+        "user_list:science-fiction",
+        "user_list:surpise-me-again"
+      ]
+    },
+    {
+      "title": "Hatching",
+      "year": 2022,
+      "ids": {
+        "tmdb": 517302,
+        "imdb": "tt12519030",
+        "mdblist": "l7o1"
+      },
+      "score": 0.472985,
+      "imdb_value": 6.2,
+      "imdb_votes": 18145,
+      "runtime": 87,
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Horror"
+      ],
+      "country": "fi",
+      "certification": "MA15+",
+      "age_rating": 15,
+      "matched_keywords": [
+        "brother-sister-relationship",
+        "dead-dog",
+        "family-relationships",
+        "female-protagonist",
+        "friendship",
+        "gore",
+        "mother-daughter-relationship",
+        "stabbing"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Fantasy",
+        "Horror"
+      ],
+      "score_components": {
+        "keywords": 0.167155,
+        "genres": 0.75,
+        "imdb": 0.997137,
+        "year": 0.546177,
+        "runtime": 0.472771,
+        "age_certification": 0.461808,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": -0.004031
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:horror",
+        "user_list:newest-avarege-horor-movies"
+      ]
+    },
+    {
+      "title": "Sorry We Missed You",
+      "year": 2019,
+      "ids": {
+        "tmdb": 522369,
+        "imdb": "tt8359816",
+        "mdblist": "19x0"
+      },
+      "score": 0.47485,
+      "imdb_value": 7.6,
+      "imdb_votes": 28364,
+      "runtime": 101,
+      "genres": [
+        "Drama"
+      ],
+      "country": "GB",
+      "certification": "15",
+      "age_rating": 14,
+      "matched_keywords": [
+        "anger",
+        "apology",
+        "bloody-face",
+        "brother-sister-relationship",
+        "cell-phone",
+        "crying",
+        "crying-woman",
+        "family-relationships",
+        "father-daughter-relationship",
+        "fear",
+        "female-protagonist",
+        "fight",
+        "friend",
+        "friendship",
+        "girl",
+        "money",
+        "mother-daughter-relationship",
+        "old-woman",
+        "photograph"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.387097,
+        "genres": 0.416667,
+        "imdb": 0.768726,
+        "year": 0.570773,
+        "runtime": 0.692232,
+        "age_certification": 0.376082,
+        "country": 0.142857,
+        "daily_bonus": 0.009851,
+        "jitter": -0.010782
+      },
+      "sources": [
+        "user_list:best-ever",
+        "user_list:cant-go-wrong-movies"
+      ]
+    },
+    {
+      "title": "Debi",
+      "year": 2018,
+      "ids": {
+        "tmdb": 526477,
+        "imdb": "tt6520954",
+        "mdblist": "1dr3"
+      },
+      "score": 0.438993,
+      "imdb_value": 7.7,
+      "imdb_votes": 5531,
+      "runtime": 107,
+      "genres": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "country": "bd",
+      "certification": "NR",
+      "age_rating": null,
+      "matched_keywords": [],
+      "matched_genres": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "score_components": {
+        "keywords": 0.0,
+        "genres": 1.0,
+        "imdb": 0.974729,
+        "year": 0.546818,
+        "runtime": 0.674505,
+        "age_certification": 0.0,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": 0.004376
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies"
+      ]
+    },
+    {
+      "title": "Last and First Men",
+      "year": 2020,
+      "ids": {
+        "tmdb": 566038,
+        "imdb": "tt8015444",
+        "mdblist": "1e4k"
+      },
+      "score": 0.450282,
+      "imdb_value": 6.7,
+      "imdb_votes": 5074,
+      "runtime": 72,
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Mystery",
+        "Sci-Fi",
+        "Science Fiction"
+      ],
+      "country": "IS",
+      "certification": "G",
+      "age_rating": 17,
+      "matched_keywords": [],
+      "matched_genres": [
+        "Drama",
+        "Fantasy",
+        "Mystery"
+      ],
+      "score_components": {
+        "keywords": 0.0,
+        "genres": 0.916667,
+        "imdb": 0.998658,
+        "year": 0.562781,
+        "runtime": 0.265493,
+        "age_certification": 0.474616,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": 0.014374
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:fantasia",
+        "user_list:surpise-me-again"
+      ]
+    },
+    {
+      "title": "System Crasher",
+      "year": 2019,
+      "ids": {
+        "tmdb": 567410,
+        "imdb": "tt8535968",
+        "mdblist": "19xi"
+      },
+      "score": 0.522221,
+      "imdb_value": 7.8,
+      "imdb_votes": 16717,
+      "runtime": 118,
+      "genres": [
+        "Drama"
+      ],
+      "country": "de",
+      "certification": "15",
+      "age_rating": 13,
+      "matched_keywords": [
+        "blood",
+        "bloody-face",
+        "cigarette-smoking",
+        "crying",
+        "crying-woman",
+        "downpour",
+        "eavesdropping",
+        "escape",
+        "escape-attempt",
+        "fear",
+        "female-nudity",
+        "fight",
+        "heavy-rain",
+        "lie",
+        "locking-a-door",
+        "mother-daughter-relationship",
+        "nightmare",
+        "photograph",
+        "psychopath",
+        "scream",
+        "violence"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.475073,
+        "genres": 0.416667,
+        "imdb": 0.837532,
+        "year": 0.570773,
+        "runtime": 0.456628,
+        "age_certification": 0.269475,
+        "country": 0.0,
+        "daily_bonus": 0.010746,
+        "jitter": 0.01371
+      },
+      "sources": [
+        "user_list:best-ever",
+        "user_list:cant-go-wrong-movies"
+      ]
+    },
+    {
+      "title": "Last Night in Soho",
+      "year": 2021,
+      "ids": {
+        "tmdb": 576845,
+        "imdb": "tt9639470",
+        "mdblist": "1ea0"
+      },
+      "score": 0.740531,
+      "imdb_value": 7.0,
+      "imdb_votes": 200739,
+      "runtime": 117,
+      "genres": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "country": "GB",
+      "certification": "R",
+      "age_rating": 16,
+      "matched_keywords": [
+        "apology",
+        "blood-splatter",
+        "bloody-face",
+        "brutality",
+        "cell-phone",
+        "close-up-of-eyes",
+        "corpse",
+        "deception",
+        "double-cross",
+        "eavesdropping",
+        "escape",
+        "fear",
+        "female-protagonist",
+        "fire",
+        "hallucination",
+        "heavy-rain",
+        "manipulation",
+        "mirror",
+        "mother-daughter-relationship",
+        "murder",
+        "near-death-experience",
+        "nightmare",
+        "old-woman",
+        "panic",
+        "paranoia",
+        "police-station",
+        "psychic",
+        "revenge",
+        "screaming",
+        "stabbed-to-death"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "score_components": {
+        "keywords": 0.703812,
+        "genres": 1.0,
+        "imdb": 0.747992,
+        "year": 0.570457,
+        "runtime": 0.473296,
+        "age_certification": 0.773207,
+        "country": 0.142857,
+        "daily_bonus": 0.008955,
+        "jitter": -0.001269
+      },
+      "sources": [
+        "catalog:Horror:imdbpopular",
+        "catalog:Horror:imdbvotes",
+        "catalog:Mystery:imdbpopular",
+        "catalog:Mystery:imdbvotes",
+        "user_list:cant-go-wrong-movies",
+        "user_list:horror",
+        "user_list:newest-avarege-horor-movies",
+        "user_list:supernatural"
+      ]
+    },
+    {
+      "title": "The Queen of Black Magic",
+      "year": 2019,
+      "ids": {
+        "tmdb": 590593,
+        "imdb": "tt10656188",
+        "mdblist": "1i54"
+      },
+      "score": 0.546372,
+      "imdb_value": 6.5,
+      "imdb_votes": 4095,
+      "runtime": 99,
+      "genres": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "country": "ID",
+      "certification": "17+",
+      "age_rating": 17,
+      "matched_keywords": [
+        "blood",
+        "family-relationships",
+        "knife",
+        "mirror",
+        "murder",
+        "revenge"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "score_components": {
+        "keywords": 0.193548,
+        "genres": 1.0,
+        "imdb": 0.99986,
+        "year": 0.570773,
+        "runtime": 0.666248,
+        "age_certification": 0.474616,
+        "country": 0.0,
+        "daily_bonus": 0.006269,
+        "jitter": -0.010908
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:surpise-me-again"
+      ]
+    },
+    {
+      "title": "Land",
+      "year": 2021,
+      "ids": {
+        "tmdb": 598896,
+        "imdb": "tt10265034",
+        "mdblist": "1j5yt"
+      },
+      "score": 0.514921,
+      "imdb_value": 6.7,
+      "imdb_votes": 17672,
+      "runtime": 89,
+      "genres": [
+        "Adventure",
+        "Drama"
+      ],
+      "country": "US",
+      "certification": "PG-13",
+      "age_rating": 13,
+      "matched_keywords": [
+        "apology",
+        "cell-phone",
+        "coffee",
+        "crying-woman",
+        "death",
+        "drinking-coffee",
+        "family-relationships",
+        "father-daughter-relationship",
+        "female-nudity",
+        "girl",
+        "hallucination",
+        "money",
+        "mother-daughter-relationship",
+        "nightmare",
+        "photograph",
+        "restaurant",
+        "rifle",
+        "suicide-attempt",
+        "survival"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.395894,
+        "genres": 0.416667,
+        "imdb": 0.989902,
+        "year": 0.570457,
+        "runtime": 0.496078,
+        "age_certification": 0.319475,
+        "country": 0.857143,
+        "daily_bonus": 0.010746,
+        "jitter": -0.015929
+      },
+      "sources": [
+        "user_list:acao-e-aventura",
+        "user_list:cant-go-wrong-movies"
+      ]
+    },
+    {
+      "title": "The Father",
+      "year": 2020,
+      "ids": {
+        "tmdb": 600354,
+        "imdb": "tt10272386",
+        "mdblist": "1fm1"
+      },
+      "score": 0.370204,
+      "imdb_value": 8.2,
+      "imdb_votes": 247007,
+      "runtime": 97,
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "country": "GB",
+      "certification": "PG-13",
+      "age_rating": 14,
+      "matched_keywords": [
+        "apology",
+        "cell-phone",
+        "crying-woman",
+        "father-daughter-relationship",
+        "fear",
+        "hallucination",
+        "memory-loss",
+        "paranoia"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "score_components": {
+        "keywords": 0.167155,
+        "genres": 0.833333,
+        "imdb": 0.072439,
+        "year": 0.562781,
+        "runtime": 0.632783,
+        "age_certification": 0.426082,
+        "country": 0.142857,
+        "daily_bonus": 0.005373,
+        "jitter": -0.001592
+      },
+      "sources": [
+        "catalog:Drama:score",
+        "catalog:Mystery:imdbpopular",
+        "catalog:Mystery:imdbvotes",
+        "catalog:Mystery:score",
+        "user_list:best-ever",
+        "user_list:cant-go-wrong-movies"
+      ]
+    },
+    {
+      "title": "Executive Order",
+      "year": 2022,
+      "ids": {
+        "tmdb": 614282,
+        "imdb": "tt10395866",
+        "mdblist": "1msx"
+      },
+      "score": 0.379544,
+      "imdb_value": 6.6,
+      "imdb_votes": 2719,
+      "runtime": 102,
+      "genres": [
+        "Drama",
+        "Sci-Fi",
+        "Science Fiction"
+      ],
+      "country": "BR",
+      "certification": "15",
+      "age_rating": 15,
+      "matched_keywords": [
+        "brother-sister-relationship",
+        "fear",
+        "paranoia"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.061584,
+        "genres": 0.416667,
+        "imdb": 0.999793,
+        "year": 0.546177,
+        "runtime": 0.694364,
+        "age_certification": 0.461808,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": -5.4e-05
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:surpise-me-again"
+      ]
+    },
+    {
+      "title": "Minari",
+      "year": 2021,
+      "ids": {
+        "tmdb": 615643,
+        "imdb": "tt10633456",
+        "mdblist": "2198"
+      },
+      "score": 0.459207,
+      "imdb_value": 7.4,
+      "imdb_votes": 126639,
+      "runtime": 115,
+      "genres": [
+        "Drama"
+      ],
+      "country": "us",
+      "certification": "PG-13",
+      "age_rating": 13,
+      "matched_keywords": [
+        "apology",
+        "brother-sister-relationship",
+        "cigarette-smoking",
+        "crying-woman",
+        "family-relationships",
+        "father-daughter-relationship",
+        "fear",
+        "fire",
+        "friend",
+        "friendship",
+        "girl",
+        "mirror",
+        "money",
+        "mother-daughter-relationship",
+        "old-woman",
+        "piano",
+        "rainstorm",
+        "violence"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.378299,
+        "genres": 0.416667,
+        "imdb": 0.52683,
+        "year": 0.570457,
+        "runtime": 0.509602,
+        "age_certification": 0.319475,
+        "country": 0.857143,
+        "daily_bonus": 0.005373,
+        "jitter": 0.009553
+      },
+      "sources": [
+        "user_list:best-ever",
+        "user_list:cant-go-wrong-movies"
+      ]
+    },
+    {
+      "title": "Coven",
+      "year": 2020,
+      "ids": {
+        "tmdb": 655187,
+        "imdb": "tt9916362",
+        "mdblist": "1wox"
+      },
+      "score": 0.44153,
+      "imdb_value": 6.4,
+      "imdb_votes": 6318,
+      "runtime": 92,
+      "genres": [
+        "Drama",
+        "History",
+        "Horror"
+      ],
+      "country": "ES",
+      "certification": "15",
+      "age_rating": 16,
+      "matched_keywords": [
+        "blood",
+        "female-nudity",
+        "fire",
+        "girl",
+        "lie"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Horror"
+      ],
+      "score_components": {
+        "keywords": 0.131965,
+        "genres": 0.666667,
+        "imdb": 0.999985,
+        "year": 0.562781,
+        "runtime": 0.538801,
+        "age_certification": 0.473207,
+        "country": 0.0,
+        "daily_bonus": 0.001791,
+        "jitter": -0.012721
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:horror",
+        "user_list:newest-avarege-horor-movies"
+      ]
+    },
+    {
+      "title": "FX's A Christmas Carol",
+      "year": 2019,
+      "ids": {
+        "tmdb": 656968,
+        "imdb": "tt7686464",
+        "mdblist": "449qq"
+      },
+      "score": 0.396579,
+      "imdb_value": 7.3,
+      "imdb_votes": 14242,
+      "runtime": 173,
+      "genres": [
+        "Drama",
+        "Fantasy"
+      ],
+      "country": "us",
+      "certification": "R",
+      "age_rating": 17,
+      "matched_keywords": [
+        "cemetery",
+        "family-relationships",
+        "female-nudity",
+        "sadist"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Fantasy"
+      ],
+      "score_components": {
+        "keywords": 0.079179,
+        "genres": 0.5,
+        "imdb": 0.942471,
+        "year": 0.570773,
+        "runtime": 0.066718,
+        "age_certification": 0.774616,
+        "country": 0.857143,
+        "daily_bonus": 0.0,
+        "jitter": -0.016814
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:fantasia"
+      ]
+    },
+    {
+      "title": "Black Box",
+      "year": 2020,
+      "ids": {
+        "tmdb": 716258,
+        "imdb": "tt12298506",
+        "mdblist": "3dt4"
+      },
+      "score": 0.495386,
+      "imdb_value": 6.2,
+      "imdb_votes": 19453,
+      "runtime": 100,
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Sci-Fi",
+        "Science Fiction"
+      ],
+      "country": "us",
+      "certification": "M",
+      "age_rating": 16,
+      "matched_keywords": [
+        "african-american",
+        "car",
+        "father-daughter-relationship",
+        "punched-in-the-face",
+        "villainess"
+      ],
+      "matched_genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "score_components": {
+        "keywords": 0.105572,
+        "genres": 0.666667,
+        "imdb": 0.996848,
+        "year": 0.562781,
+        "runtime": 0.678539,
+        "age_certification": 0.473207,
+        "country": 0.857143,
+        "daily_bonus": 0.003582,
+        "jitter": 0.017671
+      },
+      "sources": [
+        "user_list:average-new-sci-fi-movies",
+        "user_list:cant-go-wrong-movies",
+        "user_list:horror",
+        "user_list:newest-avarege-horor-movies",
+        "user_list:science-fiction"
+      ]
+    },
+    {
+      "title": "The Medium",
+      "year": 2021,
+      "ids": {
+        "tmdb": 745881,
+        "imdb": "tt13446168",
+        "mdblist": "keb0"
+      },
+      "score": 0.511099,
+      "imdb_value": 6.5,
+      "imdb_votes": 18700,
+      "runtime": 131,
+      "genres": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "country": "TH",
+      "certification": "R 18+",
+      "age_rating": 18,
+      "matched_keywords": [
+        "blood",
+        "brother-sister-relationship",
+        "family-relationships",
+        "female-nudity",
+        "medium",
+        "mother-daughter-relationship",
+        "suicide-attempt"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "score_components": {
+        "keywords": 0.158358,
+        "genres": 1.0,
+        "imdb": 0.99832,
+        "year": 0.570457,
+        "runtime": 0.315756,
+        "age_certification": 0.340077,
+        "country": 0.0,
+        "daily_bonus": 0.001791,
+        "jitter": -0.000422
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:horror",
+        "user_list:newest-avarege-horor-movies",
+        "user_list:supernatural",
+        "user_list:surpise-me-again"
+      ]
+    },
+    {
+      "title": "The Whale",
+      "year": 2022,
+      "ids": {
+        "tmdb": 785084,
+        "imdb": "tt13833688",
+        "mdblist": "1wrpc"
+      },
+      "score": 0.385083,
+      "imdb_value": 7.6,
+      "imdb_votes": 306925,
+      "runtime": 117,
+      "genres": [
+        "Drama"
+      ],
+      "country": "us",
+      "certification": "R",
+      "age_rating": 15,
+      "matched_keywords": [
+        "brother-sister-relationship",
+        "cell-phone",
+        "cigarette-smoking",
+        "crying",
+        "crying-woman",
+        "father-daughter-relationship",
+        "girl",
+        "locked-door",
+        "mother-daughter-relationship",
+        "photograph"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.219941,
+        "genres": 0.416667,
+        "imdb": 0.28498,
+        "year": 0.546177,
+        "runtime": 0.473296,
+        "age_certification": 0.761808,
+        "country": 0.857143,
+        "daily_bonus": 0.00806,
+        "jitter": 0.005643
+      },
+      "sources": [
+        "user_list:best-ever",
+        "user_list:cant-go-wrong-movies"
+      ]
+    },
+    {
+      "title": "Lamb",
+      "year": 2021,
+      "ids": {
+        "tmdb": 788929,
+        "imdb": "tt9812474",
+        "mdblist": "21s47"
+      },
+      "score": 0.490333,
+      "imdb_value": 6.3,
+      "imdb_votes": 45021,
+      "runtime": 106,
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Horror"
+      ],
+      "country": "is",
+      "certification": "R",
+      "age_rating": 15,
+      "matched_keywords": [
+        "brother",
+        "cemetery",
+        "dead-dog",
+        "father-daughter-relationship",
+        "female-nudity",
+        "gunshot",
+        "mother-daughter-relationship"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Fantasy",
+        "Horror"
+      ],
+      "score_components": {
+        "keywords": 0.14956,
+        "genres": 0.75,
+        "imdb": 0.998536,
+        "year": 0.570457,
+        "runtime": 0.678248,
+        "age_certification": 0.761808,
+        "country": 0.0,
+        "daily_bonus": 0.003582,
+        "jitter": -0.017139
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:horror",
+        "user_list:newest-avarege-horor-movies"
+      ]
+    },
+    {
+      "title": "Happening",
+      "year": 2021,
+      "ids": {
+        "tmdb": 793998,
+        "imdb": "tt13880104",
+        "mdblist": "29esc"
+      },
+      "score": 0.395914,
+      "imdb_value": 7.4,
+      "imdb_votes": 13994,
+      "runtime": 99,
+      "genres": [
+        "Drama"
+      ],
+      "country": "fr",
+      "certification": "R",
+      "age_rating": 17,
+      "matched_keywords": [
+        "crying",
+        "mother-daughter-relationship"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.043988,
+        "genres": 0.416667,
+        "imdb": 0.931638,
+        "year": 0.570457,
+        "runtime": 0.666248,
+        "age_certification": 0.774616,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": 0.010658
+      },
+      "sources": [
+        "user_list:best-ever",
+        "user_list:cant-go-wrong-movies"
+      ]
+    },
+    {
+      "title": "Help",
+      "year": 2021,
+      "ids": {
+        "tmdb": 826796,
+        "imdb": "tt13649036",
+        "mdblist": "2pzrx"
+      },
+      "score": 0.368388,
+      "imdb_value": 7.6,
+      "imdb_votes": 13708,
+      "runtime": 98,
+      "genres": [
+        "Drama"
+      ],
+      "country": "gb",
+      "certification": "15",
+      "age_rating": 15,
+      "matched_keywords": [
+        "father-daughter-relationship"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.035191,
+        "genres": 0.416667,
+        "imdb": 0.906708,
+        "year": 0.570457,
+        "runtime": 0.655334,
+        "age_certification": 0.461808,
+        "country": 0.142857,
+        "daily_bonus": 0.003582,
+        "jitter": 0.004965
+      },
+      "sources": [
+        "user_list:best-ever",
+        "user_list:cant-go-wrong-movies"
+      ]
+    },
+    {
+      "title": "Tuesday",
+      "year": 2024,
+      "ids": {
+        "tmdb": 831395,
+        "imdb": "tt14682800",
+        "mdblist": "2qdod"
+      },
+      "score": 0.426991,
+      "imdb_value": 6.3,
+      "imdb_votes": 5078,
+      "runtime": 110,
+      "genres": [
+        "Drama",
+        "Fantasy"
+      ],
+      "country": "us",
+      "certification": "R",
+      "age_rating": 14,
+      "matched_keywords": [
+        "death",
+        "mother-daughter-relationship"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Fantasy"
+      ],
+      "score_components": {
+        "keywords": 0.052786,
+        "genres": 0.5,
+        "imdb": 0.999936,
+        "year": 0.495143,
+        "runtime": 0.61955,
+        "age_certification": 0.676082,
+        "country": 0.857143,
+        "daily_bonus": 0.0,
+        "jitter": 0.002354
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:fantasia"
+      ]
+    },
+    {
+      "title": "The Life of Chuck",
+      "year": 2025,
+      "ids": {
+        "tmdb": 842924,
+        "imdb": "tt12908150",
+        "mdblist": "2rib6"
+      },
+      "score": 0.422664,
+      "imdb_value": 7.3,
+      "imdb_votes": 75204,
+      "runtime": 111,
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Sci-Fi"
+      ],
+      "country": "US",
+      "certification": "R",
+      "age_rating": 14,
+      "matched_keywords": [
+        "crying",
+        "death",
+        "fire",
+        "locked-door",
+        "money",
+        "text-message"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Fantasy"
+      ],
+      "score_components": {
+        "keywords": 0.140762,
+        "genres": 0.5,
+        "imdb": 0.683082,
+        "year": 0.41913,
+        "runtime": 0.595193,
+        "age_certification": 0.676082,
+        "country": 0.857143,
+        "daily_bonus": 0.003582,
+        "jitter": 0.015602
+      },
+      "sources": [
+        "catalog:Drama:imdbpopular",
+        "user_list:fantasia"
+      ]
+    },
+    {
+      "title": "Incantation",
+      "year": 2022,
+      "ids": {
+        "tmdb": 864370,
+        "imdb": "tt18968540",
+        "mdblist": "2t3u2"
+      },
+      "score": 0.417075,
+      "imdb_value": 6.3,
+      "imdb_votes": 30813,
+      "runtime": 111,
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "country": "TW",
+      "certification": "15",
+      "age_rating": 16,
+      "matched_keywords": [],
+      "matched_genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "score_components": {
+        "keywords": 0.0,
+        "genres": 0.666667,
+        "imdb": 0.999021,
+        "year": 0.546177,
+        "runtime": 0.595193,
+        "age_certification": 0.473207,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": 0.016387
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:horror",
+        "user_list:newest-avarege-horor-movies",
+        "user_list:supernatural"
+      ]
+    },
+    {
+      "title": "Satan's Slaves 2: Communion",
+      "year": 2022,
+      "ids": {
+        "tmdb": 925786,
+        "imdb": "tt16915972",
+        "mdblist": "2v4q8"
+      },
+      "score": 0.511601,
+      "imdb_value": 6.7,
+      "imdb_votes": 5325,
+      "runtime": 119,
+      "genres": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "country": "id",
+      "certification": "15",
+      "age_rating": 13,
+      "matched_keywords": [
+        "blood",
+        "escape",
+        "evil",
+        "fear",
+        "violence"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "score_components": {
+        "keywords": 0.140762,
+        "genres": 1.0,
+        "imdb": 0.998537,
+        "year": 0.546177,
+        "runtime": 0.440904,
+        "age_certification": 0.269475,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": 0.009989
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:supernatural",
+        "user_list:surpise-me-again"
+      ]
+    },
+    {
+      "title": "The Devil's Bath",
+      "year": 2024,
+      "ids": {
+        "tmdb": 931944,
+        "imdb": "tt29141112",
+        "mdblist": "2vbj0"
+      },
+      "score": 0.548191,
+      "imdb_value": 6.6,
+      "imdb_votes": 8347,
+      "runtime": 121,
+      "genres": [
+        "Drama",
+        "History",
+        "Horror",
+        "Mystery"
+      ],
+      "country": "AT",
+      "certification": "16",
+      "age_rating": 17,
+      "matched_keywords": [
+        "blood",
+        "female-nudity",
+        "female-protagonist",
+        "fire",
+        "murder",
+        "nightmare",
+        "suicide"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "score_components": {
+        "keywords": 0.219941,
+        "genres": 1.0,
+        "imdb": 0.998463,
+        "year": 0.495143,
+        "runtime": 0.412158,
+        "age_certification": 0.474616,
+        "country": 0.0,
+        "daily_bonus": 0.002687,
+        "jitter": 0.004413
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:horror",
+        "user_list:newest-avarege-horor-movies"
+      ]
+    },
+    {
+      "title": "The Animal Kingdom",
+      "year": 2023,
+      "ids": {
+        "tmdb": 943134,
+        "imdb": "tt16606592",
+        "mdblist": "2vpnk"
+      },
+      "score": 0.369988,
+      "imdb_value": 6.7,
+      "imdb_votes": 12157,
+      "runtime": 127,
+      "genres": [
+        "Adventure",
+        "Drama",
+        "Fantasy",
+        "Science Fiction"
+      ],
+      "country": "BE",
+      "certification": "+13",
+      "age_rating": 15,
+      "matched_keywords": [],
+      "matched_genres": [
+        "Drama",
+        "Fantasy"
+      ],
+      "score_components": {
+        "keywords": 0.0,
+        "genres": 0.5,
+        "imdb": 0.994188,
+        "year": 0.537103,
+        "runtime": 0.345561,
+        "age_certification": 0.461808,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": 0.017545
+      },
+      "sources": [
+        "user_list:acao-e-aventura",
+        "user_list:average-new-sci-fi-movies",
+        "user_list:cant-go-wrong-movies",
+        "user_list:science-fiction"
+      ]
+    },
+    {
+      "title": "Plan 75",
+      "year": 2022,
+      "ids": {
+        "tmdb": 958487,
+        "imdb": "tt19719904",
+        "mdblist": "2w3fu"
+      },
+      "score": 0.396507,
+      "imdb_value": 6.6,
+      "imdb_votes": 3088,
+      "runtime": 113,
+      "genres": [
+        "Drama",
+        "Sci-Fi",
+        "Science Fiction"
+      ],
+      "country": "JP",
+      "certification": "15",
+      "age_rating": 17,
+      "matched_keywords": [
+        "family-relationships",
+        "old-woman",
+        "rifle",
+        "suicide"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.070381,
+        "genres": 0.416667,
+        "imdb": 0.999738,
+        "year": 0.546177,
+        "runtime": 0.550123,
+        "age_certification": 0.474616,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": 0.019714
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies"
+      ]
+    },
+    {
+      "title": "National Theatre Live: Prima Facie",
+      "year": 2022,
+      "ids": {
+        "tmdb": 963568,
+        "imdb": "tt21093976",
+        "mdblist": "2w8ne"
+      },
+      "score": 0.401853,
+      "imdb_value": 9.1,
+      "imdb_votes": 3567,
+      "runtime": 114,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "country": "gb",
+      "certification": "15",
+      "age_rating": 15,
+      "matched_keywords": [
+        "power"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.017595,
+        "genres": 0.666667,
+        "imdb": 0.952326,
+        "year": 0.546177,
+        "runtime": 0.529316,
+        "age_certification": 0.461808,
+        "country": 0.142857,
+        "daily_bonus": 0.0,
+        "jitter": 0.000937
+      },
+      "sources": [
+        "catalog:Crime:imdbrating",
+        "catalog:Crime:score",
+        "catalog:Drama:score",
+        "user_list:cant-go-wrong-movies"
+      ]
+    },
+    {
+      "title": "The Vourdalak",
+      "year": 2023,
+      "ids": {
+        "tmdb": 1047223,
+        "imdb": "tt28313478",
+        "mdblist": "2y7if"
+      },
+      "score": 0.49732,
+      "imdb_value": 6.4,
+      "imdb_votes": 3650,
+      "runtime": 91,
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Horror"
+      ],
+      "country": "fr",
+      "certification": "15",
+      "age_rating": 15,
+      "matched_keywords": [
+        "blood",
+        "candle",
+        "cemetery",
+        "death",
+        "fire",
+        "shot-in-the-head"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Fantasy",
+        "Horror"
+      ],
+      "score_components": {
+        "keywords": 0.175953,
+        "genres": 0.75,
+        "imdb": 0.999994,
+        "year": 0.537103,
+        "runtime": 0.523488,
+        "age_certification": 0.461808,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": 0.014728
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:surpise-me-again"
+      ]
+    },
+    {
+      "title": "Parthenope",
+      "year": 2024,
+      "ids": {
+        "tmdb": 1109255,
+        "imdb": "tt23853982",
+        "mdblist": "313sh"
+      },
+      "score": 0.422192,
+      "imdb_value": 6.5,
+      "imdb_votes": 21244,
+      "runtime": 137,
+      "genres": [
+        "Drama",
+        "Fantasy"
+      ],
+      "country": "it",
+      "certification": "R",
+      "age_rating": 16,
+      "matched_keywords": [
+        "blood",
+        "brother-sister-relationship",
+        "crying",
+        "female-nudity",
+        "female-protagonist",
+        "mirror"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Fantasy"
+      ],
+      "score_components": {
+        "keywords": 0.158358,
+        "genres": 0.5,
+        "imdb": 0.998002,
+        "year": 0.495143,
+        "runtime": 0.29046,
+        "age_certification": 0.773207,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": -0.009013
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:fantasia"
+      ]
+    },
+    {
+      "title": "Sing Sing",
+      "year": 2024,
+      "ids": {
+        "tmdb": 1155828,
+        "imdb": "tt28479262",
+        "mdblist": "34qko"
+      },
+      "score": 0.400546,
+      "imdb_value": 7.6,
+      "imdb_votes": 30094,
+      "runtime": 107,
+      "genres": [
+        "Drama"
+      ],
+      "country": "US",
+      "certification": "R",
+      "age_rating": 15,
+      "matched_keywords": [
+        "african-american",
+        "death",
+        "friend",
+        "friendship"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.087977,
+        "genres": 0.416667,
+        "imdb": 0.754226,
+        "year": 0.495143,
+        "runtime": 0.674505,
+        "age_certification": 0.761808,
+        "country": 0.857143,
+        "daily_bonus": 0.0,
+        "jitter": 0.006608
+      },
+      "sources": [
+        "catalog:Drama:score",
+        "user_list:cant-go-wrong-movies"
+      ]
+    },
+    {
+      "title": "Train Dreams",
+      "year": 2025,
+      "ids": {
+        "tmdb": 1241983,
+        "imdb": "tt29768334",
+        "mdblist": "3bmny"
+      },
+      "score": 0.407841,
+      "imdb_value": 7.5,
+      "imdb_votes": 110707,
+      "runtime": 102,
+      "genres": [
+        "Drama"
+      ],
+      "country": "US",
+      "certification": "PG-13",
+      "age_rating": 13,
+      "matched_keywords": [
+        "african-american",
+        "candle",
+        "crying",
+        "family-relationships",
+        "father-daughter-relationship",
+        "fire",
+        "friendship",
+        "gun",
+        "money",
+        "mother-daughter-relationship",
+        "nightmare",
+        "shot-in-the-back",
+        "shotgun"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.290323,
+        "genres": 0.416667,
+        "imdb": 0.487244,
+        "year": 0.41913,
+        "runtime": 0.694364,
+        "age_certification": 0.319475,
+        "country": 0.857143,
+        "daily_bonus": 0.00806,
+        "jitter": 0.002523
+      },
+      "sources": [
+        "catalog:Drama:imdbpopular",
+        "user_list:best-ever",
+        "user_list:cant-go-wrong-movies"
+      ]
+    },
+    {
+      "title": "Halloween",
+      "year": 2018,
+      "ids": {
+        "tmdb": 424139,
+        "imdb": "tt1502407",
+        "mdblist": "1d8w"
+      },
+      "score": 0.954275,
+      "imdb_value": 6.5,
+      "imdb_votes": 187615,
+      "runtime": 106,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Horror",
+        "Thriller"
+      ],
+      "country": "us",
+      "certification": "R",
+      "age_rating": 17,
+      "matched_keywords": [
+        "african-american",
+        "betrayal",
+        "blood",
+        "blood-splatter",
+        "bloody-face",
+        "brother-sister-relationship",
+        "brutality",
+        "candle",
+        "car",
+        "cell-phone",
+        "cemetery",
+        "cigarette-smoking",
+        "corpse",
+        "crying",
+        "crying-woman",
+        "danger",
+        "death",
+        "death-of-friend",
+        "deception",
+        "disarming-someone",
+        "double-cross",
+        "escape",
+        "escape-attempt",
+        "evil",
+        "family-relationships",
+        "father-daughter-relationship",
+        "fear",
+        "female-nudity",
+        "female-protagonist",
+        "fight"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Horror",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 1.0,
+        "genres": 1.0,
+        "imdb": 0.988211,
+        "year": 0.546818,
+        "runtime": 0.678248,
+        "age_certification": 0.774616,
+        "country": 0.857143,
+        "daily_bonus": 0.020597,
+        "jitter": 0.016914
+      },
+      "sources": [
+        "catalog:Horror:imdbvotes",
+        "user_list:cant-go-wrong-movies",
+        "user_list:horror",
+        "user_list:newest-avarege-horor-movies"
+      ]
+    },
+    {
+      "title": "MaXXXine",
+      "year": 2024,
+      "ids": {
+        "tmdb": 1023922,
+        "imdb": "tt22048412",
+        "mdblist": "2xq73"
+      },
+      "score": 0.944164,
+      "imdb_value": 6.2,
+      "imdb_votes": 89049,
+      "runtime": 103,
+      "genres": [
+        "Crime",
+        "Horror",
+        "Thriller"
+      ],
+      "country": "US",
+      "certification": "R",
+      "age_rating": 17,
+      "matched_keywords": [
+        "african-american",
+        "betrayal",
+        "blood",
+        "blood-splatter",
+        "bloody-face",
+        "bound-and-gagged",
+        "brutality",
+        "cemetery",
+        "cigarette-smoking",
+        "corpse",
+        "criminal",
+        "danger",
+        "dead-body",
+        "death",
+        "death-of-friend",
+        "deception",
+        "double-cross",
+        "escape",
+        "father-daughter-relationship",
+        "fear",
+        "female-nudity",
+        "friendship",
+        "gore",
+        "hallucination",
+        "held-at-gunpoint",
+        "hostage",
+        "kidnapping",
+        "knife",
+        "knocked-unconscious",
+        "loss-of-friend"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Horror",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 1.0,
+        "genres": 1.0,
+        "imdb": 0.985535,
+        "year": 0.495143,
+        "runtime": 0.697931,
+        "age_certification": 0.774616,
+        "country": 0.857143,
+        "daily_bonus": 0.01791,
+        "jitter": 0.014075
+      },
+      "sources": [
+        "catalog:Horror:imdbpopular",
+        "user_list:cant-go-wrong-movies",
+        "user_list:horror",
+        "user_list:newest-avarege-horor-movies",
+        "user_list:surpise-me-again"
+      ]
+    },
+    {
+      "title": "Scream",
+      "year": 2022,
+      "ids": {
+        "tmdb": 646385,
+        "imdb": "tt11245972",
+        "mdblist": "49cn"
+      },
+      "score": 0.929764,
+      "imdb_value": 6.3,
+      "imdb_votes": 189475,
+      "runtime": 114,
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "US",
+      "certification": "R",
+      "age_rating": 16,
+      "matched_keywords": [
+        "african-american",
+        "betrayal",
+        "blood",
+        "blood-splatter",
+        "bound-and-gagged",
+        "brother-sister-relationship",
+        "brutality",
+        "cell-phone",
+        "crying",
+        "crying-woman",
+        "danger",
+        "dead-body",
+        "death",
+        "death-of-friend",
+        "deception",
+        "disarming-someone",
+        "double-cross",
+        "eavesdropping",
+        "escape",
+        "escape-attempt",
+        "evil",
+        "family-relationships",
+        "father-daughter-relationship",
+        "fear",
+        "female-protagonist",
+        "fight",
+        "fire",
+        "friendship",
+        "gore",
+        "gun"
+      ],
+      "matched_genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 1.0,
+        "genres": 1.0,
+        "imdb": 0.996333,
+        "year": 0.546177,
+        "runtime": 0.529316,
+        "age_certification": 0.773207,
+        "country": 0.857143,
+        "daily_bonus": 0.019701,
+        "jitter": -0.00031
+      },
+      "sources": [
+        "catalog:Horror:imdbvotes",
+        "catalog:Mystery:imdbvotes",
+        "user_list:cant-go-wrong-movies",
+        "user_list:horror",
+        "user_list:newest-avarege-horor-movies",
+        "user_list:surpise-me-again"
+      ]
+    },
+    {
+      "title": "Scream VI",
+      "year": 2023,
+      "ids": {
+        "tmdb": 934433,
+        "imdb": "tt17663992",
+        "mdblist": "2ven2"
+      },
+      "score": 0.927032,
+      "imdb_value": 6.4,
+      "imdb_votes": 153889,
+      "runtime": 123,
+      "genres": [
+        "Crime",
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "US",
+      "certification": "R",
+      "age_rating": 16,
+      "matched_keywords": [
+        "apology",
+        "blood",
+        "blood-splatter",
+        "brother-sister-relationship",
+        "brutality",
+        "cell-phone",
+        "danger",
+        "dead-body",
+        "death",
+        "death-of-friend",
+        "deception",
+        "double-cross",
+        "escape",
+        "escape-attempt",
+        "family-relationships",
+        "father-daughter-relationship",
+        "fear",
+        "female-protagonist",
+        "fight",
+        "friendship",
+        "gore",
+        "gun",
+        "hallucination",
+        "held-at-gunpoint",
+        "knife",
+        "knocked-unconscious",
+        "man-murders-a-woman",
+        "mercilessness",
+        "murder",
+        "near-death-experience"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 1.0,
+        "genres": 1.0,
+        "imdb": 0.999459,
+        "year": 0.537103,
+        "runtime": 0.386821,
+        "age_certification": 0.773207,
+        "country": 0.857143,
+        "daily_bonus": 0.018806,
+        "jitter": 0.005417
+      },
+      "sources": [
+        "catalog:Horror:imdbvotes",
+        "catalog:Mystery:imdbvotes",
+        "user_list:cant-go-wrong-movies",
+        "user_list:horror",
+        "user_list:newest-avarege-horor-movies"
+      ]
+    },
+    {
+      "title": "Lords of Chaos",
+      "year": 2018,
+      "ids": {
+        "tmdb": 426249,
+        "imdb": "tt4669296",
+        "mdblist": "1fts"
+      },
+      "score": 0.862318,
+      "imdb_value": 6.6,
+      "imdb_votes": 22612,
+      "runtime": 118,
+      "genres": [
+        "Biography",
+        "Drama",
+        "Horror",
+        "Music",
+        "Thriller"
+      ],
+      "country": "US",
+      "certification": "R",
+      "age_rating": 17,
+      "matched_keywords": [
+        "anger",
+        "blood",
+        "blood-splatter",
+        "bloody-face",
+        "brutality",
+        "cigarette-smoking",
+        "corpse",
+        "criminal",
+        "crying",
+        "danger",
+        "dead-body",
+        "death",
+        "evil",
+        "female-nudity",
+        "fire",
+        "gore",
+        "gun",
+        "gunshot",
+        "knife",
+        "mercilessness",
+        "murder",
+        "nightmare",
+        "paranoia",
+        "party",
+        "photograph",
+        "rifle",
+        "sadism",
+        "shot-in-the-head",
+        "stabbed-to-death",
+        "stabbing"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Horror",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.818182,
+        "genres": 1.0,
+        "imdb": 0.993163,
+        "year": 0.546818,
+        "runtime": 0.456628,
+        "age_certification": 0.774616,
+        "country": 0.857143,
+        "daily_bonus": 0.010746,
+        "jitter": 0.017874
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:horror",
+        "user_list:newest-avarege-horor-movies"
+      ]
+    },
+    {
+      "title": "X",
+      "year": 2022,
+      "ids": {
+        "tmdb": 760104,
+        "imdb": "tt13560574",
+        "mdblist": "10ifb"
+      },
+      "score": 0.860824,
+      "imdb_value": 6.5,
+      "imdb_votes": 225766,
+      "runtime": 106,
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "US",
+      "certification": "R",
+      "age_rating": 17,
+      "matched_keywords": [
+        "african-american",
+        "apology",
+        "blood",
+        "brutality",
+        "cigarette-smoking",
+        "corpse",
+        "crying",
+        "crying-woman",
+        "danger",
+        "dead-body",
+        "escape-attempt",
+        "fear",
+        "female-nudity",
+        "female-protagonist",
+        "gore",
+        "gun",
+        "knife",
+        "locked-door",
+        "man-murders-a-woman",
+        "mercilessness",
+        "mirror",
+        "money",
+        "murder",
+        "old-woman",
+        "scream",
+        "secret",
+        "serial-killer",
+        "shot-in-the-chest",
+        "shot-to-death",
+        "shotgun"
+      ],
+      "matched_genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.870968,
+        "genres": 1.0,
+        "imdb": 0.98745,
+        "year": 0.546177,
+        "runtime": 0.678248,
+        "age_certification": 0.774616,
+        "country": 0.857143,
+        "daily_bonus": 0.005373,
+        "jitter": -0.009521
+      },
+      "sources": [
+        "catalog:Horror:imdbpopular",
+        "catalog:Horror:imdbvotes",
+        "catalog:Mystery:imdbpopular",
+        "catalog:Mystery:imdbvotes",
+        "catalog:Thriller:imdbpopular",
+        "user_list:cant-go-wrong-movies",
+        "user_list:horror",
+        "user_list:newest-avarege-horor-movies",
+        "user_list:surpise-me-again"
+      ]
+    },
+    {
+      "title": "Widows",
+      "year": 2018,
+      "ids": {
+        "tmdb": 401469,
+        "imdb": "tt4218572",
+        "mdblist": "1esh"
+      },
+      "score": 0.855822,
+      "imdb_value": 6.8,
+      "imdb_votes": 109385,
+      "runtime": 129,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "country": "us",
+      "certification": "R",
+      "age_rating": 16,
+      "matched_keywords": [
+        "african-american",
+        "betrayal",
+        "blood",
+        "blood-splatter",
+        "brutality",
+        "cemetery",
+        "cigarette-smoking",
+        "corpse",
+        "criminal",
+        "danger",
+        "death",
+        "deception",
+        "double-cross",
+        "family-relationships",
+        "fear",
+        "female-nudity",
+        "fire",
+        "friend",
+        "friendship",
+        "held-at-gunpoint",
+        "mansion",
+        "money",
+        "mother-daughter-relationship",
+        "murder",
+        "panic",
+        "photograph",
+        "pistol",
+        "restaurant",
+        "shooting",
+        "shot-in-the-back"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.879765,
+        "genres": 1.0,
+        "imdb": 0.90213,
+        "year": 0.546818,
+        "runtime": 0.329296,
+        "age_certification": 0.773207,
+        "country": 0.857143,
+        "daily_bonus": 0.010746,
+        "jitter": 0.006865
+      },
+      "sources": [
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "The Cursed",
+      "year": 2021,
+      "ids": {
+        "tmdb": 630392,
+        "imdb": "tt9907782",
+        "mdblist": "1jfib"
+      },
+      "score": 0.853644,
+      "imdb_value": 6.2,
+      "imdb_votes": 23041,
+      "runtime": 111,
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "us",
+      "certification": "R",
+      "age_rating": 16,
+      "matched_keywords": [
+        "blood",
+        "blood-stain",
+        "brother",
+        "brother-sister-relationship",
+        "candle",
+        "corpse",
+        "dead-body",
+        "death",
+        "family-relationships",
+        "father-daughter-relationship",
+        "fear",
+        "female-nudity",
+        "fire",
+        "gore",
+        "gun",
+        "knife",
+        "mother-daughter-relationship",
+        "murder",
+        "near-death-experience",
+        "nightmare",
+        "photograph",
+        "revenge",
+        "rifle",
+        "screaming",
+        "secret",
+        "shot-in-the-chest",
+        "shot-to-death",
+        "suicide",
+        "tattoo",
+        "violence"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Fantasy",
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.765396,
+        "genres": 1.0,
+        "imdb": 0.996054,
+        "year": 0.570457,
+        "runtime": 0.595193,
+        "age_certification": 0.773207,
+        "country": 0.857143,
+        "daily_bonus": 0.01791,
+        "jitter": 0.013523
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:fantasia",
+        "user_list:horror",
+        "user_list:newest-avarege-horor-movies"
+      ]
+    },
+    {
+      "title": "Alone",
+      "year": 2020,
+      "ids": {
+        "tmdb": 509635,
+        "imdb": "tt7711170",
+        "mdblist": "d6or"
+      },
+      "score": 0.813781,
+      "imdb_value": 6.2,
+      "imdb_votes": 36327,
+      "runtime": 98,
+      "genres": [
+        "Drama",
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "us",
+      "certification": "R",
+      "age_rating": 16,
+      "matched_keywords": [
+        "anger",
+        "blood",
+        "brutality",
+        "cell-phone",
+        "cigarette-smoking",
+        "death",
+        "deception",
+        "escape",
+        "father-daughter-relationship",
+        "fear",
+        "gun",
+        "kidnapping",
+        "knife",
+        "knocked-unconscious",
+        "locked-door",
+        "mother-daughter-relationship",
+        "murder",
+        "psychopath",
+        "rescue",
+        "rifle",
+        "sadism",
+        "sadist",
+        "serial-killer",
+        "suicide",
+        "survival",
+        "violence",
+        "widow"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.659824,
+        "genres": 1.0,
+        "imdb": 0.993242,
+        "year": 0.562781,
+        "runtime": 0.655334,
+        "age_certification": 0.773207,
+        "country": 0.857143,
+        "daily_bonus": 0.014328,
+        "jitter": 0.017653
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:horror",
+        "user_list:newest-avarege-horor-movies",
+        "user_list:surpise-me-again"
+      ]
+    },
+    {
+      "title": "Nightmare Alley",
+      "year": 2021,
+      "ids": {
+        "tmdb": 597208,
+        "imdb": "tt7740496",
+        "mdblist": "1z8h"
+      },
+      "score": 0.807106,
+      "imdb_value": 7.0,
+      "imdb_votes": 183471,
+      "runtime": 151,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "country": "us",
+      "certification": "R",
+      "age_rating": 16,
+      "matched_keywords": [
+        "anger",
+        "betrayal",
+        "blood",
+        "car",
+        "cigarette-smoking",
+        "corpse",
+        "dead-body",
+        "death",
+        "deception",
+        "double-cross",
+        "escape",
+        "fear",
+        "fire",
+        "heavy-rain",
+        "held-at-gunpoint",
+        "lie",
+        "manipulation",
+        "mansion",
+        "money",
+        "murder",
+        "near-death-experience",
+        "nightmare",
+        "panic",
+        "photograph",
+        "pistol",
+        "psychic",
+        "punched-in-the-face",
+        "rainstorm",
+        "rescue",
+        "secret"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.844575,
+        "genres": 1.0,
+        "imdb": 0.754942,
+        "year": 0.570457,
+        "runtime": 0.181359,
+        "age_certification": 0.773207,
+        "country": 0.857143,
+        "daily_bonus": 0.012537,
+        "jitter": -0.002455
+      },
+      "sources": [
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Speak No Evil",
+      "year": 2024,
+      "ids": {
+        "tmdb": 1114513,
+        "imdb": "tt27534307",
+        "mdblist": "31iff"
+      },
+      "score": 0.801604,
+      "imdb_value": 6.8,
+      "imdb_votes": 140912,
+      "runtime": 110,
+      "genres": [
+        "Drama",
+        "Horror",
+        "Thriller"
+      ],
+      "country": "us",
+      "certification": "R",
+      "age_rating": 15,
+      "matched_keywords": [
+        "betrayal",
+        "blood",
+        "blood-splatter",
+        "brutality",
+        "cell-phone",
+        "death",
+        "deception",
+        "double-cross",
+        "family-relationships",
+        "father-daughter-relationship",
+        "fight",
+        "fire",
+        "heavy-rain",
+        "held-at-gunpoint",
+        "hostage",
+        "kidnapping",
+        "lie",
+        "mercilessness",
+        "mother-daughter-relationship",
+        "murder",
+        "near-death-experience",
+        "paranoia",
+        "photograph",
+        "pistol",
+        "psychopath",
+        "rescue",
+        "sadist",
+        "serial-killer",
+        "shotgun",
+        "survival"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Horror",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.756598,
+        "genres": 1.0,
+        "imdb": 0.889489,
+        "year": 0.495143,
+        "runtime": 0.61955,
+        "age_certification": 0.761808,
+        "country": 0.857143,
+        "daily_bonus": 0.013433,
+        "jitter": -0.007424
+      },
+      "sources": [
+        "catalog:Drama:imdbpopular",
+        "catalog:Horror:imdbpopular",
+        "catalog:Horror:imdbvotes",
+        "catalog:Horror:score",
+        "catalog:Thriller:imdbpopular"
+      ]
+    },
+    {
+      "title": "Synchronic",
+      "year": 2020,
+      "ids": {
+        "tmdb": 549294,
+        "imdb": "tt9016974",
+        "mdblist": "1b57"
+      },
+      "score": 0.794176,
+      "imdb_value": 6.2,
+      "imdb_votes": 46561,
+      "runtime": 102,
+      "genres": [
+        "Drama",
+        "Horror",
+        "Mystery",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "country": "US",
+      "certification": "R",
+      "age_rating": 15,
+      "matched_keywords": [
+        "african-american",
+        "anger",
+        "apology",
+        "best-friend",
+        "blood",
+        "cell-phone",
+        "coin",
+        "corpse",
+        "crying-woman",
+        "dead-body",
+        "death",
+        "escape",
+        "father-daughter-relationship",
+        "fight",
+        "fire",
+        "friend",
+        "friendship",
+        "hallucination",
+        "held-at-gunpoint",
+        "hotel",
+        "knife",
+        "mirror",
+        "mother-daughter-relationship",
+        "near-death-experience",
+        "news-report",
+        "party",
+        "pistol",
+        "rescue",
+        "rifle",
+        "secret"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.703812,
+        "genres": 1.0,
+        "imdb": 0.991321,
+        "year": 0.562781,
+        "runtime": 0.694364,
+        "age_certification": 0.761808,
+        "country": 0.857143,
+        "daily_bonus": 0.012537,
+        "jitter": -0.018622
+      },
+      "sources": [
+        "user_list:average-new-sci-fi-movies",
+        "user_list:cant-go-wrong-movies",
+        "user_list:horror",
+        "user_list:newest-avarege-horor-movies",
+        "user_list:science-fiction",
+        "user_list:surpise-me-again"
+      ]
+    },
+    {
+      "title": "Us",
+      "year": 2019,
+      "ids": {
+        "tmdb": 458723,
+        "imdb": "tt6857112",
+        "mdblist": "19vv"
+      },
+      "score": 0.787768,
+      "imdb_value": 6.8,
+      "imdb_votes": 396087,
+      "runtime": 116,
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "us",
+      "certification": "R",
+      "age_rating": 16,
+      "matched_keywords": [
+        "african-american",
+        "blood",
+        "blood-splatter",
+        "bloody-face",
+        "brother-sister-relationship",
+        "car",
+        "cell-phone",
+        "corpse",
+        "crying",
+        "crying-woman",
+        "dead-body",
+        "family-relationships",
+        "father-daughter-relationship",
+        "fear",
+        "fight",
+        "fire",
+        "friend",
+        "friendship",
+        "handcuffed-to-a-bed",
+        "handcuffs",
+        "knocked-unconscious",
+        "mirror",
+        "mother-daughter-relationship",
+        "murder",
+        "panic",
+        "reading-a-book",
+        "rescue",
+        "sunglasses",
+        "survival",
+        "violence"
+      ],
+      "matched_genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.695015,
+        "genres": 1.0,
+        "imdb": 0.850947,
+        "year": 0.570773,
+        "runtime": 0.490942,
+        "age_certification": 0.773207,
+        "country": 0.857143,
+        "daily_bonus": 0.007164,
+        "jitter": 0.013493
+      },
+      "sources": [
+        "catalog:Horror:imdbpopular",
+        "catalog:Horror:imdbvotes",
+        "catalog:Horror:score",
+        "catalog:Mystery:imdbpopular",
+        "catalog:Mystery:imdbvotes",
+        "catalog:Thriller:imdbpopular",
+        "catalog:Thriller:imdbvotes"
+      ]
+    },
+    {
+      "title": "The Traitor",
+      "year": 2019,
+      "ids": {
+        "tmdb": 575452,
+        "imdb": "tt7736478",
+        "mdblist": "1fns"
+      },
+      "score": 0.776132,
+      "imdb_value": 7.1,
+      "imdb_votes": 14590,
+      "runtime": 151,
+      "genres": [
+        "Biography",
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "country": "br",
+      "certification": "R",
+      "age_rating": 16,
+      "matched_keywords": [
+        "anger",
+        "apology",
+        "betrayal",
+        "blood",
+        "bloody-face",
+        "broken-glass",
+        "brother-sister-relationship",
+        "brutality",
+        "cigarette-smoking",
+        "coffee",
+        "criminal",
+        "crying-woman",
+        "death",
+        "family-relationships",
+        "female-nudity",
+        "friend",
+        "friendship",
+        "gun",
+        "hallucination",
+        "handcuffs",
+        "knife",
+        "murder",
+        "nightmare",
+        "paranoia",
+        "photograph",
+        "punched-in-the-face",
+        "restaurant",
+        "rifle",
+        "shooting",
+        "shot-in-the-back"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.791789,
+        "genres": 1.0,
+        "imdb": 0.962894,
+        "year": 0.570773,
+        "runtime": 0.181359,
+        "age_certification": 0.773207,
+        "country": 0.0,
+        "daily_bonus": 0.014328,
+        "jitter": -0.019616
+      },
+      "sources": [
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Hereditary",
+      "year": 2018,
+      "ids": {
+        "tmdb": 493922,
+        "imdb": "tt7784604",
+        "mdblist": "1aud"
+      },
+      "score": 0.77123,
+      "imdb_value": 7.3,
+      "imdb_votes": 462201,
+      "runtime": 128,
+      "genres": [
+        "Drama",
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "US",
+      "certification": "R",
+      "age_rating": 17,
+      "matched_keywords": [
+        "anger",
+        "apology",
+        "blood",
+        "brother-sister-relationship",
+        "brutality",
+        "candle",
+        "cell-phone",
+        "cemetery",
+        "crying",
+        "crying-woman",
+        "danger",
+        "dead-body",
+        "death",
+        "evil",
+        "family-relationships",
+        "father-daughter-relationship",
+        "fear",
+        "female-nudity",
+        "female-protagonist",
+        "fire",
+        "girl",
+        "lie",
+        "locking-a-door",
+        "manipulation",
+        "mother-daughter-relationship",
+        "murder",
+        "nightmare",
+        "party",
+        "photograph",
+        "sadism"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.826979,
+        "genres": 1.0,
+        "imdb": 0.458878,
+        "year": 0.546818,
+        "runtime": 0.33708,
+        "age_certification": 0.774616,
+        "country": 0.857143,
+        "daily_bonus": 0.012537,
+        "jitter": 0.007596
+      },
+      "sources": [
+        "catalog:Drama:imdbpopular",
+        "catalog:Drama:imdbvotes",
+        "catalog:Horror:imdbpopular",
+        "catalog:Horror:imdbvotes",
+        "catalog:Horror:score",
+        "catalog:Mystery:imdbpopular",
+        "catalog:Mystery:imdbvotes",
+        "catalog:Mystery:score",
+        "catalog:Thriller:imdbpopular",
+        "catalog:Thriller:imdbvotes"
+      ]
+    },
+    {
+      "title": "Barbarian",
+      "year": 2022,
+      "ids": {
+        "tmdb": 913290,
+        "imdb": "tt15791034",
+        "mdblist": "2us78"
+      },
+      "score": 0.7586,
+      "imdb_value": 7.0,
+      "imdb_votes": 264952,
+      "runtime": 103,
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "US",
+      "certification": "R",
+      "age_rating": 16,
+      "matched_keywords": [
+        "african-american",
+        "apology",
+        "blood-stain",
+        "cell-phone",
+        "criminal",
+        "danger",
+        "death",
+        "escape",
+        "evil",
+        "family-relationships",
+        "father-daughter-relationship",
+        "fear",
+        "female-nudity",
+        "friendship",
+        "gun",
+        "heavy-rain",
+        "kidnapping",
+        "locked-door",
+        "murder",
+        "nightmare",
+        "paranoia",
+        "pistol",
+        "psychopath",
+        "rainstorm",
+        "serial-killer",
+        "shot-in-the-chest",
+        "shot-in-the-head",
+        "shot-to-death",
+        "suicide",
+        "suspense"
+      ],
+      "matched_genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.71261,
+        "genres": 1.0,
+        "imdb": 0.728773,
+        "year": 0.546177,
+        "runtime": 0.697931,
+        "age_certification": 0.773207,
+        "country": 0.857143,
+        "daily_bonus": 0.009851,
+        "jitter": -0.014963
+      },
+      "sources": [
+        "catalog:Horror:imdbpopular",
+        "catalog:Horror:imdbvotes",
+        "catalog:Horror:score",
+        "catalog:Mystery:imdbpopular",
+        "catalog:Mystery:imdbvotes",
+        "catalog:Thriller:imdbpopular"
+      ]
+    },
+    {
+      "title": "Smile 2",
+      "year": 2024,
+      "ids": {
+        "tmdb": 1100782,
+        "imdb": "tt29268110",
+        "mdblist": "30bth"
+      },
+      "score": 0.744946,
+      "imdb_value": 6.7,
+      "imdb_votes": 147609,
+      "runtime": 127,
+      "genres": [
+        "Horror",
+        "Music",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "US",
+      "certification": "R",
+      "age_rating": 17,
+      "matched_keywords": [
+        "blood",
+        "bloody-face",
+        "brother",
+        "cell-phone",
+        "corpse",
+        "death",
+        "escape",
+        "evil",
+        "fear",
+        "friend",
+        "friendship",
+        "gore",
+        "gun",
+        "gunshot",
+        "hallucination",
+        "knife",
+        "mirror",
+        "mother-daughter-relationship",
+        "murder",
+        "nightmare",
+        "panic",
+        "shot-to-death",
+        "stabbed-to-death",
+        "suicide",
+        "tattoo",
+        "text-message",
+        "violence"
+      ],
+      "matched_genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.651026,
+        "genres": 1.0,
+        "imdb": 0.932121,
+        "year": 0.495143,
+        "runtime": 0.345561,
+        "age_certification": 0.774616,
+        "country": 0.857143,
+        "daily_bonus": 0.010746,
+        "jitter": -0.012759
+      },
+      "sources": [
+        "catalog:Horror:imdbpopular",
+        "catalog:Horror:imdbvotes",
+        "catalog:Mystery:imdbpopular",
+        "catalog:Mystery:imdbvotes",
+        "catalog:Thriller:imdbpopular"
+      ]
+    },
+    {
+      "title": "Mr. Jones",
+      "year": 2019,
+      "ids": {
+        "tmdb": 509598,
+        "imdb": "tt6828390",
+        "mdblist": "1axf"
+      },
+      "score": 0.730289,
+      "imdb_value": 6.9,
+      "imdb_votes": 18664,
+      "runtime": 119,
+      "genres": [
+        "Biography",
+        "Drama",
+        "History",
+        "Thriller"
+      ],
+      "country": "gb",
+      "certification": "MA15+",
+      "age_rating": 15,
+      "matched_keywords": [
+        "apology",
+        "brother-sister-relationship",
+        "brutality",
+        "candle",
+        "cigarette-smoking",
+        "corpse",
+        "crying-woman",
+        "dead-body",
+        "death",
+        "death-of-friend",
+        "eavesdropping",
+        "father-daughter-relationship",
+        "fear",
+        "female-nudity",
+        "fight",
+        "fire",
+        "girl",
+        "gunshot",
+        "hallucination",
+        "hostage",
+        "kidnapping",
+        "lie",
+        "money",
+        "murder",
+        "paranoia",
+        "party",
+        "photograph",
+        "piano",
+        "restaurant",
+        "shooting"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.703812,
+        "genres": 0.916667,
+        "imdb": 0.972051,
+        "year": 0.570773,
+        "runtime": 0.440904,
+        "age_certification": 0.461808,
+        "country": 0.142857,
+        "daily_bonus": 0.013433,
+        "jitter": -0.009545
+      },
+      "sources": [
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Bird Box",
+      "year": 2018,
+      "ids": {
+        "tmdb": 405774,
+        "imdb": "tt2737304",
+        "mdblist": "1d8l"
+      },
+      "score": 0.727478,
+      "imdb_value": 6.6,
+      "imdb_votes": 424195,
+      "runtime": 124,
+      "genres": [
+        "Drama",
+        "Horror",
+        "Mystery",
+        "Sci-Fi",
+        "Thriller"
+      ],
+      "country": "us",
+      "certification": "R",
+      "age_rating": 16,
+      "matched_keywords": [
+        "african-american",
+        "apology",
+        "blood",
+        "bloody-face",
+        "crying",
+        "crying-woman",
+        "dead-body",
+        "death",
+        "family-relationships",
+        "female-nudity",
+        "fight",
+        "girl",
+        "gun",
+        "gunshot",
+        "knocked-unconscious",
+        "locked-door",
+        "mother-daughter-relationship",
+        "old-woman",
+        "panic",
+        "rifle",
+        "shooting",
+        "shot-to-death",
+        "shotgun",
+        "stabbed-to-death",
+        "stabbing",
+        "suicide",
+        "survival",
+        "violence"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.607038,
+        "genres": 1.0,
+        "imdb": 0.954564,
+        "year": 0.546818,
+        "runtime": 0.375364,
+        "age_certification": 0.773207,
+        "country": 0.857143,
+        "daily_bonus": 0.003582,
+        "jitter": -0.015393
+      },
+      "sources": [
+        "catalog:Drama:imdbvotes",
+        "catalog:Horror:imdbpopular",
+        "catalog:Horror:imdbvotes",
+        "catalog:Mystery:imdbpopular",
+        "catalog:Mystery:imdbvotes",
+        "catalog:Thriller:imdbvotes"
+      ]
+    },
+    {
+      "title": "Stillwater",
+      "year": 2021,
+      "ids": {
+        "tmdb": 616651,
+        "imdb": "tt10696896",
+        "mdblist": "ecp9"
+      },
+      "score": 0.721204,
+      "imdb_value": 6.6,
+      "imdb_votes": 64428,
+      "runtime": 139,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "us",
+      "certification": "R",
+      "age_rating": 15,
+      "matched_keywords": [
+        "apology",
+        "cell-phone",
+        "cigarette-smoking",
+        "crying-woman",
+        "father-daughter-relationship",
+        "fear",
+        "female-nudity",
+        "fight",
+        "girl",
+        "hostage",
+        "hotel",
+        "lie",
+        "mother-daughter-relationship",
+        "murder",
+        "photograph",
+        "restaurant",
+        "revenge",
+        "secret",
+        "stabbing",
+        "suicide",
+        "suicide-attempt",
+        "woman-wears-sunglasses"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.510264,
+        "genres": 1.0,
+        "imdb": 0.979657,
+        "year": 0.570457,
+        "runtime": 0.286905,
+        "age_certification": 0.761808,
+        "country": 0.857143,
+        "daily_bonus": 0.012537,
+        "jitter": 0.007181
+      },
+      "sources": [
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "The Platform",
+      "year": 2019,
+      "ids": {
+        "tmdb": 619264,
+        "imdb": "tt8228288",
+        "mdblist": "1d63"
+      },
+      "score": 0.71822,
+      "imdb_value": 7.0,
+      "imdb_votes": 326742,
+      "runtime": 95,
+      "genres": [
+        "Drama",
+        "Horror",
+        "Mystery",
+        "Sci-Fi",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "country": "ES",
+      "certification": "R",
+      "age_rating": 17,
+      "matched_keywords": [
+        "blood",
+        "blood-stain",
+        "bloody-face",
+        "bound-and-gagged",
+        "cigarette-smoking",
+        "corpse",
+        "crying",
+        "crying-woman",
+        "dead-body",
+        "female-nudity",
+        "friend",
+        "friendship",
+        "girl",
+        "gore",
+        "hallucination",
+        "knife",
+        "murder",
+        "mysterious-woman",
+        "nightmare",
+        "punched-in-the-face",
+        "reading-a-book",
+        "scream",
+        "stabbed-to-death",
+        "suicide",
+        "survival",
+        "violence"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.607038,
+        "genres": 1.0,
+        "imdb": 0.716439,
+        "year": 0.570773,
+        "runtime": 0.591559,
+        "age_certification": 0.774616,
+        "country": 0.0,
+        "daily_bonus": 0.009851,
+        "jitter": 0.01721
+      },
+      "sources": [
+        "catalog:Horror:imdbpopular",
+        "catalog:Horror:imdbvotes",
+        "catalog:Mystery:imdbpopular",
+        "catalog:Mystery:imdbvotes",
+        "catalog:Thriller:imdbvotes"
+      ]
+    },
+    {
+      "title": "The Photographer of Mauthausen",
+      "year": 2018,
+      "ids": {
+        "tmdb": 528949,
+        "imdb": "tt6704776",
+        "mdblist": "1dbd"
+      },
+      "score": 0.709393,
+      "imdb_value": 6.8,
+      "imdb_votes": 14145,
+      "runtime": 111,
+      "genres": [
+        "Biography",
+        "Drama",
+        "History",
+        "Thriller"
+      ],
+      "country": "es",
+      "certification": "R",
+      "age_rating": 17,
+      "matched_keywords": [
+        "bloody-face",
+        "broken-glass",
+        "cigarette-smoking",
+        "dead-body",
+        "downpour",
+        "escape-attempt",
+        "fight",
+        "friend",
+        "friendship",
+        "gunshot",
+        "heavy-rain",
+        "lie",
+        "manipulation",
+        "murder",
+        "old-woman",
+        "photograph",
+        "psychological-manipulation",
+        "punched-in-the-face",
+        "rainstorm",
+        "revenge",
+        "sadism",
+        "shooting",
+        "shot-to-death",
+        "violence"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.527859,
+        "genres": 0.916667,
+        "imdb": 0.987585,
+        "year": 0.546818,
+        "runtime": 0.595193,
+        "age_certification": 0.774616,
+        "country": 0.0,
+        "daily_bonus": 0.008955,
+        "jitter": 0.019158
+      },
+      "sources": [
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Titane",
+      "year": 2021,
+      "ids": {
+        "tmdb": 630240,
+        "imdb": "tt10944760",
+        "mdblist": "d6yb"
+      },
+      "score": 0.684559,
+      "imdb_value": 6.4,
+      "imdb_votes": 66978,
+      "runtime": 108,
+      "genres": [
+        "Drama",
+        "Horror",
+        "Sci-Fi",
+        "Thriller"
+      ],
+      "country": "fr",
+      "certification": "R",
+      "age_rating": 18,
+      "matched_keywords": [
+        "blood",
+        "brutality",
+        "car",
+        "crying",
+        "deception",
+        "fear",
+        "female-nudity",
+        "female-protagonist",
+        "fire",
+        "lie",
+        "mercilessness",
+        "murder",
+        "party",
+        "serial-killer",
+        "stabbed-to-death",
+        "stabbing",
+        "suspense",
+        "tattoo",
+        "tied-up",
+        "violence"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Horror",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.510264,
+        "genres": 1.0,
+        "imdb": 0.999669,
+        "year": 0.570457,
+        "runtime": 0.659164,
+        "age_certification": 0.640077,
+        "country": 0.0,
+        "daily_bonus": 0.006269,
+        "jitter": -0.010575
+      },
+      "sources": [
+        "catalog:Horror:score",
+        "user_list:average-new-sci-fi-movies",
+        "user_list:cant-go-wrong-movies",
+        "user_list:horror",
+        "user_list:newest-avarege-horor-movies",
+        "user_list:science-fiction",
+        "user_list:surpise-me-again"
+      ]
+    },
+    {
+      "title": "The Passenger",
+      "year": 2023,
+      "ids": {
+        "tmdb": 957314,
+        "imdb": "tt21979910",
+        "mdblist": "2w2s7"
+      },
+      "score": 0.666253,
+      "imdb_value": 6.4,
+      "imdb_votes": 13508,
+      "runtime": 98,
+      "genres": [
+        "Drama",
+        "Horror",
+        "Thriller"
+      ],
+      "country": "us",
+      "certification": "MA 15+",
+      "age_rating": 17,
+      "matched_keywords": [
+        "blood",
+        "car",
+        "cell-phone",
+        "cigarette-smoking",
+        "crying",
+        "gun",
+        "hostage",
+        "murder",
+        "nightmare",
+        "punched-in-the-face",
+        "restaurant",
+        "scream",
+        "shooting",
+        "shot-in-the-back",
+        "shot-in-the-chest",
+        "shot-to-death",
+        "shotgun",
+        "violence",
+        "waitress"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Horror",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.457478,
+        "genres": 1.0,
+        "imdb": 0.999948,
+        "year": 0.537103,
+        "runtime": 0.655334,
+        "age_certification": 0.474616,
+        "country": 0.857143,
+        "daily_bonus": 0.004478,
+        "jitter": -0.016623
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:horror",
+        "user_list:newest-avarege-horor-movies"
+      ]
+    },
+    {
+      "title": "Everybody Knows",
+      "year": 2018,
+      "ids": {
+        "tmdb": 401545,
+        "imdb": "tt4964788",
+        "mdblist": "1966"
+      },
+      "score": 0.658497,
+      "imdb_value": 6.9,
+      "imdb_votes": 40437,
+      "runtime": 132,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "ES",
+      "certification": "R",
+      "age_rating": 15,
+      "matched_keywords": [
+        "apology",
+        "brother-sister-relationship",
+        "candle",
+        "cell-phone",
+        "cigarette-smoking",
+        "crying",
+        "deception",
+        "family-relationships",
+        "father-daughter-relationship",
+        "fear",
+        "fight",
+        "kidnapping",
+        "lie",
+        "locked-door",
+        "mirror",
+        "money",
+        "mother-daughter-relationship",
+        "rescue",
+        "revenge",
+        "secret",
+        "suspicion",
+        "text-message",
+        "woman-wears-sunglasses"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.492669,
+        "genres": 1.0,
+        "imdb": 0.930419,
+        "year": 0.546818,
+        "runtime": 0.309971,
+        "age_certification": 0.761808,
+        "country": 0.0,
+        "daily_bonus": 0.013433,
+        "jitter": -0.015073
+      },
+      "sources": [
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "The Last Duel",
+      "year": 2021,
+      "ids": {
+        "tmdb": 617653,
+        "imdb": "tt4244994",
+        "mdblist": "24j9"
+      },
+      "score": 0.658412,
+      "imdb_value": 7.3,
+      "imdb_votes": 208000,
+      "runtime": 153,
+      "genres": [
+        "Drama",
+        "History",
+        "Thriller"
+      ],
+      "country": "US",
+      "certification": "R",
+      "age_rating": 17,
+      "matched_keywords": [
+        "anger",
+        "betrayal",
+        "blood",
+        "blood-splatter",
+        "bloody-face",
+        "brutality",
+        "dead-body",
+        "death",
+        "deception",
+        "escape",
+        "fear",
+        "female-nudity",
+        "fight",
+        "friend",
+        "friendship",
+        "knife",
+        "lie",
+        "near-death-experience",
+        "panic",
+        "power",
+        "revenge",
+        "servant",
+        "stabbed-to-death",
+        "stabbing",
+        "violence"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.580645,
+        "genres": 0.916667,
+        "imdb": 0.52655,
+        "year": 0.570457,
+        "runtime": 0.165599,
+        "age_certification": 0.774616,
+        "country": 0.857143,
+        "daily_bonus": 0.013433,
+        "jitter": 0.005142
+      },
+      "sources": [
+        "catalog:Thriller:imdbpopular",
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Smile",
+      "year": 2022,
+      "ids": {
+        "tmdb": 882598,
+        "imdb": "tt15474916",
+        "mdblist": "2tr9y"
+      },
+      "score": 0.654189,
+      "imdb_value": 6.5,
+      "imdb_votes": 244281,
+      "runtime": 115,
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "us",
+      "certification": "R",
+      "age_rating": 16,
+      "matched_keywords": [
+        "african-american",
+        "blood",
+        "corpse",
+        "evil",
+        "family-relationships",
+        "female-protagonist",
+        "fire",
+        "hallucination",
+        "knife",
+        "mother-daughter-relationship",
+        "murder",
+        "nightmare",
+        "paranoia",
+        "screaming-in-fear",
+        "suicide",
+        "widow"
+      ],
+      "matched_genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.387097,
+        "genres": 1.0,
+        "imdb": 0.987148,
+        "year": 0.546177,
+        "runtime": 0.509602,
+        "age_certification": 0.773207,
+        "country": 0.857143,
+        "daily_bonus": 0.00806,
+        "jitter": -0.016718
+      },
+      "sources": [
+        "catalog:Horror:imdbpopular",
+        "catalog:Horror:imdbvotes",
+        "catalog:Mystery:imdbpopular",
+        "catalog:Mystery:imdbvotes",
+        "catalog:Thriller:imdbpopular"
+      ]
+    },
+    {
+      "title": "Alien: Romulus",
+      "year": 2024,
+      "ids": {
+        "tmdb": 945961,
+        "imdb": "tt18412256",
+        "mdblist": "2vsv1"
+      },
+      "score": 0.652009,
+      "imdb_value": 7.1,
+      "imdb_votes": 290980,
+      "runtime": 119,
+      "genres": [
+        "Horror",
+        "Sci-Fi",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "country": "US",
+      "certification": "R",
+      "age_rating": 15,
+      "matched_keywords": [
+        "blood",
+        "blood-splatter",
+        "brother-sister-relationship",
+        "brutality",
+        "cigarette-smoking",
+        "corpse",
+        "danger",
+        "dead-body",
+        "death",
+        "escape",
+        "escape-attempt",
+        "fear",
+        "gore",
+        "knocked-unconscious",
+        "manipulation",
+        "mercilessness",
+        "murder",
+        "near-death-experience",
+        "panic",
+        "paranoia",
+        "rescue",
+        "shot-in-the-head",
+        "survival",
+        "suspense",
+        "violence"
+      ],
+      "matched_genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.642229,
+        "genres": 0.75,
+        "imdb": 0.646816,
+        "year": 0.495143,
+        "runtime": 0.440904,
+        "age_certification": 0.761808,
+        "country": 0.857143,
+        "daily_bonus": 0.0,
+        "jitter": -0.002505
+      },
+      "sources": [
+        "catalog:Horror:imdbpopular",
+        "catalog:Horror:imdbvotes",
+        "catalog:Horror:score",
+        "catalog:Thriller:imdbpopular",
+        "catalog:Thriller:imdbvotes"
+      ]
+    },
+    {
+      "title": "The Endless Trench",
+      "year": 2019,
+      "ids": {
+        "tmdb": 542928,
+        "imdb": "tt7937168",
+        "mdblist": "19xe"
+      },
+      "score": 0.640195,
+      "imdb_value": 7.2,
+      "imdb_votes": 7929,
+      "runtime": 148,
+      "genres": [
+        "Drama",
+        "History",
+        "Thriller"
+      ],
+      "country": "ES",
+      "certification": "18",
+      "age_rating": 16,
+      "matched_keywords": [
+        "blood",
+        "brother",
+        "car",
+        "cemetery",
+        "crying",
+        "crying-woman",
+        "dead-body",
+        "death",
+        "family-relationships",
+        "fear",
+        "fire",
+        "girl",
+        "gun",
+        "hallucination",
+        "murder",
+        "old-woman",
+        "pistol",
+        "revenge",
+        "rifle",
+        "scream",
+        "secret",
+        "widow"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.519062,
+        "genres": 0.916667,
+        "imdb": 0.981626,
+        "year": 0.570773,
+        "runtime": 0.207855,
+        "age_certification": 0.473207,
+        "country": 0.0,
+        "daily_bonus": 0.004478,
+        "jitter": -0.003079
+      },
+      "sources": [
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "The Pale Blue Eye",
+      "year": 2022,
+      "ids": {
+        "tmdb": 800815,
+        "imdb": "tt14138650",
+        "mdblist": "2mrty"
+      },
+      "score": 0.635423,
+      "imdb_value": 6.6,
+      "imdb_votes": 142177,
+      "runtime": 128,
+      "genres": [
+        "Crime",
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "us",
+      "certification": "R",
+      "age_rating": 16,
+      "matched_keywords": [
+        "brother-sister-relationship",
+        "cemetery",
+        "corpse",
+        "dead-body",
+        "family-relationships",
+        "father-daughter-relationship",
+        "friendship",
+        "murder",
+        "punched-in-the-face",
+        "revenge",
+        "secret",
+        "suicide",
+        "surprise-ending",
+        "violence"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.334311,
+        "genres": 1.0,
+        "imdb": 0.967106,
+        "year": 0.546177,
+        "runtime": 0.33708,
+        "age_certification": 0.773207,
+        "country": 0.857143,
+        "daily_bonus": 0.006269,
+        "jitter": -0.000946
+      },
+      "sources": [
+        "catalog:Horror:imdbvotes",
+        "user_list:cant-go-wrong-movies",
+        "user_list:horror",
+        "user_list:newest-avarege-horor-movies",
+        "user_list:surpise-me-again"
+      ]
+    },
+    {
+      "title": "Emily the Criminal",
+      "year": 2022,
+      "ids": {
+        "tmdb": 862965,
+        "imdb": "tt15255876",
+        "mdblist": "2t1j1"
+      },
+      "score": 0.633748,
+      "imdb_value": 6.7,
+      "imdb_votes": 67692,
+      "runtime": 97,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "country": "us",
+      "certification": "R",
+      "age_rating": 15,
+      "matched_keywords": [
+        "african-american",
+        "apology",
+        "cell-phone",
+        "cigarette-smoking",
+        "criminal",
+        "crying-woman",
+        "deception",
+        "fear",
+        "lie",
+        "mirror",
+        "money",
+        "party",
+        "punched-in-the-face",
+        "revenge",
+        "text-message"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.290323,
+        "genres": 1.0,
+        "imdb": 0.956824,
+        "year": 0.546177,
+        "runtime": 0.632783,
+        "age_certification": 0.761808,
+        "country": 0.857143,
+        "daily_bonus": 0.006269,
+        "jitter": 0.002529
+      },
+      "sources": [
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Svaha: The Sixth Finger",
+      "year": 2019,
+      "ids": {
+        "tmdb": 556509,
+        "imdb": "tt7299298",
+        "mdblist": "1ayb"
+      },
+      "score": 0.616295,
+      "imdb_value": 6.3,
+      "imdb_votes": 6243,
+      "runtime": 122,
+      "genres": [
+        "Crime",
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "kr",
+      "certification": "15",
+      "age_rating": 15,
+      "matched_keywords": [
+        "blood",
+        "bound-and-gagged",
+        "corpse",
+        "death",
+        "girl",
+        "hallucination",
+        "murder",
+        "mysterious-woman",
+        "nightmare",
+        "paranormal-phenomenon",
+        "police-station",
+        "psychic",
+        "suicide"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.325513,
+        "genres": 1.0,
+        "imdb": 0.999909,
+        "year": 0.570773,
+        "runtime": 0.399077,
+        "age_certification": 0.461808,
+        "country": 0.0,
+        "daily_bonus": 0.00806,
+        "jitter": 0.018686
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:horror",
+        "user_list:newest-avarege-horor-movies",
+        "user_list:supernatural"
+      ]
+    },
+    {
+      "title": "Luce",
+      "year": 2019,
+      "ids": {
+        "tmdb": 492616,
+        "imdb": "tt7616148",
+        "mdblist": "1dbw"
+      },
+      "score": 0.614437,
+      "imdb_value": 6.6,
+      "imdb_votes": 16268,
+      "runtime": 109,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "us",
+      "certification": "R",
+      "age_rating": 16,
+      "matched_keywords": [
+        "african-american",
+        "apology",
+        "cell-phone",
+        "crying-woman",
+        "female-nudity",
+        "fight",
+        "gunshot",
+        "lie",
+        "party",
+        "photograph",
+        "suspicion",
+        "text-message",
+        "violence"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.26393,
+        "genres": 1.0,
+        "imdb": 0.995645,
+        "year": 0.570773,
+        "runtime": 0.645186,
+        "age_certification": 0.773207,
+        "country": 0.857143,
+        "daily_bonus": 0.00806,
+        "jitter": -0.017717
+      },
+      "sources": [
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Companion",
+      "year": 2025,
+      "ids": {
+        "tmdb": 1084199,
+        "imdb": "tt26584495",
+        "mdblist": "2z1ea"
+      },
+      "score": 0.613435,
+      "imdb_value": 6.9,
+      "imdb_votes": 182724,
+      "runtime": 97,
+      "genres": [
+        "Horror",
+        "Sci-Fi",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "country": "us",
+      "certification": "R",
+      "age_rating": 16,
+      "matched_keywords": [
+        "blood",
+        "candle",
+        "car",
+        "cell-phone",
+        "escape",
+        "female-protagonist",
+        "fire",
+        "friendship",
+        "gun",
+        "hit-with-a-bottle",
+        "knife",
+        "money",
+        "murder",
+        "shot-in-the-chest",
+        "shot-in-the-head",
+        "stabbing",
+        "violence"
+      ],
+      "matched_genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.44868,
+        "genres": 0.75,
+        "imdb": 0.819976,
+        "year": 0.41913,
+        "runtime": 0.632783,
+        "age_certification": 0.773207,
+        "country": 0.857143,
+        "daily_bonus": 0.005373,
+        "jitter": 0.002202
+      },
+      "sources": [
+        "catalog:Horror:imdbpopular",
+        "catalog:Horror:imdbvotes",
+        "catalog:Thriller:imdbpopular"
+      ]
+    },
+    {
+      "title": "Passing",
+      "year": 2021,
+      "ids": {
+        "tmdb": 541524,
+        "imdb": "tt8893974",
+        "mdblist": "c6ab"
+      },
+      "score": 0.610862,
+      "imdb_value": 6.6,
+      "imdb_votes": 17764,
+      "runtime": 98,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "US",
+      "certification": "PG-13",
+      "age_rating": 13,
+      "matched_keywords": [
+        "african-american",
+        "anger",
+        "apology",
+        "best-friend",
+        "cigarette-smoking",
+        "crying-woman",
+        "death",
+        "death-of-friend",
+        "female-protagonist",
+        "friend",
+        "friendship",
+        "hotel",
+        "lie",
+        "mirror",
+        "mother-daughter-relationship",
+        "party"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.325513,
+        "genres": 1.0,
+        "imdb": 0.995065,
+        "year": 0.570457,
+        "runtime": 0.655334,
+        "age_certification": 0.319475,
+        "country": 0.857143,
+        "daily_bonus": 0.003582,
+        "jitter": -0.010075
+      },
+      "sources": [
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "The Devil All the Time",
+      "year": 2020,
+      "ids": {
+        "tmdb": 499932,
+        "imdb": "tt7395114",
+        "mdblist": "1v76"
+      },
+      "score": 0.596602,
+      "imdb_value": 7.1,
+      "imdb_votes": 170648,
+      "runtime": 138,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "country": "us",
+      "certification": "R",
+      "age_rating": 18,
+      "matched_keywords": [
+        "blood",
+        "cemetery",
+        "cigarette-smoking",
+        "coffee",
+        "evil",
+        "gun",
+        "gunshot",
+        "held-at-gunpoint",
+        "murder",
+        "photograph",
+        "serial-killer",
+        "shot-in-the-head",
+        "shot-to-death",
+        "suicide",
+        "violence"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.387097,
+        "genres": 1.0,
+        "imdb": 0.692602,
+        "year": 0.562781,
+        "runtime": 0.288385,
+        "age_certification": 0.640077,
+        "country": 0.857143,
+        "daily_bonus": 0.004478,
+        "jitter": -0.007822
+      },
+      "sources": [
+        "catalog:Crime:imdbpopular",
+        "catalog:Drama:imdbpopular",
+        "catalog:Thriller:imdbpopular",
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "The Dry",
+      "year": 2021,
+      "ids": {
+        "tmdb": 567797,
+        "imdb": "tt5144174",
+        "mdblist": "105xx"
+      },
+      "score": 0.59357,
+      "imdb_value": 6.8,
+      "imdb_votes": 41160,
+      "runtime": 117,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "au",
+      "certification": "R",
+      "age_rating": 15,
+      "matched_keywords": [
+        "anger",
+        "apology",
+        "best-friend",
+        "dead-body",
+        "lie",
+        "loss-of-friend",
+        "murder",
+        "secret",
+        "shot-to-death",
+        "suicide-attempt",
+        "suspicion",
+        "violence"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.281525,
+        "genres": 1.0,
+        "imdb": 0.952872,
+        "year": 0.570457,
+        "runtime": 0.473296,
+        "age_certification": 0.761808,
+        "country": 0.0,
+        "daily_bonus": 0.003582,
+        "jitter": 0.00041
+      },
+      "sources": [
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "If I Had Legs I'd Kick You",
+      "year": 2025,
+      "ids": {
+        "tmdb": 1160360,
+        "imdb": "tt18382850",
+        "mdblist": "35370"
+      },
+      "score": 0.589451,
+      "imdb_value": 6.6,
+      "imdb_votes": 38693,
+      "runtime": 113,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "country": "us",
+      "certification": "R",
+      "age_rating": 15,
+      "matched_keywords": [
+        "blood",
+        "cigarette-smoking",
+        "crying-woman",
+        "father-daughter-relationship",
+        "female-protagonist",
+        "girl",
+        "hotel",
+        "knife",
+        "mother-daughter-relationship",
+        "noise",
+        "text-message"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.281525,
+        "genres": 0.916667,
+        "imdb": 0.987196,
+        "year": 0.41913,
+        "runtime": 0.550123,
+        "age_certification": 0.761808,
+        "country": 0.857143,
+        "daily_bonus": 0.008955,
+        "jitter": -0.011987
+      },
+      "sources": [
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Custody",
+      "year": 2018,
+      "ids": {
+        "tmdb": 451657,
+        "imdb": "tt6002232",
+        "mdblist": "1hao"
+      },
+      "score": 0.589319,
+      "imdb_value": 7.5,
+      "imdb_votes": 11402,
+      "runtime": 93,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "country": "fr",
+      "certification": "15",
+      "age_rating": 13,
+      "matched_keywords": [
+        "anger",
+        "apology",
+        "brother-sister-relationship",
+        "cell-phone",
+        "cigarette-smoking",
+        "crying",
+        "family-relationships",
+        "fear",
+        "gun",
+        "handcuffs",
+        "lie",
+        "locking-a-door",
+        "mirror",
+        "mother-daughter-relationship",
+        "rifle",
+        "shooting",
+        "shotgun",
+        "violence"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.369501,
+        "genres": 0.916667,
+        "imdb": 0.939686,
+        "year": 0.546818,
+        "runtime": 0.555228,
+        "age_certification": 0.269475,
+        "country": 0.0,
+        "daily_bonus": 0.003582,
+        "jitter": 0.012343
+      },
+      "sources": [
+        "catalog:Thriller:score",
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Rent-A-Pal",
+      "year": 2020,
+      "ids": {
+        "tmdb": 707408,
+        "imdb": "tt12274228",
+        "mdblist": "c56a"
+      },
+      "score": 0.587832,
+      "imdb_value": 6.3,
+      "imdb_votes": 6982,
+      "runtime": 108,
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "country": "US",
+      "certification": "15",
+      "age_rating": 15,
+      "matched_keywords": [
+        "anger",
+        "apology",
+        "best-friend",
+        "blood",
+        "crying-woman",
+        "friend",
+        "friendship",
+        "lie",
+        "memory-loss",
+        "murder",
+        "old-woman",
+        "photograph",
+        "stabbing",
+        "violence"
+      ],
+      "matched_genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.343109,
+        "genres": 0.75,
+        "imdb": 0.999889,
+        "year": 0.562781,
+        "runtime": 0.659164,
+        "age_certification": 0.461808,
+        "country": 0.857143,
+        "daily_bonus": 0.00806,
+        "jitter": -0.004731
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:horror",
+        "user_list:newest-avarege-horor-movies",
+        "user_list:surpise-me-again"
+      ]
+    },
+    {
+      "title": "Burning",
+      "year": 2018,
+      "ids": {
+        "tmdb": 491584,
+        "imdb": "tt7282468",
+        "mdblist": "1etz"
+      },
+      "score": 0.586658,
+      "imdb_value": 7.4,
+      "imdb_votes": 86561,
+      "runtime": 148,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "kr",
+      "certification": "NR",
+      "age_rating": 17,
+      "matched_keywords": [
+        "anger",
+        "apology",
+        "blood",
+        "brother-sister-relationship",
+        "cell-phone",
+        "cigarette-smoking",
+        "crying",
+        "crying-woman",
+        "female-nudity",
+        "fight",
+        "fire",
+        "mirror",
+        "money",
+        "murder",
+        "nightmare",
+        "party",
+        "restaurant",
+        "stabbed-to-death",
+        "stabbing",
+        "suspicion"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.466276,
+        "genres": 1.0,
+        "imdb": 0.597493,
+        "year": 0.546818,
+        "runtime": 0.207855,
+        "age_certification": 0.474616,
+        "country": 0.0,
+        "daily_bonus": 0.006269,
+        "jitter": 0.005958
+      },
+      "sources": [
+        "catalog:Crime:score",
+        "catalog:Mystery:score",
+        "catalog:Thriller:score",
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "The Courier",
+      "year": 2020,
+      "ids": {
+        "tmdb": 522241,
+        "imdb": "tt8368512",
+        "mdblist": "5h81"
+      },
+      "score": 0.579018,
+      "imdb_value": 7.2,
+      "imdb_votes": 82067,
+      "runtime": 112,
+      "genres": [
+        "Drama",
+        "History",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "gb",
+      "certification": "PG-13",
+      "age_rating": 13,
+      "matched_keywords": [
+        "apology",
+        "betrayal",
+        "cigarette-smoking",
+        "crying-woman",
+        "deception",
+        "family-relationships",
+        "father-daughter-relationship",
+        "fear",
+        "lie",
+        "money",
+        "murder",
+        "photograph",
+        "shot-in-the-head",
+        "shot-to-death"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.343109,
+        "genres": 1.0,
+        "imdb": 0.724307,
+        "year": 0.562781,
+        "runtime": 0.572067,
+        "age_certification": 0.319475,
+        "country": 0.142857,
+        "daily_bonus": 0.00806,
+        "jitter": 0.013539
+      },
+      "sources": [
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "The Last Stop in Yuma County",
+      "year": 2024,
+      "ids": {
+        "tmdb": 1047020,
+        "imdb": "tt11674730",
+        "mdblist": "2y72s"
+      },
+      "score": 0.570809,
+      "imdb_value": 6.9,
+      "imdb_votes": 25523,
+      "runtime": 90,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "country": "us",
+      "certification": "R",
+      "age_rating": 17,
+      "matched_keywords": [
+        "cigarette-smoking",
+        "death",
+        "gun",
+        "shot-in-the-chest",
+        "shot-to-death",
+        "shotgun",
+        "waitress"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.167155,
+        "genres": 1.0,
+        "imdb": 0.958101,
+        "year": 0.495143,
+        "runtime": 0.509257,
+        "age_certification": 0.774616,
+        "country": 0.857143,
+        "daily_bonus": 0.0,
+        "jitter": 0.005317
+      },
+      "sources": [
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Red Rooms",
+      "year": 2023,
+      "ids": {
+        "tmdb": 912480,
+        "imdb": "tt22207786",
+        "mdblist": "2uqsm"
+      },
+      "score": 0.569784,
+      "imdb_value": 7.1,
+      "imdb_votes": 22854,
+      "runtime": 118,
+      "genres": [
+        "Crime",
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "ca",
+      "certification": "14A",
+      "age_rating": 15,
+      "matched_keywords": [
+        "brutality",
+        "coffee",
+        "crying",
+        "female-protagonist",
+        "money",
+        "murder",
+        "photograph",
+        "psychopath",
+        "sadism",
+        "serial-killer"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.246334,
+        "genres": 1.0,
+        "imdb": 0.931768,
+        "year": 0.537103,
+        "runtime": 0.456628,
+        "age_certification": 0.461808,
+        "country": 0.0,
+        "daily_bonus": 0.004478,
+        "jitter": 0.018139
+      },
+      "sources": [
+        "catalog:Horror:imdbpopular",
+        "catalog:Horror:score",
+        "catalog:Mystery:imdbpopular",
+        "user_list:cant-go-wrong-movies",
+        "user_list:horror",
+        "user_list:newest-avarege-horor-movies",
+        "user_list:surpise-me-again"
+      ]
+    },
+    {
+      "title": "Cut Off",
+      "year": 2018,
+      "ids": {
+        "tmdb": 436387,
+        "imdb": "tt3645988",
+        "mdblist": "1ddr"
+      },
+      "score": 0.56826,
+      "imdb_value": 6.5,
+      "imdb_votes": 8727,
+      "runtime": 132,
+      "genres": [
+        "Crime",
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "de",
+      "certification": "R",
+      "age_rating": 17,
+      "matched_keywords": [
+        "car",
+        "cell-phone",
+        "dead-body",
+        "father-daughter-relationship",
+        "female-nudity",
+        "kidnapping",
+        "revenge",
+        "sadism"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.184751,
+        "genres": 1.0,
+        "imdb": 0.999476,
+        "year": 0.546818,
+        "runtime": 0.309971,
+        "age_certification": 0.774616,
+        "country": 0.0,
+        "daily_bonus": 0.006269,
+        "jitter": 0.013766
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:horror",
+        "user_list:newest-avarege-horor-movies"
+      ]
+    },
+    {
+      "title": "First Reformed",
+      "year": 2018,
+      "ids": {
+        "tmdb": 458737,
+        "imdb": "tt6053438",
+        "mdblist": "1ata"
+      },
+      "score": 0.564666,
+      "imdb_value": 7.1,
+      "imdb_votes": 68020,
+      "runtime": 113,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "US",
+      "certification": "R",
+      "age_rating": 15,
+      "matched_keywords": [
+        "blood",
+        "dead-body",
+        "rifle",
+        "shot-in-the-head",
+        "suicide",
+        "text-message",
+        "widow"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.158358,
+        "genres": 1.0,
+        "imdb": 0.804277,
+        "year": 0.546818,
+        "runtime": 0.550123,
+        "age_certification": 0.761808,
+        "country": 0.857143,
+        "daily_bonus": 0.003582,
+        "jitter": 0.01587
+      },
+      "sources": [
+        "catalog:Mystery:score",
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "The Trial of the Chicago 7",
+      "year": 2020,
+      "ids": {
+        "tmdb": 556984,
+        "imdb": "tt1070874",
+        "mdblist": "2hfo"
+      },
+      "score": 0.56131,
+      "imdb_value": 7.7,
+      "imdb_votes": 206113,
+      "runtime": 130,
+      "genres": [
+        "Drama",
+        "History",
+        "Thriller"
+      ],
+      "country": "US",
+      "certification": "R",
+      "age_rating": 16,
+      "matched_keywords": [
+        "african-american",
+        "blood",
+        "bound-and-gagged",
+        "brutality",
+        "father-daughter-relationship",
+        "gun",
+        "handcuffs",
+        "knife",
+        "lie",
+        "money",
+        "murder",
+        "rifle",
+        "shooting",
+        "violence",
+        "woman-wears-sunglasses"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.404692,
+        "genres": 0.916667,
+        "imdb": 0.270092,
+        "year": 0.562781,
+        "runtime": 0.322193,
+        "age_certification": 0.773207,
+        "country": 0.857143,
+        "daily_bonus": 0.008955,
+        "jitter": 0.014404
+      },
+      "sources": [
+        "user_list:best-ever",
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "The Substance",
+      "year": 2024,
+      "ids": {
+        "tmdb": 933260,
+        "imdb": "tt17526714",
+        "mdblist": "2vd5e"
+      },
+      "score": 0.554049,
+      "imdb_value": 7.2,
+      "imdb_votes": 451011,
+      "runtime": 141,
+      "genres": [
+        "Drama",
+        "Horror",
+        "Sci-Fi",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "country": "GB",
+      "certification": "R",
+      "age_rating": 17,
+      "matched_keywords": [
+        "blood",
+        "blood-splatter",
+        "bloody-face",
+        "brutality",
+        "cigarette-smoking",
+        "corpse",
+        "death",
+        "female-nudity",
+        "female-protagonist",
+        "fight",
+        "gore",
+        "nightmare",
+        "old-woman",
+        "punched-in-the-face",
+        "restaurant",
+        "violence"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Horror",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.404692,
+        "genres": 1.0,
+        "imdb": 0.539202,
+        "year": 0.495143,
+        "runtime": 0.285723,
+        "age_certification": 0.774616,
+        "country": 0.142857,
+        "daily_bonus": 0.004478,
+        "jitter": -0.015495
+      },
+      "sources": [
+        "catalog:Drama:imdbpopular",
+        "catalog:Drama:imdbvotes",
+        "catalog:Horror:imdbpopular",
+        "catalog:Horror:imdbvotes",
+        "catalog:Horror:score",
+        "catalog:Thriller:imdbpopular",
+        "catalog:Thriller:imdbvotes"
+      ]
+    },
+    {
+      "title": "La Llorona",
+      "year": 2019,
+      "ids": {
+        "tmdb": 617708,
+        "imdb": "tt10767168",
+        "mdblist": "1fmf"
+      },
+      "score": 0.545605,
+      "imdb_value": 6.6,
+      "imdb_votes": 9202,
+      "runtime": 97,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Horror",
+        "Thriller"
+      ],
+      "country": "fr",
+      "certification": "NR",
+      "age_rating": 13,
+      "matched_keywords": [
+        "candle",
+        "cigarette-smoking",
+        "death",
+        "gun",
+        "nightmare",
+        "paranoia",
+        "photograph",
+        "servant"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Horror",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.202346,
+        "genres": 1.0,
+        "imdb": 0.998194,
+        "year": 0.570773,
+        "runtime": 0.632783,
+        "age_certification": 0.269475,
+        "country": 0.0,
+        "daily_bonus": 0.007164,
+        "jitter": 0.000194
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:horror",
+        "user_list:newest-avarege-horor-movies"
+      ]
+    },
+    {
+      "title": "The Kindergarten Teacher",
+      "year": 2018,
+      "ids": {
+        "tmdb": 489927,
+        "imdb": "tt6952960",
+        "mdblist": "1h9h"
+      },
+      "score": 0.543459,
+      "imdb_value": 6.7,
+      "imdb_votes": 18924,
+      "runtime": 96,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "country": "us",
+      "certification": "R",
+      "age_rating": 16,
+      "matched_keywords": [
+        "anger",
+        "car",
+        "female-nudity",
+        "female-protagonist",
+        "kidnapping",
+        "lie"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.131965,
+        "genres": 0.916667,
+        "imdb": 0.988897,
+        "year": 0.546818,
+        "runtime": 0.611539,
+        "age_certification": 0.773207,
+        "country": 0.857143,
+        "daily_bonus": 0.003582,
+        "jitter": -0.009675
+      },
+      "sources": [
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Don't Let Go",
+      "year": 2019,
+      "ids": {
+        "tmdb": 539651,
+        "imdb": "tt6803212",
+        "mdblist": "1dbb"
+      },
+      "score": 0.542362,
+      "imdb_value": 6.4,
+      "imdb_votes": 15633,
+      "runtime": 107,
+      "genres": [
+        "Drama",
+        "Horror",
+        "Mystery",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "country": "us",
+      "certification": "R",
+      "age_rating": 15,
+      "matched_keywords": [
+        "blood",
+        "murder"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.096774,
+        "genres": 1.0,
+        "imdb": 0.999936,
+        "year": 0.570773,
+        "runtime": 0.674505,
+        "age_certification": 0.761808,
+        "country": 0.857143,
+        "daily_bonus": 0.0,
+        "jitter": -0.016181
+      },
+      "sources": [
+        "user_list:average-new-sci-fi-movies",
+        "user_list:cant-go-wrong-movies",
+        "user_list:horror",
+        "user_list:newest-avarege-horor-movies",
+        "user_list:science-fiction"
+      ]
+    },
+    {
+      "title": "Operation Hyacinth",
+      "year": 2021,
+      "ids": {
+        "tmdb": 809970,
+        "imdb": "tt14315584",
+        "mdblist": "2oaz1"
+      },
+      "score": 0.541096,
+      "imdb_value": 6.8,
+      "imdb_votes": 5110,
+      "runtime": 106,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "PL",
+      "certification": "16",
+      "age_rating": 15,
+      "matched_keywords": [
+        "cigarette-smoking",
+        "criminal",
+        "crying",
+        "family-relationships",
+        "female-nudity",
+        "murder",
+        "party",
+        "stabbing"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.211144,
+        "genres": 1.0,
+        "imdb": 0.997689,
+        "year": 0.570457,
+        "runtime": 0.678248,
+        "age_certification": 0.461808,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": -0.016299
+      },
+      "sources": [
+        "catalog:Mystery:score",
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Vincent Must Die",
+      "year": 2023,
+      "ids": {
+        "tmdb": 965890,
+        "imdb": "tt23790924",
+        "mdblist": "2wb2n"
+      },
+      "score": 0.537527,
+      "imdb_value": 6.4,
+      "imdb_votes": 4050,
+      "runtime": 109,
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Horror",
+        "Thriller"
+      ],
+      "country": "be",
+      "certification": "18",
+      "age_rating": 17,
+      "matched_keywords": [
+        "blood",
+        "cigarette-smoking",
+        "death",
+        "fire",
+        "paranoia",
+        "photograph",
+        "violence"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Fantasy",
+        "Horror",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.211144,
+        "genres": 1.0,
+        "imdb": 0.999993,
+        "year": 0.537103,
+        "runtime": 0.645186,
+        "age_certification": 0.474616,
+        "country": 0.0,
+        "daily_bonus": 0.002687,
+        "jitter": -0.018808
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:surpise-me-again"
+      ]
+    }
+  ]
+}

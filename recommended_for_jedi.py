@@ -9,6 +9,7 @@ the target MDBList list incrementally.
 from __future__ import annotations
 
 import argparse
+import concurrent.futures
 import datetime as dt
 import hashlib
 import json
@@ -18,6 +19,7 @@ import random
 import re
 import statistics
 import sys
+import threading
 import time
 import urllib.error
 import urllib.parse
@@ -39,7 +41,6 @@ BLOCKED_SOURCE_LIST_SLUGS = {
     "lastest-movie-releases",
     "combina-com-voce",
     "surprise-me",
-    "fast-horror",
 }
 
 PROFILE_SIZE = 7
@@ -330,17 +331,26 @@ class MDBListClient:
             body = json.dumps(payload).encode("utf-8")
             headers["Content-Type"] = "application/json"
         request = urllib.request.Request(url, data=body, headers=headers, method=method)
-        try:
-            with urllib.request.urlopen(request, timeout=self.timeout) as response:
-                raw = response.read().decode("utf-8")
-        except urllib.error.HTTPError as exc:
-            error_body = exc.read().decode("utf-8", errors="replace")
-            raise MDBListError(f"{method} {path} failed: HTTP {exc.code}: {error_body}") from exc
-        except urllib.error.URLError as exc:
-            raise MDBListError(f"{method} {path} failed: {exc}") from exc
-        finally:
-            if self.sleep:
-                time.sleep(self.sleep)
+        max_retries = 6
+        backoff = 1.0
+        raw = None
+        for attempt in range(max_retries + 1):
+            try:
+                with urllib.request.urlopen(request, timeout=self.timeout) as response:
+                    raw = response.read().decode("utf-8")
+                break
+            except urllib.error.HTTPError as exc:
+                error_body = exc.read().decode("utf-8", errors="replace")
+                if exc.code in (429, 503) and attempt < max_retries:
+                    time.sleep(backoff)
+                    backoff = min(backoff * 2, 30.0)
+                    continue
+                raise MDBListError(f"{method} {path} failed: HTTP {exc.code}: {error_body}") from exc
+            except urllib.error.URLError as exc:
+                raise MDBListError(f"{method} {path} failed: {exc}") from exc
+            finally:
+                if self.sleep:
+                    time.sleep(self.sleep)
         if not raw:
             return None
         try:
@@ -423,15 +433,18 @@ class MovieCache:
     def __init__(self, path: Path) -> None:
         self.path = path
         self.data: dict[str, dict[str, Any]] = {}
+        self._lock = threading.Lock()
         if path.exists():
             with path.open("r", encoding="utf-8") as handle:
                 self.data = json.load(handle)
 
     def get(self, tmdb_id: int) -> dict[str, Any] | None:
-        return self.data.get(str(tmdb_id))
+        with self._lock:
+            return self.data.get(str(tmdb_id))
 
     def set(self, tmdb_id: int, movie: dict[str, Any]) -> None:
-        self.data[str(tmdb_id)] = {"cached_at": now_utc(), "movie": movie}
+        with self._lock:
+            self.data[str(tmdb_id)] = {"cached_at": now_utc(), "movie": movie}
 
     def movie(self, tmdb_id: int) -> dict[str, Any] | None:
         entry = self.get(tmdb_id)
@@ -832,48 +845,59 @@ def rank_candidates(
     ]
     enrich_order = current_candidates + enrich_order
 
-    ranked: list[dict[str, Any]] = []
-    stats = {"enriched": 0, "filtered": 0, "errors": 0}
     seen_tmdb: set[int] = set()
-    last_logged_enriched = 0
-    log_step(f"Iniciando enriquecimento/ranking de ate {args.max_enrich} candidatos")
-
+    selected_ids: list[int] = []
+    candidate_by_tmdb: dict[int, Candidate] = {}
     for candidate in enrich_order:
         tmdb_id = candidate.key.tmdb
-        if tmdb_id is None or tmdb_id in seen_tmdb:
+        if tmdb_id is None:
+            continue
+        candidate_by_tmdb.setdefault(tmdb_id, candidate)
+        if tmdb_id in seen_tmdb:
             continue
         seen_tmdb.add(tmdb_id)
-        if stats["enriched"] >= args.max_enrich:
-            break
+        if len(selected_ids) < args.max_enrich:
+            selected_ids.append(tmdb_id)
+
+    ranked: list[dict[str, Any]] = []
+    stats = {"enriched": 0, "filtered": 0, "errors": 0}
+    lock = threading.Lock()
+    last_logged_enriched = 0
+    workers = max(1, args.workers)
+    log_step(f"Iniciando enriquecimento/ranking de ate {args.max_enrich} candidatos (workers={workers})")
+
+    def process(tmdb_id: int) -> None:
+        nonlocal last_logged_enriched
         try:
             movie = fetch_movie_details(client, cache, tmdb_id)
         except MDBListError:
-            stats["errors"] += 1
-            continue
-        stats["enriched"] += 1
-        ok, reasons = passes_filters(movie, excluded_identities, fine_tuning)
-        if not ok:
-            stats["filtered"] += 1
+            with lock:
+                stats["errors"] += 1
+            return
+        ok, _reasons = passes_filters(movie, excluded_identities, fine_tuning)
+        score = score_movie(movie, profile, args.seed) if ok else None
+        with lock:
+            stats["enriched"] += 1
+            if ok:
+                candidate = candidate_by_tmdb.get(tmdb_id)
+                ranked.append(
+                    {
+                        "movie": movie,
+                        "score": score["score"],
+                        "score_detail": score,
+                        "sources": sorted(candidate.sources or []) if candidate else [],
+                    }
+                )
+            else:
+                stats["filtered"] += 1
             if stats["enriched"] - last_logged_enriched >= 100:
                 log_step(
                     f"Ranking em andamento: enriquecidos={stats['enriched']} filtrados={stats['filtered']} erros={stats['errors']} validos={len(ranked)}"
                 )
                 last_logged_enriched = stats["enriched"]
-            continue
-        score = score_movie(movie, profile, args.seed)
-        ranked.append(
-            {
-                "movie": movie,
-                "score": score["score"],
-                "score_detail": score,
-                "sources": sorted(candidate.sources or []),
-            }
-        )
-        if stats["enriched"] - last_logged_enriched >= 100:
-            log_step(
-                f"Ranking em andamento: enriquecidos={stats['enriched']} filtrados={stats['filtered']} erros={stats['errors']} validos={len(ranked)}"
-            )
-            last_logged_enriched = stats["enriched"]
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as executor:
+        list(executor.map(process, selected_ids))
 
     ranked.sort(key=lambda row: row["score"], reverse=True)
     log_step(
@@ -1064,6 +1088,12 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
     parser.add_argument("--max-raw-candidates", type=int, default=RAW_CANDIDATE_LIMIT)
     parser.add_argument("--max-enrich", type=int, default=ENRICH_LIMIT)
     parser.add_argument("--sleep", type=float, default=0.05, help="Small delay between API requests.")
+    parser.add_argument(
+        "--workers",
+        type=int,
+        default=10,
+        help="Number of concurrent workers used to enrich candidates (default: 10).",
+    )
 
     # -- Fine-Tuning arguments -----------------------------------------------
     ft_group = parser.add_argument_group("Fine-Tuning", "Optional filters to refine recommendations.")

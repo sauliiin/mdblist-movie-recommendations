@@ -3,85 +3,34 @@ document.addEventListener('DOMContentLoaded', () => {
   const terminalOutput = document.getElementById('terminal-output');
   const executeBtn = document.getElementById('execute-btn');
 
-  // Multi-select Logic
+  // Genre toggle grid
   const ALL_GENRES = ["Action", "Animation", "Biography", "Adventure", "Anime", "Children", "Comedy", "Crime", "Documentary", "Drama", "Family", "Fantasy", "History", "Horror", "Kids", "Musical", "Mystery", "Romance", "Sci-Fi", "Science Fiction", "Short", "Sport", "Superhero", "Suspense", "Thriller", "TV Movie", "War", "Western"];
   let selectedGenres = [];
 
-  const genreSearch = document.getElementById('genre-search');
-  const genreDropdown = document.getElementById('genre-dropdown');
-  const selectedGenresTags = document.getElementById('selected-genres-tags');
+  const genreGrid = document.getElementById('genre-grid');
 
-  function renderDropdown(filterText = '') {
-    genreDropdown.innerHTML = '';
-    const availableGenres = ALL_GENRES.filter(g => !selectedGenres.includes(g) && g.toLowerCase().includes(filterText.toLowerCase()));
-    
-    availableGenres.forEach(genre => {
-      const item = document.createElement('div');
-      item.className = 'dropdown-item';
-      item.textContent = genre;
-      item.addEventListener('click', () => {
-        addGenre(genre);
-        genreSearch.value = '';
-        renderDropdown();
-        genreSearch.focus();
-      });
-      genreDropdown.appendChild(item);
-    });
-
-    if (availableGenres.length === 0) {
-      const item = document.createElement('div');
-      item.className = 'dropdown-item';
-      item.textContent = 'No matching genres';
-      item.style.pointerEvents = 'none';
-      item.style.color = 'var(--text-dim)';
-      genreDropdown.appendChild(item);
-    }
-  }
-
-  function renderTags() {
-    selectedGenresTags.innerHTML = '';
-    selectedGenres.forEach(genre => {
-      const tag = document.createElement('div');
-      tag.className = 'cyber-tag';
-      tag.innerHTML = `<span>${genre}</span><span class="tag-remove">&times;</span>`;
-      
-      tag.querySelector('.tag-remove').addEventListener('click', (e) => {
-        e.stopPropagation();
-        removeGenre(genre);
-      });
-      
-      selectedGenresTags.appendChild(tag);
+  function renderGenreGrid() {
+    genreGrid.innerHTML = '';
+    ALL_GENRES.forEach(genre => {
+      const isSelected = selectedGenres.includes(genre);
+      const chip = document.createElement('div');
+      chip.className = 'genre-chip' + (isSelected ? ' selected' : '');
+      chip.innerHTML = `<span>${genre}</span>` + (isSelected ? '<span class="chip-mark">&times;</span>' : '');
+      chip.addEventListener('click', () => toggleGenre(genre));
+      genreGrid.appendChild(chip);
     });
   }
 
-  function addGenre(genre) {
-    if (!selectedGenres.includes(genre)) {
+  function toggleGenre(genre) {
+    if (selectedGenres.includes(genre)) {
+      selectedGenres = selectedGenres.filter(g => g !== genre);
+    } else {
       selectedGenres.push(genre);
-      renderTags();
     }
+    renderGenreGrid();
   }
 
-  function removeGenre(genre) {
-    selectedGenres = selectedGenres.filter(g => g !== genre);
-    renderTags();
-    renderDropdown(genreSearch.value);
-  }
-
-  genreSearch.addEventListener('focus', () => {
-    renderDropdown(genreSearch.value);
-    genreDropdown.classList.add('active');
-  });
-
-  genreSearch.addEventListener('input', (e) => {
-    renderDropdown(e.target.value);
-    genreDropdown.classList.add('active');
-  });
-
-  document.addEventListener('click', (e) => {
-    if (!e.target.closest('#genre-select-group')) {
-      genreDropdown.classList.remove('active');
-    }
-  });
+  renderGenreGrid();
 
   // Field Validation Logic
   const imdbInputs = [document.getElementById('imdb-min'), document.getElementById('imdb-max')];
@@ -216,50 +165,68 @@ document.addEventListener('DOMContentLoaded', () => {
       body: JSON.stringify(payload)
     })
     .then(res => {
+      if (res.status === 409) {
+        throw new Error('A job is already running on the server.');
+      }
       if (!res.ok) throw new Error('Server returned ' + res.status);
       return res.json();
     })
-    .then(data => {
-      if (data.output) {
-        const lines = data.output.split('\n');
-        lines.forEach(l => {
-          if (l.trim()) addLog(l, 'info');
-        });
-      }
-      
-      if (data.error) {
-        const errLines = data.error.split('\n');
-        errLines.forEach(l => {
-          if (l.trim()) addLog(l, 'error');
-        });
-      }
-      
-      if (data.success) {
-        addLog(`\n[ SUCCESS ] Sequence completed successfully.`, 'success');
-      } else {
-        addLog(`\n[ ERROR ] Sequence failed.`, 'error');
-      }
-      
-      // Show real chosen movies from the report
-      if (data.movies && data.movies.length > 0) {
-        addLog(`\n[ CHOSEN MOVIES — ${data.movies.length} items ]`, 'warning');
-        data.movies.forEach(m => {
-          addLog(`${m.title} (${m.year}) - ${m.genre}`, 'info');
-        });
-        addLog('');
-      } else {
-        addLog(`\n[ CHOSEN MOVIES ] No movies returned.`, 'warning');
-      }
-      
+    .then(() => {
+      addLog(`Job started. Streaming live output...`, 'sys');
+      pollStatus();
     })
     .catch(err => {
       addLog(`[ERROR] Failed to communicate with server: ${err.message}`, 'error');
       addLog('Are you sure the Python server (server.py) is running?', 'warning');
-    })
-    .finally(() => {
-      // Re-enable button
       executeBtn.disabled = false;
       executeBtn.style.opacity = '1';
     });
   });
+
+  // Poll the backend for incremental log lines while the job is running
+  let offset = 0;
+  function pollStatus() {
+    fetch(`/api/status?offset=${offset}`)
+      .then(res => {
+        if (!res.ok) throw new Error('Server returned ' + res.status);
+        return res.json();
+      })
+      .then(data => {
+        data.log.forEach(line => {
+          if (line.trim()) addLog(line, 'info');
+        });
+        offset = data.total;
+
+        if (data.running) {
+          setTimeout(pollStatus, 1000);
+          return;
+        }
+
+        // Job finished
+        if (data.success) {
+          addLog(`\n[ SUCCESS ] Sequence completed successfully.`, 'success');
+        } else {
+          addLog(`\n[ ERROR ] Sequence failed.`, 'error');
+        }
+
+        if (data.movies && data.movies.length > 0) {
+          addLog(`\n[ CHOSEN MOVIES — ${data.movies.length} items ]`, 'warning');
+          data.movies.forEach(m => {
+            addLog(`${m.title} (${m.year}) - ${m.genre}`, 'info');
+          });
+          addLog('');
+        } else {
+          addLog(`\n[ CHOSEN MOVIES ] No movies returned.`, 'warning');
+        }
+
+        offset = 0;
+        executeBtn.disabled = false;
+        executeBtn.style.opacity = '1';
+      })
+      .catch(err => {
+        addLog(`[ERROR] Lost connection while polling: ${err.message}`, 'error');
+        executeBtn.disabled = false;
+        executeBtn.style.opacity = '1';
+      });
+  }
 });

@@ -80,6 +80,7 @@ python3 recommended_for_jedi.py \
 | `--imdb-min` | float | 5.2 | Minimum IMDB rating |
 | `--imdb-max` | float | *(no limit)* | Maximum IMDB rating |
 | `--imdb-min-votes` | int | 1 000 | Minimum IMDB vote count |
+| `--workers` | int | 10 | Concurrent workers used to enrich candidates via the MDBList API. Higher values speed things up but risk hitting the API's rate limiter (values above ~15 have been observed to trigger `HTTP 503: API Rate Limiter Reached!`, which is retried automatically with backoff but slows things down again). |
 
 ## What It Does
 
@@ -91,7 +92,6 @@ python3 recommended_for_jedi.py \
   - `mestreyodarossi/lastest-movie-releases`
   - `mestreyodarossi/combina-com-voce`
   - `mestreyodarossi/surprise-me`
-  - `mestreyodarossi/fast-horror`
 - Builds a candidate pool from your MDBList lists, the MDBList catalog, keyword
   pages, and search.
 - Filters candidates by IMDb rating/votes and runtime.

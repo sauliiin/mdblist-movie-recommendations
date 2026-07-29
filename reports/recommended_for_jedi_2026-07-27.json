@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-07-27T15:20:24+00:00",
+  "seed": "2026-07-27",
+  "dry_run": false,
+  "fine_tuning": {
+    "excluded_genres": [
+      "Action",
+      "Animation",
+      "Biography",
+      "Adventure",
+      "Anime",
+      "Children",
+      "Comedy",
+      "Crime",
+      "Documentary",
+      "Drama",
+      "Family",
+      "Fantasy",
+      "History",
+      "Kids",
+      "Musical",
+      "Mystery",
+      "Romance",
+      "Short",
+      "Sport",
+      "Superhero",
+      "Suspense",
+      "Thriller",
+      "TV Movie",
+      "War",
+      "Western"
+    ],
+    "excluded_keywords": [],
+    "excluded_actors": [
+      "Nicolas Cage"
+    ],
+    "imdb_min": 6.2,
+    "imdb_max": null,
+    "imdb_min_votes": 2000,
+    "effective_imdb_min": 6.2,
+    "effective_imdb_max": null,
+    "effective_imdb_min_votes": 2000,
+    "year_min": 2018,
+    "year_max": null
+  },
+  "errors": [
+    "Only 2 valid candidates; refusing to update."
+  ]
+}
