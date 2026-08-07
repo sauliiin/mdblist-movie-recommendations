@@ -209,6 +209,10 @@ document.addEventListener('DOMContentLoaded', () => {
           addLog(`\n[ ERROR ] Sequence failed.`, 'error');
         }
 
+        if (data.warnings && data.warnings.length > 0) {
+          data.warnings.forEach(w => addLog(`\n[ ALERTA ] ${w}`, 'warning'));
+        }
+
         if (data.movies && data.movies.length > 0) {
           addLog(`\n[ CHOSEN MOVIES — ${data.movies.length} items ]`, 'warning');
           data.movies.forEach(m => {

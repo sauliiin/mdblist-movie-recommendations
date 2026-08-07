@@ -15,12 +15,14 @@ JOB = {
     "log": [],
     "success": None,
     "movies": [],
+    "warnings": [],
     "command": "",
 }
 
 
 def collect_movies():
     movies = []
+    warnings = []
     report_files = sorted(glob.glob("reports/recommended_for_jedi_*.json"))
     for rpath in reversed(report_files):
         try:
@@ -36,10 +38,11 @@ def collect_movies():
                     "year": m.get("year", "?"),
                     "genre": genres[0] if genres else "N/A"
                 })
+            warnings = report.get("warnings", [])
             break
         except Exception:
             continue
-    return movies
+    return movies, warnings
 
 
 def run_job(command):
@@ -48,6 +51,7 @@ def run_job(command):
         JOB["log"] = []
         JOB["success"] = None
         JOB["movies"] = []
+        JOB["warnings"] = []
         JOB["command"] = " ".join(command)
 
     proc = subprocess.Popen(
@@ -64,11 +68,12 @@ def run_job(command):
     proc.stdout.close()
     returncode = proc.wait()
 
-    movies = collect_movies()
+    movies, warnings = collect_movies()
     with JOB_LOCK:
         JOB["running"] = False
         JOB["success"] = returncode == 0
         JOB["movies"] = movies
+        JOB["warnings"] = warnings
 
 
 class Handler(http.server.SimpleHTTPRequestHandler):
@@ -89,6 +94,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
                     "running": JOB["running"],
                     "success": JOB["success"],
                     "movies": JOB["movies"] if not JOB["running"] else [],
+                    "warnings": JOB["warnings"] if not JOB["running"] else [],
                     "command": JOB["command"],
                 }
             self.send_response(200)

@@ -347,7 +347,19 @@ class MDBListClient:
                     continue
                 raise MDBListError(f"{method} {path} failed: HTTP {exc.code}: {error_body}") from exc
             except urllib.error.URLError as exc:
+                # Timeout de conexao chega embrulhado em URLError; vale retentar.
+                if isinstance(exc.reason, TimeoutError) and attempt < max_retries:
+                    time.sleep(backoff)
+                    backoff = min(backoff * 2, 30.0)
+                    continue
                 raise MDBListError(f"{method} {path} failed: {exc}") from exc
+            except TimeoutError as exc:
+                # Timeout de leitura sobe cru, fora de URLError.
+                if attempt < max_retries:
+                    time.sleep(backoff)
+                    backoff = min(backoff * 2, 30.0)
+                    continue
+                raise MDBListError(f"{method} {path} failed: read timeout apos {max_retries + 1} tentativas") from exc
             finally:
                 if self.sleep:
                     time.sleep(self.sleep)
@@ -1184,6 +1196,7 @@ def main(argv: list[str] | None = None) -> int:
         "seed": args.seed,
         "dry_run": args.dry_run,
         "fine_tuning": fine_tuning.to_dict(),
+        "warnings": [],
         "errors": [],
     }
 
@@ -1247,13 +1260,13 @@ def main(argv: list[str] | None = None) -> int:
             args,
             fine_tuning,
         )
-        if len(ranked) < TARGET_SIZE:
-            raise MDBListError(f"Only {len(ranked)} valid candidates; refusing to update.")
+        if not ranked:
+            raise MDBListError("Nenhum candidato valido; recusando atualizar.")
 
         log_step("Selecionando alvo final com regras de estabilidade")
         target, target_summary = choose_target(ranked, current_items, excluded_identities)
-        if len(target) < TARGET_SIZE:
-            raise MDBListError(f"Only {len(target)} target movies after stability rules; refusing to update.")
+        if not target:
+            raise MDBListError("Nenhum filme no alvo apos as regras de estabilidade; recusando atualizar.")
 
         if target_list is None:
             log_step("Garantindo criacao da lista alvo")
@@ -1263,6 +1276,26 @@ def main(argv: list[str] | None = None) -> int:
         target_tmdb = {normalize_ids(row["movie"]).tmdb for row in target if normalize_ids(row["movie"]).tmdb is not None}
         to_add = sorted(target_tmdb - current_tmdb)
         to_remove = sorted(current_tmdb - target_tmdb)
+
+        # Candidatos escassos: troca so o que da para repor. Remove tantos filmes
+        # atuais quantos forem os novos (os mais antigos primeiro) e preserva o
+        # resto da lista, em vez de encolhe-la ate o tamanho do alvo.
+        if len(ranked) < TARGET_SIZE:
+            if len(to_remove) > len(to_add):
+                position_by_tmdb: dict[int, int] = {}
+                for position, item in enumerate(current_items):
+                    tmdb = normalize_ids(item).tmdb
+                    if tmdb is not None:
+                        position_by_tmdb.setdefault(tmdb, position)
+                oldest_first = sorted(to_remove, key=lambda tmdb: position_by_tmdb.get(tmdb, 0))
+                to_remove = sorted(oldest_first[: len(to_add)])
+            warning = (
+                f"Só {len(to_add)} candidatos encontrados e adicionados "
+                f"(o alvo é {TARGET_SIZE}); os demais filmes da lista foram preservados."
+            )
+            log_step(f"[AVISO] {warning}")
+            report["warnings"].append(warning)
+
         log_step(f"Delta calculado: adicionar={len(to_add)} remover={len(to_remove)}")
 
         write_result = None
@@ -1292,7 +1325,7 @@ def main(argv: list[str] | None = None) -> int:
                 "delta": {
                     "to_add": to_add,
                     "to_remove": to_remove,
-                    "kept": sorted(current_tmdb & target_tmdb),
+                    "kept": sorted(current_tmdb - set(to_remove)),
                 },
                 "write_result": write_result,
                 "recommendations": [public_movie_row(row) for row in target],
@@ -1304,7 +1337,9 @@ def main(argv: list[str] | None = None) -> int:
         log_step("Processamento concluido com sucesso")
         print(f"Recommended for Jedi {'dry-run ' if args.dry_run else ''}complete.")
         print(f"Watched: {len(watched_items)} | Candidates: {len(candidates)} | Valid ranked: {len(ranked)}")
-        print(f"Add: {len(to_add)} | Remove: {len(to_remove)} | Keep: {len(current_tmdb & target_tmdb)}")
+        print(f"Add: {len(to_add)} | Remove: {len(to_remove)} | Keep: {len(current_tmdb - set(to_remove))}")
+        for warning in report["warnings"]:
+            print(f"Aviso: {warning}")
         print(f"Report: {report_path}")
         return 0
     except Exception as exc:

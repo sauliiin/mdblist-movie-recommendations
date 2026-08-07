@@ -1,0 +1,5082 @@
+{
+  "generated_at": "2026-08-01T14:41:08+00:00",
+  "seed": "2026-08-01",
+  "dry_run": false,
+  "fine_tuning": {
+    "excluded_genres": [
+      "Action",
+      "Animation",
+      "Biography",
+      "Adventure",
+      "Anime",
+      "Children",
+      "Comedy",
+      "Documentary",
+      "Fantasy",
+      "History",
+      "Kids",
+      "Musical",
+      "Romance",
+      "Short",
+      "Sport",
+      "Superhero",
+      "TV Movie",
+      "War",
+      "Western"
+    ],
+    "excluded_keywords": [],
+    "excluded_actors": [
+      "Nicolas Cage"
+    ],
+    "imdb_min": 6.8,
+    "imdb_max": null,
+    "imdb_min_votes": 1500,
+    "effective_imdb_min": 6.8,
+    "effective_imdb_max": null,
+    "effective_imdb_min_votes": 1500,
+    "year_min": 2016,
+    "year_max": null
+  },
+  "warnings": [
+    "Só 51 candidatos encontrados e adicionados (o alvo é 100); os demais filmes da lista foram preservados."
+  ],
+  "errors": [],
+  "source_list": {
+    "username": "mestreyodarossi",
+    "slug": "last-watched",
+    "watched_count": 481
+  },
+  "blocked_lists": {
+    "username": "mestreyodarossi",
+    "slugs": [
+      "combina-com-voce",
+      "lastest-movie-releases",
+      "surprise-me",
+      "trending-movies"
+    ],
+    "counts": {
+      "combina-com-voce": 447,
+      "lastest-movie-releases": 150,
+      "surprise-me": 450,
+      "trending-movies": 240
+    },
+    "excluded_identities": 1287
+  },
+  "target_list": {
+    "id": 192140,
+    "user_id": 50394,
+    "user_name": "mestreyodarossi",
+    "name": "Recommended for Jedi",
+    "slug": "recommended-for-jedi",
+    "description": null,
+    "mediatype": null,
+    "items": 100,
+    "likes": 0,
+    "type": "static",
+    "dynamic": false,
+    "private": false,
+    "ranked": 0,
+    "last_updated_at": "2026-08-01T14:40:10.964Z",
+    "refreshed_at": null,
+    "next_update_at": null,
+    "status": 11,
+    "added_items": null,
+    "removed_items": null
+  },
+  "profile": {
+    "generated_from": [
+      {
+        "title": "Leviticus",
+        "year": 2026,
+        "tmdb": 1564614
+      },
+      {
+        "title": "Dracula",
+        "year": 2025,
+        "tmdb": 1246049
+      },
+      {
+        "title": "Colony",
+        "year": 2026,
+        "tmdb": 1375646
+      },
+      {
+        "title": "Project Hail Mary",
+        "year": 2026,
+        "tmdb": 687163
+      },
+      {
+        "title": "Mystic River",
+        "year": 2003,
+        "tmdb": 322
+      },
+      {
+        "title": "Supergirl",
+        "year": 2026,
+        "tmdb": 1081003
+      },
+      {
+        "title": "Disclosure Day",
+        "year": 2026,
+        "tmdb": 1275779
+      }
+    ],
+    "keyword_weights": {
+      "blood": 5,
+      "escape": 5,
+      "chase": 4,
+      "crying": 4,
+      "fight": 4,
+      "snow": 4,
+      "vomiting": 4,
+      "alien": 3,
+      "alien-language": 3,
+      "ambush": 3,
+      "attack": 3,
+      "bar": 3,
+      "blockbuster": 3,
+      "corpse": 3,
+      "death": 3,
+      "explosion": 3,
+      "extraterrestrial": 3,
+      "fear": 3,
+      "flashback": 3,
+      "gun": 3,
+      "interrogation": 3,
+      "knife": 3,
+      "laboratory": 3,
+      "montage": 3,
+      "near-death-experience": 3,
+      "panic": 3,
+      "priest": 3,
+      "scientist": 3,
+      "stabbing": 3,
+      "sunglasses": 3,
+      "supernatural-power": 3,
+      "surprise-ending": 3,
+      "tragic-event": 3,
+      "alien-contact": 2,
+      "alien-planet": 2,
+      "alien-race": 2,
+      "attempted-murder": 2,
+      "based-on-novel-or-book": 2,
+      "battle": 2,
+      "beaten-to-death": 2,
+      "beer": 2,
+      "biting": 2,
+      "blood-splatter": 2,
+      "boyfriend-girlfriend-relationship": 2,
+      "car": 2,
+      "car-crash": 2,
+      "cell-phone": 2,
+      "character-repeats-someone-else-s-dialogue": 2,
+      "church": 2,
+      "cigarette-lighter": 2,
+      "city": 2,
+      "coffin": 2,
+      "common-sense-selection": 2,
+      "convent": 2,
+      "crossbow": 2,
+      "crucifix": 2,
+      "crying-a-single-tear": 2,
+      "crying-man": 2,
+      "crystal": 2,
+      "danger": 2,
+      "dead-body": 2,
+      "deception": 2,
+      "doctor": 2,
+      "dog": 2,
+      "dress": 2,
+      "drinking": 2,
+      "epic": 2,
+      "extraterrestrial-life": 2,
+      "family-relationships": 2,
+      "father-daughter-relationship": 2,
+      "female-doctor": 2,
+      "fireworks": 2,
+      "glowing-eyes": 2,
+      "government-agent": 2,
+      "grief": 2,
+      "held-at-gunpoint": 2,
+      "henchman": 2,
+      "hologram": 2,
+      "hugging": 2,
+      "kicked-in-the-face": 2,
+      "kidnapping": 2,
+      "knocked-unconscious": 2,
+      "laptop-computer": 2,
+      "laughter": 2,
+      "loss-of-loved-one": 2,
+      "love": 2,
+      "male-female-relationship": 2,
+      "male-protagonist": 2,
+      "mathematics": 2,
+      "memory": 2,
+      "moral-dilemma": 2,
+      "murder": 2,
+      "nun": 2,
+      "outer-space": 2,
+      "paranoia": 2,
+      "perfume": 2,
+      "photograph": 2,
+      "pistol": 2,
+      "planet": 2,
+      "police": 2,
+      "psychotronic-film": 2,
+      "race-against-time": 2,
+      "rain": 2,
+      "rescue": 2,
+      "revenge": 2,
+      "rooftop": 2,
+      "ship": 2,
+      "shooting": 2,
+      "shot-in-the-chest": 2,
+      "shot-in-the-head": 2,
+      "singing": 2,
+      "snowing": 2,
+      "space": 2,
+      "space-alien": 2,
+      "space-travel": 2,
+      "spacecraft": 2,
+      "spaceship": 2,
+      "spacesuit": 2,
+      "stabbed-in-the-stomach": 2,
+      "stabbed-to-death": 2,
+      "subtitled-scene": 2,
+      "surrealism": 2,
+      "survival": 2,
+      "sword": 2,
+      "tattoo": 2,
+      "telepathy": 2,
+      "telephone-call": 2,
+      "title-spoken-by-character": 2,
+      "top-secret": 2,
+      "tv-news": 2,
+      "underwater-scene": 2,
+      "vengeance": 2,
+      "violence": 2,
+      "warrior": 2,
+      "zero-gravity": 2
+    },
+    "keyword_ids": {
+      "priest": 1310,
+      "male-protagonist": 41158,
+      "blood": 295390,
+      "loss-of-loved-one": 297111,
+      "warrior": 295825,
+      "love": 295203,
+      "escape": 295855,
+      "crucifix": 295955,
+      "death": 295372,
+      "fireworks": 295500,
+      "stabbing": 296687,
+      "blood-splatter": 295854,
+      "gun": 295895,
+      "coffin": 295309,
+      "supernatural-power": 295849,
+      "ambush": 295696,
+      "snow": 295911,
+      "church": 295951,
+      "drinking": 295319,
+      "stabbed-in-the-stomach": 44984,
+      "sword": 295729,
+      "laughter": 298088,
+      "crying-a-single-tear": 192934,
+      "snowing": 19010,
+      "rain": 295754,
+      "dress": 15004,
+      "vomiting": 295301,
+      "crying": 295409,
+      "crying-man": 13589,
+      "perfume": 13435,
+      "attack": 295724,
+      "fight": 295220,
+      "shooting": 296233,
+      "nun": 297482,
+      "knocked-unconscious": 34170,
+      "stabbed-to-death": 295857,
+      "crossbow": 297351,
+      "male-female-relationship": 295515,
+      "battle": 295707,
+      "shot-in-the-chest": 44285,
+      "convent": 18288,
+      "scientist": 297238,
+      "survival": 295927,
+      "telephone-call": 295308,
+      "cell-phone": 295612,
+      "laboratory": 296641,
+      "car-crash": 296102,
+      "cigarette-lighter": 44769,
+      "police": 295335,
+      "rooftop": 296441,
+      "biting": 18496,
+      "knife": 295805,
+      "telepathy": 300353,
+      "space": 297515,
+      "outer-space": 295873,
+      "space-travel": 297512,
+      "alien": 297501,
+      "alien-language": 12177,
+      "hologram": 17481,
+      "montage": 15018,
+      "planet": 297508,
+      "psychotronic-film": 295726,
+      "subtitled-scene": 45191,
+      "explosion": 295793,
+      "moral-dilemma": 297254,
+      "surprise-ending": 295859,
+      "crystal": 300503,
+      "surrealism": 295846,
+      "top-secret": 297742,
+      "alien-planet": 297507,
+      "laptop-computer": 295613,
+      "government-agent": 296446,
+      "zero-gravity": 25483,
+      "flashback": 295224,
+      "mathematics": 299091,
+      "alien-race": 297506,
+      "spacecraft": 297502,
+      "spacesuit": 26150,
+      "title-spoken-by-character": 44401,
+      "sunglasses": 296608,
+      "corpse": 295756,
+      "near-death-experience": 296421,
+      "extraterrestrial": 297823,
+      "singing": 296936,
+      "spaceship": 295867,
+      "doctor": 295406,
+      "alien-contact": 300322,
+      "panic": 295828,
+      "chase": 295853,
+      "dead-body": 295475,
+      "blockbuster": 297228,
+      "character-repeats-someone-else-s-dialogue": 46409,
+      "female-doctor": 32120,
+      "bar": 296134,
+      "memory": 295902,
+      "fear": 295815,
+      "tv-news": 295621,
+      "ship": 295665,
+      "tattoo": 295698,
+      "hugging": 18193,
+      "extraterrestrial-life": 301296,
+      "space-alien": 82507,
+      "epic": 297556,
+      "common-sense-selection": 339724,
+      "based-on-novel-or-book": 91,
+      "underwater-scene": 295649,
+      "vengeance": 711,
+      "tragic-event": 296652,
+      "kidnapping": 295360,
+      "violence": 295395,
+      "murder": 295374,
+      "shot-in-the-head": 44553,
+      "beer": 295316,
+      "pistol": 44256,
+      "dog": 295844,
+      "photograph": 295240,
+      "interrogation": 295774,
+      "car": 296799,
+      "kicked-in-the-face": 47287,
+      "grief": 295223,
+      "family-relationships": 295210,
+      "boyfriend-girlfriend-relationship": 295606,
+      "beaten-to-death": 11823,
+      "revenge": 295387,
+      "father-daughter-relationship": 295274,
+      "city": 295554,
+      "henchman": 295748,
+      "glowing-eyes": 40520,
+      "rescue": 295262,
+      "attempted-murder": 296611,
+      "held-at-gunpoint": 295638,
+      "danger": 43170,
+      "paranoia": 295757,
+      "race-against-time": 296422,
+      "deception": 295721
+    },
+    "daily_keywords": [
+      "beaten-to-death",
+      "blockbuster",
+      "corpse",
+      "dress",
+      "explosion",
+      "government-agent",
+      "grief",
+      "interrogation",
+      "kidnapping",
+      "laboratory",
+      "laptop-computer",
+      "memory",
+      "moral-dilemma",
+      "priest",
+      "rescue",
+      "scientist",
+      "ship",
+      "shooting",
+      "snow",
+      "snowing",
+      "spacesuit",
+      "subtitled-scene",
+      "surprise-ending",
+      "survival",
+      "title-spoken-by-character",
+      "warrior",
+      "zero-gravity"
+    ],
+    "genre_weights": {
+      "Drama": 4,
+      "Action": 3,
+      "Adventure": 3,
+      "Horror": 3,
+      "Science Fiction": 3,
+      "Thriller": 3,
+      "Crime": 2,
+      "Mystery": 2,
+      "Romance": 2,
+      "Comedy": 1,
+      "Fantasy": 1,
+      "Sci-Fi": 1,
+      "Superhero": 1
+    },
+    "certification_weights": {
+      "R": 4,
+      "PG-13": 3
+    },
+    "country_weights": {
+      "au": 1,
+      "fr": 1,
+      "kr": 1,
+      "us": 4
+    },
+    "imdb_mean": 6.9714285714285715,
+    "imdb_std": 0.7401047912564924,
+    "imdb_votes_median": 50216.0,
+    "years": [
+      2026.0,
+      2025.0,
+      2026.0,
+      2026.0,
+      2003.0,
+      2026.0,
+      2026.0
+    ],
+    "year_mean": 2022.5714285714287,
+    "runtimes": [
+      88.0,
+      130.0,
+      123.0,
+      157.0,
+      138.0,
+      108.0,
+      146.0
+    ],
+    "runtime_mean": 127.14285714285714,
+    "age_ratings": [
+      16.0,
+      15.0,
+      17.0,
+      12.0,
+      17.0,
+      12.0,
+      13.0
+    ],
+    "age_mean": 14.571428571428571
+  },
+  "candidate_stats": {
+    "raw_candidates": 6891,
+    "enriched": 3000,
+    "filtered": 2915,
+    "errors": 0,
+    "current_count": 100,
+    "target_count": 85,
+    "preserved_count": 34,
+    "to_add_count": 51,
+    "to_remove_count": 66,
+    "invalid_current_count": 66,
+    "minimum_swaps": 50,
+    "kept_count": 34
+  },
+  "delta": {
+    "to_add": [
+      293670,
+      329865,
+      334541,
+      348668,
+      372226,
+      374473,
+      375315,
+      376867,
+      390497,
+      394374,
+      394684,
+      411088,
+      419430,
+      423333,
+      428495,
+      429174,
+      429200,
+      447332,
+      451945,
+      458737,
+      470044,
+      479226,
+      507076,
+      515224,
+      517331,
+      522369,
+      585261,
+      590854,
+      599672,
+      613703,
+      637920,
+      663260,
+      672208,
+      758866,
+      788977,
+      803700,
+      833417,
+      889699,
+      890980,
+      901563,
+      916405,
+      957926,
+      962558,
+      976893,
+      978870,
+      1166133,
+      1249423,
+      1278263,
+      1351908,
+      1356670,
+      1456349
+    ],
+    "to_remove": [
+      324857,
+      348350,
+      370172,
+      400535,
+      417466,
+      438674,
+      442065,
+      451657,
+      454227,
+      458156,
+      475094,
+      477428,
+      487242,
+      499932,
+      500006,
+      506528,
+      522241,
+      528949,
+      531876,
+      542928,
+      545609,
+      556984,
+      570661,
+      573730,
+      575452,
+      577922,
+      583794,
+      586810,
+      586863,
+      587030,
+      603692,
+      606523,
+      607430,
+      615457,
+      617653,
+      619264,
+      637534,
+      646097,
+      656968,
+      717192,
+      724495,
+      829280,
+      842924,
+      852046,
+      913290,
+      915935,
+      929590,
+      944401,
+      945961,
+      1084199,
+      1241983
+    ],
+    "kept": [
+      401469,
+      458723,
+      491584,
+      493922,
+      505192,
+      526477,
+      559969,
+      567410,
+      567797,
+      571648,
+      574396,
+      576845,
+      615643,
+      653712,
+      682152,
+      756999,
+      776821,
+      785084,
+      793998,
+      797457,
+      809970,
+      826796,
+      838209,
+      912480,
+      933260,
+      938614,
+      963568,
+      980489,
+      985354,
+      986056,
+      998022,
+      1008042,
+      1008048,
+      1029281,
+      1047020,
+      1050035,
+      1088166,
+      1114513,
+      1118224,
+      1138194,
+      1151031,
+      1151272,
+      1155828,
+      1193128,
+      1233413,
+      1241436,
+      1307373,
+      1340206,
+      1419406
+    ]
+  },
+  "write_result": {
+    "added_batches": [
+      {
+        "added": {
+          "movies": 51,
+          "shows": 0,
+          "seasons": 0,
+          "episodes": 0
+        },
+        "existing": {
+          "movies": 0,
+          "shows": 0,
+          "seasons": 0,
+          "episodes": 0
+        },
+        "not_found": {
+          "movies": 0,
+          "shows": 0,
+          "seasons": 0,
+          "episodes": 0
+        },
+        "trakt_sync_queued": {
+          "movies": 0,
+          "shows": 0,
+          "seasons": 0,
+          "episodes": 0
+        }
+      }
+    ],
+    "removed_batches": [
+      {
+        "removed": {
+          "movies": 51,
+          "shows": 0,
+          "seasons": 0,
+          "episodes": 0
+        },
+        "not_found": {
+          "movies": 0,
+          "shows": 0,
+          "seasons": 0,
+          "episodes": 0
+        },
+        "trakt_sync_queued": {
+          "movies": 0,
+          "shows": 0,
+          "seasons": 0,
+          "episodes": 0
+        }
+      }
+    ],
+    "dry_run": false
+  },
+  "recommendations": [
+    {
+      "title": "Debi",
+      "year": 2018,
+      "ids": {
+        "tmdb": 526477,
+        "imdb": "tt6520954",
+        "mdblist": "1dr3"
+      },
+      "score": 0.302776,
+      "imdb_value": 7.7,
+      "imdb_votes": 5531,
+      "runtime": 107,
+      "genres": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "country": "bd",
+      "certification": "NR",
+      "age_rating": null,
+      "matched_keywords": [],
+      "matched_genres": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "score_components": {
+        "keywords": 0.0,
+        "genres": 0.62069,
+        "imdb": 0.995242,
+        "year": 0.244496,
+        "runtime": 0.389887,
+        "age_certification": 0.0,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": -0.014593
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies"
+      ]
+    },
+    {
+      "title": "System Crasher",
+      "year": 2019,
+      "ids": {
+        "tmdb": 567410,
+        "imdb": "tt8535968",
+        "mdblist": "19xi"
+      },
+      "score": 0.433029,
+      "imdb_value": 7.8,
+      "imdb_votes": 16717,
+      "runtime": 118,
+      "genres": [
+        "Drama"
+      ],
+      "country": "de",
+      "certification": "15",
+      "age_rating": 13,
+      "matched_keywords": [
+        "blood",
+        "chase",
+        "crying",
+        "doctor",
+        "dog",
+        "escape",
+        "fear",
+        "female-doctor",
+        "fight",
+        "photograph",
+        "police",
+        "telephone-call",
+        "violence"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.375,
+        "genres": 0.275862,
+        "imdb": 0.961663,
+        "year": 0.284911,
+        "runtime": 0.445653,
+        "age_certification": 0.356716,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": 0.007863
+      },
+      "sources": [
+        "user_list:best-ever",
+        "user_list:cant-go-wrong-movies"
+      ]
+    },
+    {
+      "title": "Last Night in Soho",
+      "year": 2021,
+      "ids": {
+        "tmdb": 576845,
+        "imdb": "tt9639470",
+        "mdblist": "1ea0"
+      },
+      "score": 0.600895,
+      "imdb_value": 7.0,
+      "imdb_votes": 200739,
+      "runtime": 117,
+      "genres": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "country": "GB",
+      "certification": "R",
+      "age_rating": 16,
+      "matched_keywords": [
+        "ambush",
+        "attempted-murder",
+        "bar",
+        "blood-splatter",
+        "cell-phone",
+        "character-repeats-someone-else-s-dialogue",
+        "corpse",
+        "deception",
+        "escape",
+        "fear",
+        "flashback",
+        "laughter",
+        "murder",
+        "near-death-experience",
+        "panic",
+        "paranoia",
+        "psychotronic-film",
+        "race-against-time",
+        "revenge",
+        "singing",
+        "stabbed-to-death",
+        "surprise-ending",
+        "vengeance"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "score_components": {
+        "keywords": 0.548077,
+        "genres": 0.62069,
+        "imdb": 0.999523,
+        "year": 0.390885,
+        "runtime": 0.437418,
+        "age_certification": 0.575576,
+        "country": 0.0,
+        "daily_bonus": 0.005625,
+        "jitter": 0.000723
+      },
+      "sources": [
+        "catalog:Horror:imdbpopular",
+        "catalog:Horror:imdbvotes",
+        "user_list:cant-go-wrong-movies",
+        "user_list:horror",
+        "user_list:newest-avarege-horor-movies",
+        "user_list:supernatural"
+      ]
+    },
+    {
+      "title": "Minari",
+      "year": 2021,
+      "ids": {
+        "tmdb": 615643,
+        "imdb": "tt10633456",
+        "mdblist": "2198"
+      },
+      "score": 0.403984,
+      "imdb_value": 7.4,
+      "imdb_votes": 126639,
+      "runtime": 115,
+      "genres": [
+        "Drama"
+      ],
+      "country": "us",
+      "certification": "PG-13",
+      "age_rating": 13,
+      "matched_keywords": [
+        "church",
+        "common-sense-selection",
+        "crying-man",
+        "doctor",
+        "family-relationships",
+        "father-daughter-relationship",
+        "fear",
+        "laughter",
+        "memory",
+        "rain",
+        "singing",
+        "telephone-call",
+        "tv-news",
+        "violence"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.278846,
+        "genres": 0.275862,
+        "imdb": 0.917625,
+        "year": 0.390885,
+        "runtime": 0.423645,
+        "age_certification": 0.506716,
+        "country": 0.571429,
+        "daily_bonus": 0.001875,
+        "jitter": -0.015129
+      },
+      "sources": [
+        "user_list:best-ever",
+        "user_list:cant-go-wrong-movies"
+      ]
+    },
+    {
+      "title": "The Whale",
+      "year": 2022,
+      "ids": {
+        "tmdb": 785084,
+        "imdb": "tt13833688",
+        "mdblist": "1wrpc"
+      },
+      "score": 0.340267,
+      "imdb_value": 7.6,
+      "imdb_votes": 306925,
+      "runtime": 117,
+      "genres": [
+        "Drama"
+      ],
+      "country": "us",
+      "certification": "R",
+      "age_rating": 15,
+      "matched_keywords": [
+        "cell-phone",
+        "crying",
+        "crying-man",
+        "father-daughter-relationship",
+        "laptop-computer",
+        "photograph",
+        "tv-news"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.153846,
+        "genres": 0.275862,
+        "imdb": 0.766159,
+        "year": 0.459394,
+        "runtime": 0.437418,
+        "age_certification": 0.570736,
+        "country": 0.571429,
+        "daily_bonus": 0.001875,
+        "jitter": -0.018148
+      },
+      "sources": [
+        "user_list:best-ever",
+        "user_list:cant-go-wrong-movies"
+      ]
+    },
+    {
+      "title": "Happening",
+      "year": 2021,
+      "ids": {
+        "tmdb": 793998,
+        "imdb": "tt13880104",
+        "mdblist": "29esc"
+      },
+      "score": 0.319446,
+      "imdb_value": 7.4,
+      "imdb_votes": 13994,
+      "runtime": 99,
+      "genres": [
+        "Drama"
+      ],
+      "country": "fr",
+      "certification": "R",
+      "age_rating": 17,
+      "matched_keywords": [
+        "crying"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.038462,
+        "genres": 0.275862,
+        "imdb": 0.992068,
+        "year": 0.390885,
+        "runtime": 0.315805,
+        "age_certification": 0.559478,
+        "country": 0.142857,
+        "daily_bonus": 0.0,
+        "jitter": 0.001751
+      },
+      "sources": [
+        "user_list:best-ever",
+        "user_list:cant-go-wrong-movies"
+      ]
+    },
+    {
+      "title": "Help",
+      "year": 2021,
+      "ids": {
+        "tmdb": 826796,
+        "imdb": "tt13649036",
+        "mdblist": "2pzrx"
+      },
+      "score": 0.309489,
+      "imdb_value": 7.6,
+      "imdb_votes": 13708,
+      "runtime": 98,
+      "genres": [
+        "Drama"
+      ],
+      "country": "gb",
+      "certification": "15",
+      "age_rating": 15,
+      "matched_keywords": [
+        "father-daughter-relationship"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.019231,
+        "genres": 0.275862,
+        "imdb": 0.983552,
+        "year": 0.390885,
+        "runtime": 0.309651,
+        "age_certification": 0.370736,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": 0.018569
+      },
+      "sources": [
+        "user_list:best-ever",
+        "user_list:cant-go-wrong-movies"
+      ]
+    },
+    {
+      "title": "National Theatre Live: Prima Facie",
+      "year": 2022,
+      "ids": {
+        "tmdb": 963568,
+        "imdb": "tt21093976",
+        "mdblist": "2w8ne"
+      },
+      "score": 0.339508,
+      "imdb_value": 9.1,
+      "imdb_votes": 3567,
+      "runtime": 114,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "country": "gb",
+      "certification": "15",
+      "age_rating": 15,
+      "matched_keywords": [],
+      "matched_genres": [
+        "Crime",
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.0,
+        "genres": 0.413793,
+        "imdb": 0.981973,
+        "year": 0.459394,
+        "runtime": 0.418078,
+        "age_certification": 0.370736,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": 0.016658
+      },
+      "sources": [
+        "catalog:Drama:score",
+        "catalog:all:score",
+        "catalog:all:score_average",
+        "user_list:cant-go-wrong-movies"
+      ]
+    },
+    {
+      "title": "Sing Sing",
+      "year": 2024,
+      "ids": {
+        "tmdb": 1155828,
+        "imdb": "tt28479262",
+        "mdblist": "34qko"
+      },
+      "score": 0.361836,
+      "imdb_value": 7.6,
+      "imdb_votes": 30094,
+      "runtime": 107,
+      "genres": [
+        "Drama"
+      ],
+      "country": "US",
+      "certification": "R",
+      "age_rating": 15,
+      "matched_keywords": [
+        "based-on-novel-or-book",
+        "common-sense-selection",
+        "death",
+        "laughter"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.086538,
+        "genres": 0.275862,
+        "imdb": 0.950619,
+        "year": 0.637048,
+        "runtime": 0.389887,
+        "age_certification": 0.570736,
+        "country": 0.571429,
+        "daily_bonus": 0.0,
+        "jitter": -0.010838
+      },
+      "sources": [
+        "catalog:Drama:score",
+        "catalog:all:score",
+        "user_list:cant-go-wrong-movies"
+      ]
+    },
+    {
+      "title": "Widows",
+      "year": 2018,
+      "ids": {
+        "tmdb": 401469,
+        "imdb": "tt4218572",
+        "mdblist": "1esh"
+      },
+      "score": 0.700225,
+      "imdb_value": 6.8,
+      "imdb_votes": 109385,
+      "runtime": 129,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "country": "us",
+      "certification": "R",
+      "age_rating": 16,
+      "matched_keywords": [
+        "bar",
+        "beaten-to-death",
+        "blood",
+        "blood-splatter",
+        "car-crash",
+        "coffin",
+        "corpse",
+        "danger",
+        "death",
+        "deception",
+        "dog",
+        "explosion",
+        "family-relationships",
+        "fear",
+        "flashback",
+        "grief",
+        "held-at-gunpoint",
+        "henchman",
+        "interrogation",
+        "loss-of-loved-one",
+        "murder",
+        "panic",
+        "photograph",
+        "pistol",
+        "priest",
+        "race-against-time",
+        "shooting",
+        "shot-in-the-chest",
+        "shot-in-the-head",
+        "stabbed-to-death"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.788462,
+        "genres": 0.62069,
+        "imdb": 0.987478,
+        "year": 0.244496,
+        "runtime": 0.52329,
+        "age_certification": 0.575576,
+        "country": 0.571429,
+        "daily_bonus": 0.016875,
+        "jitter": -0.012342
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies"
+      ]
+    },
+    {
+      "title": "Us",
+      "year": 2019,
+      "ids": {
+        "tmdb": 458723,
+        "imdb": "tt6857112",
+        "mdblist": "19vv"
+      },
+      "score": 0.599797,
+      "imdb_value": 6.8,
+      "imdb_votes": 396087,
+      "runtime": 116,
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "us",
+      "certification": "R",
+      "age_rating": 16,
+      "matched_keywords": [
+        "blood",
+        "blood-splatter",
+        "car",
+        "cell-phone",
+        "chase",
+        "cigarette-lighter",
+        "corpse",
+        "crying",
+        "dead-body",
+        "family-relationships",
+        "father-daughter-relationship",
+        "fear",
+        "fight",
+        "knocked-unconscious",
+        "memory",
+        "murder",
+        "panic",
+        "police",
+        "rescue",
+        "sunglasses",
+        "survival",
+        "tv-news",
+        "violence"
+      ],
+      "matched_genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.567308,
+        "genres": 0.551724,
+        "imdb": 0.979093,
+        "year": 0.284911,
+        "runtime": 0.430087,
+        "age_certification": 0.575576,
+        "country": 0.571429,
+        "daily_bonus": 0.008438,
+        "jitter": -0.000201
+      },
+      "sources": [
+        "catalog:Horror:imdbpopular",
+        "catalog:Horror:imdbvotes",
+        "catalog:Horror:score",
+        "catalog:Thriller:imdbvotes"
+      ]
+    },
+    {
+      "title": "Burning",
+      "year": 2018,
+      "ids": {
+        "tmdb": 491584,
+        "imdb": "tt7282468",
+        "mdblist": "1etz"
+      },
+      "score": 0.596475,
+      "imdb_value": 7.4,
+      "imdb_votes": 86561,
+      "runtime": 148,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "kr",
+      "certification": "NR",
+      "age_rating": 17,
+      "matched_keywords": [
+        "blood",
+        "boyfriend-girlfriend-relationship",
+        "cell-phone",
+        "church",
+        "cigarette-lighter",
+        "crucifix",
+        "crying",
+        "drinking",
+        "fight",
+        "love",
+        "male-female-relationship",
+        "memory",
+        "murder",
+        "rain",
+        "singing",
+        "snow",
+        "snowing",
+        "stabbed-to-death",
+        "stabbing",
+        "telephone-call",
+        "tv-news",
+        "vomiting"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.538462,
+        "genres": 0.758621,
+        "imdb": 0.935055,
+        "year": 0.244496,
+        "runtime": 0.457432,
+        "age_certification": 0.359478,
+        "country": 0.142857,
+        "daily_bonus": 0.0075,
+        "jitter": 0.004837
+      },
+      "sources": [
+        "catalog:Thriller:score",
+        "user_list:cant-go-wrong-movies",
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Hereditary",
+      "year": 2018,
+      "ids": {
+        "tmdb": 493922,
+        "imdb": "tt7784604",
+        "mdblist": "1aud"
+      },
+      "score": 0.648385,
+      "imdb_value": 7.3,
+      "imdb_votes": 462201,
+      "runtime": 128,
+      "genres": [
+        "Drama",
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "US",
+      "certification": "R",
+      "age_rating": 17,
+      "matched_keywords": [
+        "blood",
+        "cell-phone",
+        "coffin",
+        "crying",
+        "crying-man",
+        "danger",
+        "dead-body",
+        "death",
+        "dog",
+        "family-relationships",
+        "father-daughter-relationship",
+        "fear",
+        "grief",
+        "laptop-computer",
+        "loss-of-loved-one",
+        "murder",
+        "photograph",
+        "rain",
+        "supernatural-power",
+        "surprise-ending",
+        "telephone-call",
+        "tragic-event",
+        "violence"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.538462,
+        "genres": 0.827586,
+        "imdb": 0.922952,
+        "year": 0.244496,
+        "runtime": 0.516944,
+        "age_certification": 0.559478,
+        "country": 0.571429,
+        "daily_bonus": 0.006562,
+        "jitter": 0.015875
+      },
+      "sources": [
+        "catalog:Drama:imdbpopular",
+        "catalog:Drama:imdbvotes",
+        "catalog:Horror:imdbpopular",
+        "catalog:Horror:imdbvotes",
+        "catalog:Horror:score",
+        "catalog:Thriller:imdbpopular",
+        "catalog:Thriller:imdbvotes",
+        "catalog:all:imdbpopular"
+      ]
+    },
+    {
+      "title": "The Dry",
+      "year": 2021,
+      "ids": {
+        "tmdb": 567797,
+        "imdb": "tt5144174",
+        "mdblist": "105xx"
+      },
+      "score": 0.512697,
+      "imdb_value": 6.8,
+      "imdb_votes": 41160,
+      "runtime": 117,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "au",
+      "certification": "R",
+      "age_rating": 15,
+      "matched_keywords": [
+        "attempted-murder",
+        "based-on-novel-or-book",
+        "beer",
+        "crying-man",
+        "dead-body",
+        "flashback",
+        "interrogation",
+        "memory",
+        "murder",
+        "singing",
+        "telephone-call",
+        "violence"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.25,
+        "genres": 0.758621,
+        "imdb": 0.994572,
+        "year": 0.390885,
+        "runtime": 0.437418,
+        "age_certification": 0.570736,
+        "country": 0.142857,
+        "daily_bonus": 0.004687,
+        "jitter": 0.001903
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Operation Hyacinth",
+      "year": 2021,
+      "ids": {
+        "tmdb": 809970,
+        "imdb": "tt14315584",
+        "mdblist": "2oaz1"
+      },
+      "score": 0.456274,
+      "imdb_value": 6.8,
+      "imdb_votes": 5110,
+      "runtime": 106,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "PL",
+      "certification": "16",
+      "age_rating": 15,
+      "matched_keywords": [
+        "crying",
+        "crying-man",
+        "family-relationships",
+        "murder",
+        "police",
+        "stabbing"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.144231,
+        "genres": 0.758621,
+        "imdb": 0.999771,
+        "year": 0.390885,
+        "runtime": 0.378039,
+        "age_certification": 0.370736,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": 0.01295
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "The Substance",
+      "year": 2024,
+      "ids": {
+        "tmdb": 933260,
+        "imdb": "tt17526714",
+        "mdblist": "2vd5e"
+      },
+      "score": 0.600955,
+      "imdb_value": 7.2,
+      "imdb_votes": 451011,
+      "runtime": 141,
+      "genres": [
+        "Drama",
+        "Horror",
+        "Sci-Fi",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "country": "GB",
+      "certification": "R",
+      "age_rating": 17,
+      "matched_keywords": [
+        "beaten-to-death",
+        "blood",
+        "blood-splatter",
+        "car-crash",
+        "corpse",
+        "death",
+        "doctor",
+        "fight",
+        "moral-dilemma",
+        "surrealism",
+        "telephone-call",
+        "violence",
+        "vomiting"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Horror",
+        "Sci-Fi",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.336538,
+        "genres": 0.965517,
+        "imdb": 0.962123,
+        "year": 0.637048,
+        "runtime": 0.501892,
+        "age_certification": 0.559478,
+        "country": 0.0,
+        "daily_bonus": 0.006562,
+        "jitter": -0.005608
+      },
+      "sources": [
+        "catalog:Drama:imdbpopular",
+        "catalog:Drama:imdbvotes",
+        "catalog:Horror:imdbpopular",
+        "catalog:Horror:imdbvotes",
+        "catalog:Horror:score",
+        "catalog:Thriller:imdbpopular",
+        "catalog:Thriller:imdbvotes",
+        "catalog:all:imdbpopular",
+        "catalog:all:tmdbpopular"
+      ]
+    },
+    {
+      "title": "The Last Stop in Yuma County",
+      "year": 2024,
+      "ids": {
+        "tmdb": 1047020,
+        "imdb": "tt11674730",
+        "mdblist": "2y72s"
+      },
+      "score": 0.449436,
+      "imdb_value": 6.9,
+      "imdb_votes": 25523,
+      "runtime": 90,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "country": "us",
+      "certification": "R",
+      "age_rating": 17,
+      "matched_keywords": [
+        "death",
+        "dog",
+        "explosion",
+        "gun",
+        "shot-in-the-chest",
+        "telephone-call"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.144231,
+        "genres": 0.62069,
+        "imdb": 0.999471,
+        "year": 0.637048,
+        "runtime": 0.282662,
+        "age_certification": 0.559478,
+        "country": 0.571429,
+        "daily_bonus": 0.002812,
+        "jitter": -0.019272
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Speak No Evil",
+      "year": 2024,
+      "ids": {
+        "tmdb": 1114513,
+        "imdb": "tt27534307",
+        "mdblist": "31iff"
+      },
+      "score": 0.708221,
+      "imdb_value": 6.8,
+      "imdb_votes": 140912,
+      "runtime": 110,
+      "genres": [
+        "Drama",
+        "Horror",
+        "Thriller"
+      ],
+      "country": "us",
+      "certification": "R",
+      "age_rating": 15,
+      "matched_keywords": [
+        "ambush",
+        "attempted-murder",
+        "beaten-to-death",
+        "blood",
+        "blood-splatter",
+        "cell-phone",
+        "chase",
+        "death",
+        "deception",
+        "doctor",
+        "explosion",
+        "family-relationships",
+        "father-daughter-relationship",
+        "fight",
+        "held-at-gunpoint",
+        "kidnapping",
+        "moral-dilemma",
+        "murder",
+        "near-death-experience",
+        "paranoia",
+        "photograph",
+        "pistol",
+        "race-against-time",
+        "rescue",
+        "rooftop",
+        "survival",
+        "violence"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Horror",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.625,
+        "genres": 0.689655,
+        "imdb": 0.985524,
+        "year": 0.637048,
+        "runtime": 0.404362,
+        "age_certification": 0.570736,
+        "country": 0.571429,
+        "daily_bonus": 0.012188,
+        "jitter": 0.019257
+      },
+      "sources": [
+        "catalog:Drama:imdbpopular",
+        "catalog:Horror:imdbpopular",
+        "catalog:Horror:imdbvotes",
+        "catalog:Horror:score",
+        "catalog:Thriller:imdbpopular",
+        "catalog:all:imdbpopular"
+      ]
+    },
+    {
+      "title": "Shoplifters",
+      "year": 2018,
+      "ids": {
+        "tmdb": 505192,
+        "imdb": "tt8075192",
+        "mdblist": "1h7k"
+      },
+      "score": 0.436766,
+      "imdb_value": 7.9,
+      "imdb_votes": 95911,
+      "runtime": 120,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "country": "jp",
+      "certification": "R",
+      "age_rating": 16,
+      "matched_keywords": [
+        "chase",
+        "death",
+        "family-relationships",
+        "father-daughter-relationship",
+        "hugging",
+        "interrogation",
+        "laptop-computer",
+        "love",
+        "moral-dilemma",
+        "police",
+        "rain",
+        "snow",
+        "tv-news"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.307692,
+        "genres": 0.62069,
+        "imdb": 0.712432,
+        "year": 0.244496,
+        "runtime": 0.464905,
+        "age_certification": 0.575576,
+        "country": 0.0,
+        "daily_bonus": 0.010312,
+        "jitter": -0.015611
+      },
+      "sources": [
+        "catalog:Drama:score",
+        "catalog:Thriller:score",
+        "catalog:all:score"
+      ]
+    },
+    {
+      "title": "El Camino: A Breaking Bad Movie",
+      "year": 2019,
+      "ids": {
+        "tmdb": 559969,
+        "imdb": "tt9243946",
+        "mdblist": "18wg"
+      },
+      "score": 0.475391,
+      "imdb_value": 7.3,
+      "imdb_votes": 347771,
+      "runtime": 123,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "country": "US",
+      "certification": "R",
+      "age_rating": 16,
+      "matched_keywords": [
+        "chase",
+        "corpse",
+        "escape",
+        "gun",
+        "pistol",
+        "police",
+        "revenge",
+        "snow",
+        "violence"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.259615,
+        "genres": 0.62069,
+        "imdb": 0.927514,
+        "year": 0.284911,
+        "runtime": 0.50105,
+        "age_certification": 0.575576,
+        "country": 0.571429,
+        "daily_bonus": 0.006562,
+        "jitter": -0.009259
+      },
+      "sources": [
+        "catalog:Thriller:imdbvotes",
+        "user_list:cant-go-wrong-movies",
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Beasts Clawing at Straws",
+      "year": 2020,
+      "ids": {
+        "tmdb": 571648,
+        "imdb": "tt9747594",
+        "mdblist": "1i5t"
+      },
+      "score": 0.400812,
+      "imdb_value": 7.0,
+      "imdb_votes": 6315,
+      "runtime": 108,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "KR",
+      "certification": "15",
+      "age_rating": 18,
+      "matched_keywords": [
+        "based-on-novel-or-book",
+        "tattoo",
+        "tv-news"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.057692,
+        "genres": 0.758621,
+        "imdb": 0.999991,
+        "year": 0.333259,
+        "runtime": 0.402541,
+        "age_certification": 0.257577,
+        "country": 0.142857,
+        "daily_bonus": 0.0,
+        "jitter": 0.000243
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Calm with Horses",
+      "year": 2020,
+      "ids": {
+        "tmdb": 574396,
+        "imdb": "tt4460792",
+        "mdblist": "1fmq"
+      },
+      "score": 0.356455,
+      "imdb_value": 6.8,
+      "imdb_votes": 8634,
+      "runtime": 100,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "country": "IE",
+      "certification": "R",
+      "age_rating": 16,
+      "matched_keywords": [
+        "violence"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.019231,
+        "genres": 0.62069,
+        "imdb": 0.999423,
+        "year": 0.333259,
+        "runtime": 0.322611,
+        "age_certification": 0.575576,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": -0.015035
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "The Killing of Two Lovers",
+      "year": 2021,
+      "ids": {
+        "tmdb": 653712,
+        "imdb": "tt10702148",
+        "mdblist": "8b0o"
+      },
+      "score": 0.383713,
+      "imdb_value": 6.8,
+      "imdb_votes": 5955,
+      "runtime": 84,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "country": "US",
+      "certification": "R",
+      "age_rating": 15,
+      "matched_keywords": [
+        "family-relationships",
+        "male-female-relationship"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.038462,
+        "genres": 0.482759,
+        "imdb": 0.999699,
+        "year": 0.390885,
+        "runtime": 0.234992,
+        "age_certification": 0.570736,
+        "country": 0.571429,
+        "daily_bonus": 0.0,
+        "jitter": 0.013889
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Burning Days",
+      "year": 2022,
+      "ids": {
+        "tmdb": 682152,
+        "imdb": "tt14859416",
+        "mdblist": "2r7js"
+      },
+      "score": 0.364272,
+      "imdb_value": 7.4,
+      "imdb_votes": 14907,
+      "runtime": 131,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "country": "tr",
+      "certification": "16",
+      "age_rating": 17,
+      "matched_keywords": [
+        "murder",
+        "photograph",
+        "violence"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.057692,
+        "genres": 0.482759,
+        "imdb": 0.991253,
+        "year": 0.459394,
+        "runtime": 0.526251,
+        "age_certification": 0.359478,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": -0.00146
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Nitram",
+      "year": 2021,
+      "ids": {
+        "tmdb": 797457,
+        "imdb": "tt13694628",
+        "mdblist": "2guzl"
+      },
+      "score": 0.436286,
+      "imdb_value": 7.1,
+      "imdb_votes": 13121,
+      "runtime": 112,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "country": "AU",
+      "certification": "MA15+",
+      "age_rating": 15,
+      "matched_keywords": [
+        "car-crash",
+        "death",
+        "dog",
+        "fireworks",
+        "gun",
+        "murder",
+        "police"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.153846,
+        "genres": 0.62069,
+        "imdb": 0.999353,
+        "year": 0.390885,
+        "runtime": 0.409526,
+        "age_certification": 0.370736,
+        "country": 0.142857,
+        "daily_bonus": 0.0,
+        "jitter": 0.010904
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Talk to Me",
+      "year": 2023,
+      "ids": {
+        "tmdb": 1008042,
+        "imdb": "tt10638522",
+        "mdblist": "2xahn"
+      },
+      "score": 0.43383,
+      "imdb_value": 7.1,
+      "imdb_votes": 220055,
+      "runtime": 95,
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "country": "au",
+      "certification": "R",
+      "age_rating": 16,
+      "matched_keywords": [
+        "blood",
+        "dog",
+        "grief",
+        "murder",
+        "singing",
+        "supernatural-power",
+        "surprise-ending",
+        "telephone-call"
+      ],
+      "matched_genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.201923,
+        "genres": 0.413793,
+        "imdb": 0.990047,
+        "year": 0.540694,
+        "runtime": 0.294985,
+        "age_certification": 0.575576,
+        "country": 0.142857,
+        "daily_bonus": 0.004687,
+        "jitter": 0.003712
+      },
+      "sources": [
+        "catalog:Horror:imdbpopular",
+        "catalog:Horror:imdbvotes",
+        "catalog:Horror:score",
+        "catalog:Thriller:imdbpopular",
+        "catalog:all:imdbpopular"
+      ]
+    },
+    {
+      "title": "I Was a Stranger",
+      "year": 2025,
+      "ids": {
+        "tmdb": 1193128,
+        "imdb": "tt21272942",
+        "mdblist": "37c8r"
+      },
+      "score": 0.440694,
+      "imdb_value": 8.1,
+      "imdb_votes": 12989,
+      "runtime": 103,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "country": "JO",
+      "certification": "PG-13",
+      "age_rating": 14,
+      "matched_keywords": [
+        "death",
+        "doctor",
+        "family-relationships",
+        "female-doctor",
+        "gun",
+        "murder",
+        "police",
+        "rescue",
+        "underwater-scene"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.192308,
+        "genres": 0.482759,
+        "imdb": 0.952085,
+        "year": 0.751139,
+        "runtime": 0.347093,
+        "age_certification": 0.494414,
+        "country": 0.0,
+        "daily_bonus": 0.001875,
+        "jitter": -0.004546
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Tuner",
+      "year": 2026,
+      "ids": {
+        "tmdb": 1340206,
+        "imdb": "tt33296751",
+        "mdblist": "3lis2"
+      },
+      "score": 0.404788,
+      "imdb_value": 7.2,
+      "imdb_votes": 15753,
+      "runtime": 108,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Music",
+        "Thriller"
+      ],
+      "country": "CA",
+      "certification": "R",
+      "age_rating": 15,
+      "matched_keywords": [],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.0,
+        "genres": 0.62069,
+        "imdb": 0.997284,
+        "year": 0.838303,
+        "runtime": 0.402541,
+        "age_certification": 0.570736,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": -0.012851
+      },
+      "sources": [
+        "catalog:Drama:imdbpopular",
+        "catalog:Thriller:imdbpopular",
+        "catalog:all:imdbpopular",
+        "user_list:cant-go-wrong-movies"
+      ]
+    },
+    {
+      "title": "The Black Phone",
+      "year": 2022,
+      "ids": {
+        "tmdb": 756999,
+        "imdb": "tt7144666",
+        "mdblist": "xv15"
+      },
+      "score": 0.538846,
+      "imdb_value": 6.9,
+      "imdb_votes": 267678,
+      "runtime": 103,
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "us",
+      "certification": "R",
+      "age_rating": 16,
+      "matched_keywords": [
+        "blood",
+        "chase",
+        "crucifix",
+        "crying-man",
+        "deception",
+        "escape",
+        "fear",
+        "flashback",
+        "kidnapping",
+        "laughter",
+        "love",
+        "murder",
+        "police",
+        "rain",
+        "survival",
+        "telephone-call",
+        "violence"
+      ],
+      "matched_genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.423077,
+        "genres": 0.551724,
+        "imdb": 0.996703,
+        "year": 0.459394,
+        "runtime": 0.347093,
+        "age_certification": 0.575576,
+        "country": 0.571429,
+        "daily_bonus": 0.00375,
+        "jitter": -0.014713
+      },
+      "sources": [
+        "catalog:Horror:imdbpopular",
+        "catalog:Horror:imdbvotes",
+        "catalog:Horror:score"
+      ]
+    },
+    {
+      "title": "Outlaws",
+      "year": 2021,
+      "ids": {
+        "tmdb": 776821,
+        "imdb": "tt11892272",
+        "mdblist": "1k8iu"
+      },
+      "score": 0.376614,
+      "imdb_value": 6.9,
+      "imdb_votes": 5630,
+      "runtime": 125,
+      "genres": [
+        "Crime",
+        "Thriller"
+      ],
+      "country": "es",
+      "certification": "R",
+      "age_rating": 16,
+      "matched_keywords": [
+        "based-on-novel-or-book",
+        "death",
+        "family-relationships",
+        "male-protagonist",
+        "police",
+        "telephone-call"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.125,
+        "genres": 0.344828,
+        "imdb": 0.999953,
+        "year": 0.390885,
+        "runtime": 0.504273,
+        "age_certification": 0.575576,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": 0.003063
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Exhuma",
+      "year": 2024,
+      "ids": {
+        "tmdb": 838209,
+        "imdb": "tt27802490",
+        "mdblist": "2qzl5"
+      },
+      "score": 0.399359,
+      "imdb_value": 6.9,
+      "imdb_votes": 29946,
+      "runtime": 134,
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "KR",
+      "certification": "M",
+      "age_rating": 15,
+      "matched_keywords": [
+        "coffin"
+      ],
+      "matched_genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.019231,
+        "genres": 0.551724,
+        "imdb": 0.99935,
+        "year": 0.637048,
+        "runtime": 0.519349,
+        "age_certification": 0.370736,
+        "country": 0.142857,
+        "daily_bonus": 0.0,
+        "jitter": 0.01151
+      },
+      "sources": [
+        "catalog:Horror:score",
+        "user_list:cant-go-wrong-movies",
+        "user_list:horror",
+        "user_list:newest-avarege-horor-movies"
+      ]
+    },
+    {
+      "title": "Red Rooms",
+      "year": 2023,
+      "ids": {
+        "tmdb": 912480,
+        "imdb": "tt22207786",
+        "mdblist": "2uqsm"
+      },
+      "score": 0.465567,
+      "imdb_value": 7.1,
+      "imdb_votes": 22854,
+      "runtime": 118,
+      "genres": [
+        "Crime",
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "ca",
+      "certification": "14A",
+      "age_rating": 15,
+      "matched_keywords": [
+        "crying",
+        "murder",
+        "photograph",
+        "police",
+        "telephone-call",
+        "title-spoken-by-character"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.134615,
+        "genres": 0.689655,
+        "imdb": 0.998525,
+        "year": 0.540694,
+        "runtime": 0.445653,
+        "age_certification": 0.370736,
+        "country": 0.0,
+        "daily_bonus": 0.001875,
+        "jitter": 0.019832
+      },
+      "sources": [
+        "catalog:Horror:score",
+        "user_list:cant-go-wrong-movies",
+        "user_list:horror",
+        "user_list:newest-avarege-horor-movies"
+      ]
+    },
+    {
+      "title": "UnPaarvayil",
+      "year": 2025,
+      "ids": {
+        "tmdb": 985354,
+        "imdb": "tt15176374",
+        "mdblist": "2wrru"
+      },
+      "score": 0.294555,
+      "imdb_value": 9.6,
+      "imdb_votes": 9987,
+      "runtime": 117,
+      "genres": [
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "in",
+      "certification": "NR",
+      "age_rating": null,
+      "matched_keywords": [],
+      "matched_genres": [
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.0,
+        "genres": 0.344828,
+        "imdb": 0.840664,
+        "year": 0.751139,
+        "runtime": 0.437418,
+        "age_certification": 0.0,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": 0.002505
+      },
+      "sources": [
+        "catalog:Thriller:imdbrating",
+        "user_list:cant-go-wrong-movies"
+      ]
+    },
+    {
+      "title": "Bring Her Back",
+      "year": 2025,
+      "ids": {
+        "tmdb": 1151031,
+        "imdb": "tt32246771",
+        "mdblist": "34blf"
+      },
+      "score": 0.51917,
+      "imdb_value": 7.1,
+      "imdb_votes": 134475,
+      "runtime": 104,
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "country": "au",
+      "certification": "R",
+      "age_rating": 16,
+      "matched_keywords": [
+        "attempted-murder",
+        "blood",
+        "car-crash",
+        "cell-phone",
+        "corpse",
+        "crying-a-single-tear",
+        "death",
+        "dog",
+        "drinking",
+        "escape",
+        "grief",
+        "knife",
+        "murder",
+        "police",
+        "rain",
+        "vomiting"
+      ],
+      "matched_genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "score_components": {
+        "keywords": 0.413462,
+        "genres": 0.344828,
+        "imdb": 0.992032,
+        "year": 0.751139,
+        "runtime": 0.356665,
+        "age_certification": 0.575576,
+        "country": 0.142857,
+        "daily_bonus": 0.004687,
+        "jitter": -0.006196
+      },
+      "sources": [
+        "catalog:Horror:imdbpopular",
+        "catalog:Horror:imdbvotes",
+        "catalog:Horror:score",
+        "catalog:all:imdbpopular"
+      ]
+    },
+    {
+      "title": "A Quiet Place",
+      "year": 2018,
+      "ids": {
+        "tmdb": 447332,
+        "imdb": "tt6644200",
+        "mdblist": "1ast"
+      },
+      "score": 0.732404,
+      "imdb_value": 7.5,
+      "imdb_votes": 663257,
+      "runtime": 91,
+      "genres": [
+        "Drama",
+        "Horror",
+        "Sci-Fi",
+        "Science Fiction"
+      ],
+      "country": "us",
+      "certification": "PG-13",
+      "age_rating": 14,
+      "matched_keywords": [
+        "alien",
+        "blood",
+        "blood-splatter",
+        "chase",
+        "cigarette-lighter",
+        "corpse",
+        "crucifix",
+        "crying",
+        "danger",
+        "death",
+        "doctor",
+        "escape",
+        "extraterrestrial",
+        "family-relationships",
+        "father-daughter-relationship",
+        "fear",
+        "female-doctor",
+        "fireworks",
+        "flashback",
+        "grief",
+        "gun",
+        "hugging",
+        "love",
+        "mathematics",
+        "murder",
+        "near-death-experience",
+        "panic",
+        "photograph",
+        "race-against-time",
+        "rescue"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Horror",
+        "Sci-Fi",
+        "Science Fiction"
+      ],
+      "score_components": {
+        "keywords": 0.875,
+        "genres": 0.758621,
+        "imdb": 0.802203,
+        "year": 0.244496,
+        "runtime": 0.283944,
+        "age_certification": 0.494414,
+        "country": 0.571429,
+        "daily_bonus": 0.008438,
+        "jitter": 0.011514
+      },
+      "sources": [
+        "catalog:Drama:imdbpopular",
+        "catalog:Drama:imdbvotes",
+        "catalog:Horror:imdbpopular",
+        "catalog:Horror:imdbvotes",
+        "catalog:Horror:score",
+        "catalog:all:imdbvotes"
+      ]
+    },
+    {
+      "title": "Good Time",
+      "year": 2017,
+      "ids": {
+        "tmdb": 429200,
+        "imdb": "tt4846232",
+        "mdblist": "1th"
+      },
+      "score": 0.618947,
+      "imdb_value": 7.3,
+      "imdb_votes": 157254,
+      "runtime": 102,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "country": "US",
+      "certification": "R",
+      "age_rating": 16,
+      "matched_keywords": [
+        "blood",
+        "boyfriend-girlfriend-relationship",
+        "cell-phone",
+        "chase",
+        "city",
+        "coffin",
+        "crying",
+        "crying-man",
+        "death",
+        "deception",
+        "dog",
+        "explosion",
+        "family-relationships",
+        "fight",
+        "kidnapping",
+        "knife",
+        "police",
+        "race-against-time",
+        "ship",
+        "tattoo",
+        "telephone-call",
+        "tv-news",
+        "violence",
+        "vomiting"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.596154,
+        "genres": 0.62069,
+        "imdb": 0.944957,
+        "year": 0.210889,
+        "runtime": 0.338239,
+        "age_certification": 0.575576,
+        "country": 0.571429,
+        "daily_bonus": 0.006562,
+        "jitter": 0.012607
+      },
+      "sources": [
+        "catalog:Thriller:imdbpopular",
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Arrival",
+      "year": 2016,
+      "ids": {
+        "tmdb": 329865,
+        "imdb": "tt2543164",
+        "mdblist": "1fqb"
+      },
+      "score": 0.600036,
+      "imdb_value": 7.9,
+      "imdb_votes": 870231,
+      "runtime": 116,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi",
+        "Science Fiction"
+      ],
+      "country": "us",
+      "certification": "PG-13",
+      "age_rating": 11,
+      "matched_keywords": [
+        "alien",
+        "alien-contact",
+        "alien-language",
+        "alien-race",
+        "cell-phone",
+        "common-sense-selection",
+        "death",
+        "doctor",
+        "escape",
+        "explosion",
+        "extraterrestrial",
+        "father-daughter-relationship",
+        "fear",
+        "grief",
+        "held-at-gunpoint",
+        "knocked-unconscious",
+        "laptop-computer",
+        "love",
+        "memory",
+        "moral-dilemma",
+        "outer-space",
+        "panic",
+        "paranoia",
+        "pistol",
+        "race-against-time",
+        "rain",
+        "scientist",
+        "spacecraft",
+        "spaceship",
+        "supernatural-power"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi",
+        "Science Fiction"
+      ],
+      "score_components": {
+        "keywords": 0.769231,
+        "genres": 0.689655,
+        "imdb": 0.494833,
+        "year": 0.183152,
+        "runtime": 0.430087,
+        "age_certification": 0.397894,
+        "country": 0.571429,
+        "daily_bonus": 0.015,
+        "jitter": -0.019628
+      },
+      "sources": [
+        "catalog:Drama:imdbpopular",
+        "catalog:Drama:imdbvotes",
+        "catalog:all:imdbpopular",
+        "catalog:all:imdbvotes"
+      ]
+    },
+    {
+      "title": "Get Out",
+      "year": 2017,
+      "ids": {
+        "tmdb": 419430,
+        "imdb": "tt5052448",
+        "mdblist": "1aub"
+      },
+      "score": 0.59712,
+      "imdb_value": 7.8,
+      "imdb_votes": 826381,
+      "runtime": 104,
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "US",
+      "certification": "R",
+      "age_rating": 15,
+      "matched_keywords": [
+        "blood",
+        "blood-splatter",
+        "boyfriend-girlfriend-relationship",
+        "car",
+        "car-crash",
+        "cell-phone",
+        "crying",
+        "danger",
+        "dead-body",
+        "death",
+        "doctor",
+        "dog",
+        "escape",
+        "father-daughter-relationship",
+        "fear",
+        "fight",
+        "gun",
+        "hugging",
+        "kidnapping",
+        "male-protagonist",
+        "murder",
+        "paranoia",
+        "photograph",
+        "police",
+        "rain",
+        "rescue",
+        "revenge",
+        "shooting",
+        "stabbing",
+        "surprise-ending"
+      ],
+      "matched_genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.759615,
+        "genres": 0.551724,
+        "imdb": 0.572963,
+        "year": 0.210889,
+        "runtime": 0.356665,
+        "age_certification": 0.570736,
+        "country": 0.571429,
+        "daily_bonus": 0.008438,
+        "jitter": -0.007469
+      },
+      "sources": [
+        "catalog:Horror:imdbpopular",
+        "catalog:Horror:imdbvotes",
+        "catalog:Horror:score",
+        "catalog:Thriller:imdbpopular",
+        "catalog:Thriller:imdbvotes",
+        "catalog:Thriller:score",
+        "catalog:all:imdbpopular",
+        "catalog:all:imdbvotes",
+        "catalog:all:tmdbpopular"
+      ]
+    },
+    {
+      "title": "The Invisible Guest",
+      "year": 2017,
+      "ids": {
+        "tmdb": 411088,
+        "imdb": "tt4857264",
+        "mdblist": "1ar"
+      },
+      "score": 0.579683,
+      "imdb_value": 8.0,
+      "imdb_votes": 214888,
+      "runtime": 107,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "es",
+      "certification": "M",
+      "age_rating": 15,
+      "matched_keywords": [
+        "blood",
+        "car",
+        "car-crash",
+        "cell-phone",
+        "city",
+        "corpse",
+        "crying",
+        "crying-man",
+        "dead-body",
+        "death",
+        "deception",
+        "family-relationships",
+        "flashback",
+        "interrogation",
+        "knocked-unconscious",
+        "moral-dilemma",
+        "murder",
+        "photograph",
+        "police",
+        "psychotronic-film",
+        "race-against-time",
+        "revenge",
+        "snow",
+        "surprise-ending",
+        "telephone-call",
+        "tv-news",
+        "vengeance",
+        "violence"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.653846,
+        "genres": 0.758621,
+        "imdb": 0.530191,
+        "year": 0.210889,
+        "runtime": 0.389887,
+        "age_certification": 0.370736,
+        "country": 0.0,
+        "daily_bonus": 0.014062,
+        "jitter": 0.006295
+      },
+      "sources": [
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "At the End of the Tunnel",
+      "year": 2016,
+      "ids": {
+        "tmdb": 394374,
+        "imdb": "tt5133308",
+        "mdblist": "4t1"
+      },
+      "score": 0.527156,
+      "imdb_value": 7.0,
+      "imdb_votes": 16851,
+      "runtime": 120,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "country": "AR",
+      "certification": "R",
+      "age_rating": 17,
+      "matched_keywords": [
+        "blood",
+        "boyfriend-girlfriend-relationship",
+        "car-crash",
+        "crying",
+        "crying-man",
+        "dead-body",
+        "death",
+        "deception",
+        "dog",
+        "explosion",
+        "fireworks",
+        "held-at-gunpoint",
+        "murder",
+        "photograph",
+        "rain",
+        "shooting",
+        "shot-in-the-head",
+        "stabbing",
+        "telephone-call",
+        "violence"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.461538,
+        "genres": 0.62069,
+        "imdb": 0.999953,
+        "year": 0.183152,
+        "runtime": 0.464905,
+        "age_certification": 0.559478,
+        "country": 0.0,
+        "daily_bonus": 0.004687,
+        "jitter": -0.017002
+      },
+      "sources": [
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Climax",
+      "year": 2018,
+      "ids": {
+        "tmdb": 507076,
+        "imdb": "tt8359848",
+        "mdblist": "1fsx"
+      },
+      "score": 0.525573,
+      "imdb_value": 6.9,
+      "imdb_votes": 90427,
+      "runtime": 97,
+      "genres": [
+        "Drama",
+        "Horror",
+        "Music"
+      ],
+      "country": "fr",
+      "certification": "R",
+      "age_rating": 17,
+      "matched_keywords": [
+        "blood",
+        "death",
+        "deception",
+        "dog",
+        "drinking",
+        "fear",
+        "fight",
+        "hugging",
+        "knife",
+        "laughter",
+        "panic",
+        "paranoia",
+        "snow",
+        "surrealism",
+        "violence",
+        "vomiting"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Horror"
+      ],
+      "score_components": {
+        "keywords": 0.432692,
+        "genres": 0.482759,
+        "imdb": 0.998077,
+        "year": 0.244496,
+        "runtime": 0.304137,
+        "age_certification": 0.559478,
+        "country": 0.142857,
+        "daily_bonus": 0.00375,
+        "jitter": 0.019377
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:horror",
+        "user_list:newest-avarege-horor-movies"
+      ]
+    },
+    {
+      "title": "The Wailing",
+      "year": 2016,
+      "ids": {
+        "tmdb": 293670,
+        "imdb": "tt5215952",
+        "mdblist": "2dr"
+      },
+      "score": 0.498651,
+      "imdb_value": 7.4,
+      "imdb_votes": 100540,
+      "runtime": 156,
+      "genres": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "country": "kr",
+      "certification": "R",
+      "age_rating": 15,
+      "matched_keywords": [
+        "corpse",
+        "dead-body",
+        "death",
+        "doctor",
+        "dog",
+        "father-daughter-relationship",
+        "glowing-eyes",
+        "knife",
+        "murder",
+        "photograph",
+        "police",
+        "priest",
+        "rain",
+        "stabbing",
+        "supernatural-power",
+        "vomiting"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "score_components": {
+        "keywords": 0.384615,
+        "genres": 0.62069,
+        "imdb": 0.928143,
+        "year": 0.183152,
+        "runtime": 0.388526,
+        "age_certification": 0.570736,
+        "country": 0.142857,
+        "daily_bonus": 0.005625,
+        "jitter": -0.006158
+      },
+      "sources": [
+        "catalog:Horror:imdbpopular",
+        "catalog:Horror:score"
+      ]
+    },
+    {
+      "title": "It Was Just an Accident",
+      "year": 2025,
+      "ids": {
+        "tmdb": 1456349,
+        "imdb": "tt36491653",
+        "mdblist": "3xc1u"
+      },
+      "score": 0.490417,
+      "imdb_value": 7.4,
+      "imdb_votes": 37200,
+      "runtime": 104,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "fr",
+      "certification": "PG-13",
+      "age_rating": 14,
+      "matched_keywords": [
+        "interrogation",
+        "police",
+        "revenge",
+        "rooftop",
+        "telephone-call"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.105769,
+        "genres": 0.758621,
+        "imdb": 0.970094,
+        "year": 0.751139,
+        "runtime": 0.356665,
+        "age_certification": 0.494414,
+        "country": 0.142857,
+        "daily_bonus": 0.002812,
+        "jitter": 0.016217
+      },
+      "sources": [
+        "catalog:Thriller:score",
+        "catalog:all:score",
+        "user_list:best-ever",
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Manchester by the Sea",
+      "year": 2016,
+      "ids": {
+        "tmdb": 334541,
+        "imdb": "tt4034228",
+        "mdblist": "nc"
+      },
+      "score": 0.483181,
+      "imdb_value": 7.8,
+      "imdb_votes": 359442,
+      "runtime": 138,
+      "genres": [
+        "Drama"
+      ],
+      "country": "US",
+      "certification": "R",
+      "age_rating": 17,
+      "matched_keywords": [
+        "bar",
+        "beer",
+        "blood",
+        "boyfriend-girlfriend-relationship",
+        "car",
+        "church",
+        "crying",
+        "crying-man",
+        "dead-body",
+        "death",
+        "doctor",
+        "family-relationships",
+        "fight",
+        "flashback",
+        "grief",
+        "hugging",
+        "interrogation",
+        "memory",
+        "montage",
+        "photograph",
+        "singing",
+        "snow",
+        "tattoo",
+        "telephone-call"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.596154,
+        "genres": 0.275862,
+        "imdb": 0.617265,
+        "year": 0.183152,
+        "runtime": 0.525196,
+        "age_certification": 0.559478,
+        "country": 0.571429,
+        "daily_bonus": 0.010312,
+        "jitter": -0.014237
+      },
+      "sources": [
+        "user_list:best-ever"
+      ]
+    },
+    {
+      "title": "The Seed of the Sacred Fig",
+      "year": 2024,
+      "ids": {
+        "tmdb": 1278263,
+        "imdb": "tt32178949",
+        "mdblist": "3fbp1"
+      },
+      "score": 0.474552,
+      "imdb_value": 7.5,
+      "imdb_votes": 20689,
+      "runtime": 167,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "country": "FR",
+      "certification": "PG-13",
+      "age_rating": 13,
+      "matched_keywords": [
+        "blood",
+        "father-daughter-relationship",
+        "gun",
+        "held-at-gunpoint",
+        "paranoia",
+        "telephone-call",
+        "violence"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.173077,
+        "genres": 0.62069,
+        "imdb": 0.978521,
+        "year": 0.637048,
+        "runtime": 0.243533,
+        "age_certification": 0.506716,
+        "country": 0.142857,
+        "daily_bonus": 0.0,
+        "jitter": 0.018768
+      },
+      "sources": [
+        "catalog:Thriller:score",
+        "user_list:best-ever",
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "The Hate U Give",
+      "year": 2018,
+      "ids": {
+        "tmdb": 470044,
+        "imdb": "tt5580266",
+        "mdblist": "1byn"
+      },
+      "score": 0.47371,
+      "imdb_value": 7.5,
+      "imdb_votes": 43905,
+      "runtime": 133,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "country": "us",
+      "certification": "PG-13",
+      "age_rating": 13,
+      "matched_keywords": [
+        "based-on-novel-or-book",
+        "boyfriend-girlfriend-relationship",
+        "cell-phone",
+        "church",
+        "coffin",
+        "common-sense-selection",
+        "family-relationships",
+        "father-daughter-relationship",
+        "gun",
+        "interrogation",
+        "murder",
+        "photograph",
+        "pistol",
+        "police",
+        "tattoo",
+        "telephone-call",
+        "tv-news",
+        "vomiting"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.384615,
+        "genres": 0.413793,
+        "imdb": 0.946018,
+        "year": 0.244496,
+        "runtime": 0.520572,
+        "age_certification": 0.506716,
+        "country": 0.571429,
+        "daily_bonus": 0.002812,
+        "jitter": -0.010701
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies"
+      ]
+    },
+    {
+      "title": "First Reformed",
+      "year": 2018,
+      "ids": {
+        "tmdb": 458737,
+        "imdb": "tt6053438",
+        "mdblist": "1ata"
+      },
+      "score": 0.4677,
+      "imdb_value": 7.1,
+      "imdb_votes": 68020,
+      "runtime": 113,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "US",
+      "certification": "R",
+      "age_rating": 15,
+      "matched_keywords": [
+        "blood",
+        "church",
+        "dead-body",
+        "doctor",
+        "male-protagonist",
+        "priest",
+        "shot-in-the-head",
+        "singing",
+        "snow"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.230769,
+        "genres": 0.62069,
+        "imdb": 0.995018,
+        "year": 0.244496,
+        "runtime": 0.413375,
+        "age_certification": 0.570736,
+        "country": 0.571429,
+        "daily_bonus": 0.006562,
+        "jitter": -0.006773
+      },
+      "sources": [
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "The Nile Hilton Incident",
+      "year": 2017,
+      "ids": {
+        "tmdb": 428495,
+        "imdb": "tt5540188",
+        "mdblist": "6uv"
+      },
+      "score": 0.451183,
+      "imdb_value": 6.8,
+      "imdb_votes": 10399,
+      "runtime": 111,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "DE",
+      "certification": "15",
+      "age_rating": 13,
+      "matched_keywords": [
+        "blood",
+        "corpse",
+        "dead-body",
+        "murder",
+        "photograph",
+        "police"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.153846,
+        "genres": 0.758621,
+        "imdb": 0.999211,
+        "year": 0.210889,
+        "runtime": 0.406524,
+        "age_certification": 0.356716,
+        "country": 0.0,
+        "daily_bonus": 0.002812,
+        "jitter": 0.018842
+      },
+      "sources": [
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "The Salesman",
+      "year": 2016,
+      "ids": {
+        "tmdb": 375315,
+        "imdb": "tt5186714",
+        "mdblist": "3dg"
+      },
+      "score": 0.444798,
+      "imdb_value": 7.7,
+      "imdb_votes": 69069,
+      "runtime": 125,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "country": "IR",
+      "certification": "PG-13",
+      "age_rating": 14,
+      "matched_keywords": [
+        "attack",
+        "blood",
+        "car",
+        "cell-phone",
+        "coffin",
+        "crying-man",
+        "death",
+        "father-daughter-relationship",
+        "fear",
+        "memory",
+        "police",
+        "rain",
+        "revenge",
+        "rooftop",
+        "singing",
+        "telephone-call",
+        "violence"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.384615,
+        "genres": 0.482759,
+        "imdb": 0.850058,
+        "year": 0.183152,
+        "runtime": 0.504273,
+        "age_certification": 0.494414,
+        "country": 0.0,
+        "daily_bonus": 0.001875,
+        "jitter": -0.013121
+      },
+      "sources": [
+        "catalog:Thriller:score",
+        "user_list:best-ever",
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Tunnel",
+      "year": 2016,
+      "ids": {
+        "tmdb": 390497,
+        "imdb": "tt5910280",
+        "mdblist": "5ak"
+      },
+      "score": 0.436844,
+      "imdb_value": 6.8,
+      "imdb_votes": 12214,
+      "runtime": 126,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "country": "KR",
+      "certification": "PG-13",
+      "age_rating": 13,
+      "matched_keywords": [
+        "car",
+        "cell-phone",
+        "death",
+        "dog",
+        "explosion",
+        "father-daughter-relationship",
+        "rescue",
+        "snow",
+        "survival",
+        "telephone-call"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.230769,
+        "genres": 0.482759,
+        "imdb": 0.998974,
+        "year": 0.183152,
+        "runtime": 0.507445,
+        "age_certification": 0.506716,
+        "country": 0.142857,
+        "daily_bonus": 0.010312,
+        "jitter": 0.004383
+      },
+      "sources": [
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "The Realm",
+      "year": 2018,
+      "ids": {
+        "tmdb": 517331,
+        "imdb": "tt7095482",
+        "mdblist": "1fui"
+      },
+      "score": 0.436202,
+      "imdb_value": 7.1,
+      "imdb_votes": 10359,
+      "runtime": 132,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "es",
+      "certification": "16",
+      "age_rating": 13,
+      "matched_keywords": [
+        "bar",
+        "beer",
+        "car-crash",
+        "death",
+        "deception",
+        "fight",
+        "police",
+        "rooftop",
+        "ship",
+        "telephone-call"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.230769,
+        "genres": 0.62069,
+        "imdb": 0.999559,
+        "year": 0.244496,
+        "runtime": 0.522871,
+        "age_certification": 0.356716,
+        "country": 0.0,
+        "daily_bonus": 0.001875,
+        "jitter": -0.007616
+      },
+      "sources": [
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Holy Spider",
+      "year": 2022,
+      "ids": {
+        "tmdb": 889699,
+        "imdb": "tt18550140",
+        "mdblist": "2u1jq"
+      },
+      "score": 0.429935,
+      "imdb_value": 7.3,
+      "imdb_votes": 32261,
+      "runtime": 118,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "country": "dk",
+      "certification": "18",
+      "age_rating": 16,
+      "matched_keywords": [
+        "city",
+        "crying",
+        "crying-man",
+        "dead-body",
+        "murder",
+        "police"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.134615,
+        "genres": 0.62069,
+        "imdb": 0.985035,
+        "year": 0.459394,
+        "runtime": 0.445653,
+        "age_certification": 0.375576,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": 0.009683
+      },
+      "sources": [
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "The Purity of Vengeance",
+      "year": 2018,
+      "ids": {
+        "tmdb": 479226,
+        "imdb": "tt6916362",
+        "mdblist": "1ev7"
+      },
+      "score": 0.423338,
+      "imdb_value": 7.4,
+      "imdb_votes": 22409,
+      "runtime": 118,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "dk",
+      "certification": "12",
+      "age_rating": 15,
+      "matched_keywords": [
+        "based-on-novel-or-book",
+        "car-crash",
+        "corpse",
+        "dead-body",
+        "murder",
+        "revenge"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.125,
+        "genres": 0.758621,
+        "imdb": 0.984164,
+        "year": 0.244496,
+        "runtime": 0.445653,
+        "age_certification": 0.370736,
+        "country": 0.0,
+        "daily_bonus": 0.002812,
+        "jitter": -0.001507
+      },
+      "sources": [
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Last Night of Amore",
+      "year": 2023,
+      "ids": {
+        "tmdb": 978870,
+        "imdb": "tt20465746",
+        "mdblist": "2wm7n"
+      },
+      "score": 0.409223,
+      "imdb_value": 7.1,
+      "imdb_votes": 6561,
+      "runtime": 124,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "country": "IT",
+      "certification": "M",
+      "age_rating": 7,
+      "matched_keywords": [
+        "dead-body",
+        "flashback",
+        "gun",
+        "police",
+        "telephone-call"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.115385,
+        "genres": 0.62069,
+        "imdb": 0.999799,
+        "year": 0.540694,
+        "runtime": 0.502143,
+        "age_certification": 0.065344,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": 0.00521
+      },
+      "sources": [
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "May God Save Us",
+      "year": 2016,
+      "ids": {
+        "tmdb": 394684,
+        "imdb": "tt4944596",
+        "mdblist": "5g7"
+      },
+      "score": 0.408501,
+      "imdb_value": 7.1,
+      "imdb_votes": 13503,
+      "runtime": 127,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "country": "es",
+      "certification": "16",
+      "age_rating": 15,
+      "matched_keywords": [
+        "church",
+        "corpse",
+        "dog",
+        "murder",
+        "priest",
+        "rain",
+        "vengeance"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.153846,
+        "genres": 0.62069,
+        "imdb": 0.999323,
+        "year": 0.183152,
+        "runtime": 0.511666,
+        "age_certification": 0.370736,
+        "country": 0.0,
+        "daily_bonus": 0.005625,
+        "jitter": -0.002548
+      },
+      "sources": [
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Sorry We Missed You",
+      "year": 2019,
+      "ids": {
+        "tmdb": 522369,
+        "imdb": "tt8359816",
+        "mdblist": "19x0"
+      },
+      "score": 0.405465,
+      "imdb_value": 7.6,
+      "imdb_votes": 28364,
+      "runtime": 101,
+      "genres": [
+        "Drama"
+      ],
+      "country": "GB",
+      "certification": "15",
+      "age_rating": 14,
+      "matched_keywords": [
+        "beer",
+        "cell-phone",
+        "crying",
+        "crying-man",
+        "doctor",
+        "drinking",
+        "family-relationships",
+        "father-daughter-relationship",
+        "fear",
+        "fight",
+        "photograph",
+        "singing",
+        "telephone-call"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.298077,
+        "genres": 0.275862,
+        "imdb": 0.954097,
+        "year": 0.284911,
+        "runtime": 0.330084,
+        "age_certification": 0.344414,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": 0.018843
+      },
+      "sources": [
+        "user_list:best-ever",
+        "user_list:cant-go-wrong-movies"
+      ]
+    },
+    {
+      "title": "Aattam",
+      "year": 2024,
+      "ids": {
+        "tmdb": 957926,
+        "imdb": "tt27302079",
+        "mdblist": "2w3m1"
+      },
+      "score": 0.390396,
+      "imdb_value": 8.1,
+      "imdb_votes": 5551,
+      "runtime": 139,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "in",
+      "certification": "14A",
+      "age_rating": 15,
+      "matched_keywords": [],
+      "matched_genres": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.0,
+        "genres": 0.62069,
+        "imdb": 0.988547,
+        "year": 0.637048,
+        "runtime": 0.516366,
+        "age_certification": 0.370736,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": 0.002502
+      },
+      "sources": [
+        "catalog:Drama:score",
+        "catalog:Thriller:score",
+        "catalog:all:score"
+      ]
+    },
+    {
+      "title": "The Blue Elephant 2",
+      "year": 2019,
+      "ids": {
+        "tmdb": 599672,
+        "imdb": "tt10515086",
+        "mdblist": "1c6n"
+      },
+      "score": 0.389785,
+      "imdb_value": 8.0,
+      "imdb_votes": 12054,
+      "runtime": 129,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "eg",
+      "certification": "NR",
+      "age_rating": null,
+      "matched_keywords": [
+        "tattoo"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.019231,
+        "genres": 0.965517,
+        "imdb": 0.96446,
+        "year": 0.284911,
+        "runtime": 0.52329,
+        "age_certification": 0.0,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": -0.010335
+      },
+      "sources": [
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Late Shift",
+      "year": 2025,
+      "ids": {
+        "tmdb": 1356670,
+        "imdb": "tt32204858",
+        "mdblist": "3mcy1"
+      },
+      "score": 0.386083,
+      "imdb_value": 7.7,
+      "imdb_votes": 10581,
+      "runtime": 92,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "country": "DE",
+      "certification": "12A",
+      "age_rating": 7,
+      "matched_keywords": [
+        "crying",
+        "death",
+        "singing",
+        "telephone-call"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.105769,
+        "genres": 0.482759,
+        "imdb": 0.985431,
+        "year": 0.751139,
+        "runtime": 0.285813,
+        "age_certification": 0.065344,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": 0.00543
+      },
+      "sources": [
+        "user_list:best-ever",
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Bharat Bhhagya Viddhaata",
+      "year": 2026,
+      "ids": {
+        "tmdb": 1351908,
+        "imdb": "tt33334267",
+        "mdblist": "3lvx1"
+      },
+      "score": 0.38583,
+      "imdb_value": 7.5,
+      "imdb_votes": 7511,
+      "runtime": 127,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "country": "in",
+      "certification": "U/A 16+",
+      "age_rating": 13,
+      "matched_keywords": [],
+      "matched_genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.0,
+        "genres": 0.482759,
+        "imdb": 0.995692,
+        "year": 0.838303,
+        "runtime": 0.511666,
+        "age_certification": 0.356716,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": 0.005541
+      },
+      "sources": [
+        "catalog:Drama:imdbpopular",
+        "catalog:Thriller:imdbpopular",
+        "catalog:all:imdbpopular"
+      ]
+    },
+    {
+      "title": "A Conspiracy of Faith",
+      "year": 2016,
+      "ids": {
+        "tmdb": 348668,
+        "imdb": "tt4088268",
+        "mdblist": "3w5"
+      },
+      "score": 0.385058,
+      "imdb_value": 7.0,
+      "imdb_votes": 24885,
+      "runtime": 108,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "dk",
+      "certification": "NR",
+      "age_rating": 15,
+      "matched_keywords": [
+        "based-on-novel-or-book",
+        "church",
+        "police"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.057692,
+        "genres": 0.758621,
+        "imdb": 0.999918,
+        "year": 0.183152,
+        "runtime": 0.402541,
+        "age_certification": 0.370736,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": -0.004124
+      },
+      "sources": [
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Bramayugam",
+      "year": 2024,
+      "ids": {
+        "tmdb": 1166133,
+        "imdb": "tt27431598",
+        "mdblist": "35i7i"
+      },
+      "score": 0.379441,
+      "imdb_value": 7.7,
+      "imdb_votes": 18133,
+      "runtime": 139,
+      "genres": [
+        "Drama",
+        "Horror",
+        "Thriller"
+      ],
+      "country": "in",
+      "certification": "15",
+      "age_rating": 13,
+      "matched_keywords": [],
+      "matched_genres": [
+        "Drama",
+        "Horror",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.0,
+        "genres": 0.689655,
+        "imdb": 0.966471,
+        "year": 0.637048,
+        "runtime": 0.516366,
+        "age_certification": 0.356716,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": -0.017954
+      },
+      "sources": [
+        "catalog:Horror:score"
+      ]
+    },
+    {
+      "title": "Black Dog",
+      "year": 2024,
+      "ids": {
+        "tmdb": 1249423,
+        "imdb": "tt28131427",
+        "mdblist": "3cg7b"
+      },
+      "score": 0.378139,
+      "imdb_value": 7.1,
+      "imdb_votes": 5905,
+      "runtime": 116,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "country": "cn",
+      "certification": "M",
+      "age_rating": 15,
+      "matched_keywords": [
+        "dog"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.019231,
+        "genres": 0.482759,
+        "imdb": 0.999833,
+        "year": 0.637048,
+        "runtime": 0.430087,
+        "age_certification": 0.370736,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": 0.012759
+      },
+      "sources": [
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Close",
+      "year": 2022,
+      "ids": {
+        "tmdb": 901563,
+        "imdb": "tt9660502",
+        "mdblist": "2uhxf"
+      },
+      "score": 0.369677,
+      "imdb_value": 7.8,
+      "imdb_votes": 48561,
+      "runtime": 104,
+      "genres": [
+        "Drama"
+      ],
+      "country": "be",
+      "certification": "PG-13",
+      "age_rating": 13,
+      "matched_keywords": [
+        "crying",
+        "death",
+        "dog",
+        "fight",
+        "grief",
+        "snow"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.182692,
+        "genres": 0.275862,
+        "imdb": 0.85945,
+        "year": 0.459394,
+        "runtime": 0.356665,
+        "age_certification": 0.506716,
+        "country": 0.0,
+        "daily_bonus": 0.005625,
+        "jitter": 0.007642
+      },
+      "sources": [
+        "user_list:best-ever"
+      ]
+    },
+    {
+      "title": "Cairo Conspiracy",
+      "year": 2022,
+      "ids": {
+        "tmdb": 788977,
+        "imdb": "tt15452062",
+        "mdblist": "21svj"
+      },
+      "score": 0.367319,
+      "imdb_value": 6.9,
+      "imdb_votes": 9641,
+      "runtime": 121,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "country": "fr",
+      "certification": "M",
+      "age_rating": 13,
+      "matched_keywords": [
+        "battle",
+        "murder"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.038462,
+        "genres": 0.482759,
+        "imdb": 0.999879,
+        "year": 0.459394,
+        "runtime": 0.475962,
+        "age_certification": 0.356716,
+        "country": 0.142857,
+        "daily_bonus": 0.0,
+        "jitter": 0.006408
+      },
+      "sources": [
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Black Box",
+      "year": 2021,
+      "ids": {
+        "tmdb": 663260,
+        "imdb": "tt10341034",
+        "mdblist": "vdae"
+      },
+      "score": 0.357183,
+      "imdb_value": 7.2,
+      "imdb_votes": 19957,
+      "runtime": 130,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "fr",
+      "certification": "G",
+      "age_rating": 7,
+      "matched_keywords": [
+        "car-crash"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.019231,
+        "genres": 0.62069,
+        "imdb": 0.99615,
+        "year": 0.390885,
+        "runtime": 0.530718,
+        "age_certification": 0.065344,
+        "country": 0.142857,
+        "daily_bonus": 0.0,
+        "jitter": 0.001446
+      },
+      "sources": [
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "BPM (Beats per Minute)",
+      "year": 2017,
+      "ids": {
+        "tmdb": 451945,
+        "imdb": "tt6135348",
+        "mdblist": "4kq"
+      },
+      "score": 0.357041,
+      "imdb_value": 7.4,
+      "imdb_votes": 17728,
+      "runtime": 143,
+      "genres": [
+        "Drama"
+      ],
+      "country": "FR",
+      "certification": "MA 15+",
+      "age_rating": 17,
+      "matched_keywords": [
+        "blood",
+        "death",
+        "doctor",
+        "flashback",
+        "laboratory",
+        "love",
+        "photograph",
+        "police",
+        "tv-news"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.230769,
+        "genres": 0.275862,
+        "imdb": 0.988651,
+        "year": 0.210889,
+        "runtime": 0.491569,
+        "age_certification": 0.359478,
+        "country": 0.142857,
+        "daily_bonus": 0.002812,
+        "jitter": -0.016666
+      },
+      "sources": [
+        "user_list:best-ever"
+      ]
+    },
+    {
+      "title": "Drive My Car",
+      "year": 2021,
+      "ids": {
+        "tmdb": 758866,
+        "imdb": "tt14039582",
+        "mdblist": "z72i"
+      },
+      "score": 0.354919,
+      "imdb_value": 7.5,
+      "imdb_votes": 77319,
+      "runtime": 179,
+      "genres": [
+        "Drama"
+      ],
+      "country": "jp",
+      "certification": "MA15+",
+      "age_rating": 15,
+      "matched_keywords": [
+        "car",
+        "car-crash",
+        "deception",
+        "doctor",
+        "grief",
+        "loss-of-loved-one",
+        "male-protagonist",
+        "rain",
+        "snow"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.192308,
+        "genres": 0.275862,
+        "imdb": 0.910523,
+        "year": 0.390885,
+        "runtime": 0.141146,
+        "age_certification": 0.370736,
+        "country": 0.0,
+        "daily_bonus": 0.005625,
+        "jitter": 0.008522
+      },
+      "sources": [
+        "user_list:best-ever"
+      ]
+    },
+    {
+      "title": "God's Crooked Lines",
+      "year": 2022,
+      "ids": {
+        "tmdb": 890980,
+        "imdb": "tt13229894",
+        "mdblist": "2u2z3"
+      },
+      "score": 0.35353,
+      "imdb_value": 7.1,
+      "imdb_votes": 29794,
+      "runtime": 155,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "es",
+      "certification": "16",
+      "age_rating": 15,
+      "matched_keywords": [
+        "based-on-novel-or-book"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.019231,
+        "genres": 0.62069,
+        "imdb": 0.99791,
+        "year": 0.459394,
+        "runtime": 0.394179,
+        "age_certification": 0.370736,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": -0.019587
+      },
+      "sources": [
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Mass",
+      "year": 2021,
+      "ids": {
+        "tmdb": 423333,
+        "imdb": "tt11389748",
+        "mdblist": "1k8iv"
+      },
+      "score": 0.347611,
+      "imdb_value": 7.5,
+      "imdb_votes": 19838,
+      "runtime": 111,
+      "genres": [
+        "Drama"
+      ],
+      "country": "US",
+      "certification": "PG-13",
+      "age_rating": 13,
+      "matched_keywords": [
+        "church",
+        "death",
+        "grief",
+        "tragic-event",
+        "violence"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.115385,
+        "genres": 0.275862,
+        "imdb": 0.979756,
+        "year": 0.390885,
+        "runtime": 0.406524,
+        "age_certification": 0.506716,
+        "country": 0.571429,
+        "daily_bonus": 0.001875,
+        "jitter": -0.014582
+      },
+      "sources": [
+        "user_list:best-ever"
+      ]
+    },
+    {
+      "title": "The Eight Mountains",
+      "year": 2022,
+      "ids": {
+        "tmdb": 803700,
+        "imdb": "tt14641542",
+        "mdblist": "2n4nt"
+      },
+      "score": 0.345157,
+      "imdb_value": 7.7,
+      "imdb_votes": 19738,
+      "runtime": 147,
+      "genres": [
+        "Drama"
+      ],
+      "country": "it",
+      "certification": "M",
+      "age_rating": 13,
+      "matched_keywords": [
+        "bar",
+        "based-on-novel-or-book",
+        "death",
+        "love",
+        "snow"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.134615,
+        "genres": 0.275862,
+        "imdb": 0.962159,
+        "year": 0.459394,
+        "runtime": 0.470075,
+        "age_certification": 0.356716,
+        "country": 0.0,
+        "daily_bonus": 0.00375,
+        "jitter": -0.006349
+      },
+      "sources": [
+        "user_list:best-ever"
+      ]
+    },
+    {
+      "title": "A Hero",
+      "year": 2021,
+      "ids": {
+        "tmdb": 672208,
+        "imdb": "tt11777738",
+        "mdblist": "1uin"
+      },
+      "score": 0.337978,
+      "imdb_value": 7.5,
+      "imdb_votes": 33360,
+      "runtime": 127,
+      "genres": [
+        "Drama"
+      ],
+      "country": "IR",
+      "certification": "PG-13",
+      "age_rating": 13,
+      "matched_keywords": [
+        "family-relationships",
+        "fight",
+        "tv-news"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.076923,
+        "genres": 0.275862,
+        "imdb": 0.960181,
+        "year": 0.390885,
+        "runtime": 0.511666,
+        "age_certification": 0.506716,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": 0.007867
+      },
+      "sources": [
+        "user_list:best-ever"
+      ]
+    },
+    {
+      "title": "Visaranai",
+      "year": 2016,
+      "ids": {
+        "tmdb": 372226,
+        "imdb": "tt4991384",
+        "mdblist": "ft2"
+      },
+      "score": 0.335638,
+      "imdb_value": 8.4,
+      "imdb_votes": 15680,
+      "runtime": 118,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "country": "IN",
+      "certification": "UA",
+      "age_rating": 18,
+      "matched_keywords": [
+        "police",
+        "violence"
+      ],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.038462,
+        "genres": 0.62069,
+        "imdb": 0.899894,
+        "year": 0.183152,
+        "runtime": 0.445653,
+        "age_certification": 0.257577,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": 0.002503
+      },
+      "sources": [
+        "catalog:Drama:score",
+        "catalog:Thriller:score",
+        "catalog:all:score"
+      ]
+    },
+    {
+      "title": "Diamond Dust",
+      "year": 2018,
+      "ids": {
+        "tmdb": 515224,
+        "imdb": "tt4003070",
+        "mdblist": "1hkr"
+      },
+      "score": 0.331056,
+      "imdb_value": 7.9,
+      "imdb_votes": 6679,
+      "runtime": 150,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "country": "eg",
+      "certification": "NR",
+      "age_rating": null,
+      "matched_keywords": [],
+      "matched_genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.0,
+        "genres": 0.758621,
+        "imdb": 0.989212,
+        "year": 0.244496,
+        "runtime": 0.434959,
+        "age_certification": 0.0,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": -0.015248
+      },
+      "sources": [
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Virus",
+      "year": 2019,
+      "ids": {
+        "tmdb": 585261,
+        "imdb": "tt8941440",
+        "mdblist": "19zg"
+      },
+      "score": 0.328377,
+      "imdb_value": 7.7,
+      "imdb_votes": 5940,
+      "runtime": 152,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "country": "in",
+      "certification": "16",
+      "age_rating": 11,
+      "matched_keywords": [
+        "doctor"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.019231,
+        "genres": 0.482759,
+        "imdb": 0.994593,
+        "year": 0.284911,
+        "runtime": 0.416083,
+        "age_certification": 0.247894,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": 0.008296
+      },
+      "sources": [
+        "user_list:cant-go-wrong-movies",
+        "user_list:zombies-and-outbreak"
+      ]
+    },
+    {
+      "title": "The Hater",
+      "year": 2020,
+      "ids": {
+        "tmdb": 590854,
+        "imdb": "tt9506474",
+        "mdblist": "1c4e"
+      },
+      "score": 0.328176,
+      "imdb_value": 7.1,
+      "imdb_votes": 18763,
+      "runtime": 136,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "country": "PL",
+      "certification": "MA 15+",
+      "age_rating": 17,
+      "matched_keywords": [
+        "psychotronic-film"
+      ],
+      "matched_genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.019231,
+        "genres": 0.482759,
+        "imdb": 0.998884,
+        "year": 0.333259,
+        "runtime": 0.520122,
+        "age_certification": 0.359478,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": -0.010396
+      },
+      "sources": [
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Full Time",
+      "year": 2022,
+      "ids": {
+        "tmdb": 833417,
+        "imdb": "tt13269580",
+        "mdblist": "2qjqn"
+      },
+      "score": 0.320789,
+      "imdb_value": 7.4,
+      "imdb_votes": 7436,
+      "runtime": 88,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "country": "fr",
+      "certification": "M",
+      "age_rating": 13,
+      "matched_keywords": [],
+      "matched_genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "score_components": {
+        "keywords": 0.0,
+        "genres": 0.482759,
+        "imdb": 0.997215,
+        "year": 0.459394,
+        "runtime": 0.281848,
+        "age_certification": 0.356716,
+        "country": 0.142857,
+        "daily_bonus": 0.0,
+        "jitter": -0.014633
+      },
+      "sources": [
+        "catalog:Thriller:score",
+        "user_list:suspense",
+        "user_list:suspense-u1t0yr14yw"
+      ]
+    },
+    {
+      "title": "Moonlight",
+      "year": 2016,
+      "ids": {
+        "tmdb": 376867,
+        "imdb": "tt4975722",
+        "mdblist": "j7"
+      },
+      "score": 0.319344,
+      "imdb_value": 7.4,
+      "imdb_votes": 353895,
+      "runtime": 111,
+      "genres": [
+        "Drama"
+      ],
+      "country": "US",
+      "certification": "R",
+      "age_rating": 15,
+      "matched_keywords": [
+        "car",
+        "fight",
+        "male-protagonist",
+        "montage",
+        "revenge"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.125,
+        "genres": 0.275862,
+        "imdb": 0.879342,
+        "year": 0.183152,
+        "runtime": 0.406524,
+        "age_certification": 0.570736,
+        "country": 0.571429,
+        "daily_bonus": 0.0,
+        "jitter": -0.013466
+      },
+      "sources": [
+        "user_list:best-ever"
+      ]
+    },
+    {
+      "title": "The Quiet Girl",
+      "year": 2022,
+      "ids": {
+        "tmdb": 916405,
+        "imdb": "tt15109082",
+        "mdblist": "2uvry"
+      },
+      "score": 0.318046,
+      "imdb_value": 7.7,
+      "imdb_votes": 29276,
+      "runtime": 95,
+      "genres": [
+        "Drama"
+      ],
+      "country": "IE",
+      "certification": "M",
+      "age_rating": 12,
+      "matched_keywords": [
+        "dog",
+        "family-relationships",
+        "love"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.057692,
+        "genres": 0.275862,
+        "imdb": 0.936392,
+        "year": 0.459394,
+        "runtime": 0.294985,
+        "age_certification": 0.345963,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": 0.014432
+      },
+      "sources": [
+        "user_list:best-ever"
+      ]
+    },
+    {
+      "title": "Perfect Days",
+      "year": 2023,
+      "ids": {
+        "tmdb": 976893,
+        "imdb": "tt27503384",
+        "mdblist": "2wk7v"
+      },
+      "score": 0.307751,
+      "imdb_value": 7.9,
+      "imdb_votes": 108232,
+      "runtime": 124,
+      "genres": [
+        "Drama"
+      ],
+      "country": "jp",
+      "certification": "PG",
+      "age_rating": 12,
+      "matched_keywords": [
+        "car",
+        "cell-phone",
+        "common-sense-selection",
+        "family-relationships",
+        "male-protagonist",
+        "singing"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.115385,
+        "genres": 0.275862,
+        "imdb": 0.692642,
+        "year": 0.540694,
+        "runtime": 0.502143,
+        "age_certification": 0.345963,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": -0.000866
+      },
+      "sources": [
+        "catalog:Drama:score",
+        "catalog:all:score",
+        "user_list:best-ever"
+      ]
+    },
+    {
+      "title": "Miracle in Cell No. 7",
+      "year": 2019,
+      "ids": {
+        "tmdb": 637920,
+        "imdb": "tt10431500",
+        "mdblist": "1dae"
+      },
+      "score": 0.293909,
+      "imdb_value": 8.2,
+      "imdb_votes": 63433,
+      "runtime": 132,
+      "genres": [
+        "Drama"
+      ],
+      "country": "TR",
+      "certification": "15",
+      "age_rating": 15,
+      "matched_keywords": [
+        "death",
+        "father-daughter-relationship",
+        "interrogation",
+        "murder",
+        "shot-in-the-head",
+        "singing",
+        "telephone-call",
+        "tv-news"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.173077,
+        "genres": 0.275862,
+        "imdb": 0.651014,
+        "year": 0.284911,
+        "runtime": 0.522871,
+        "age_certification": 0.370736,
+        "country": 0.0,
+        "daily_bonus": 0.002812,
+        "jitter": -0.011545
+      },
+      "sources": [
+        "user_list:best-ever"
+      ]
+    },
+    {
+      "title": "Leila's Brothers",
+      "year": 2022,
+      "ids": {
+        "tmdb": 962558,
+        "imdb": "tt19653180",
+        "mdblist": "2w84v"
+      },
+      "score": 0.287407,
+      "imdb_value": 7.9,
+      "imdb_votes": 19229,
+      "runtime": 170,
+      "genres": [
+        "Drama"
+      ],
+      "country": "IR",
+      "certification": "TP",
+      "age_rating": null,
+      "matched_keywords": [
+        "death",
+        "family-relationships"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.048077,
+        "genres": 0.275862,
+        "imdb": 0.941439,
+        "year": 0.459394,
+        "runtime": 0.212488,
+        "age_certification": 0.0,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": 0.015224
+      },
+      "sources": [
+        "user_list:best-ever"
+      ]
+    },
+    {
+      "title": "Loveless",
+      "year": 2017,
+      "ids": {
+        "tmdb": 429174,
+        "imdb": "tt6304162",
+        "mdblist": "48r"
+      },
+      "score": 0.277859,
+      "imdb_value": 7.6,
+      "imdb_votes": 37810,
+      "runtime": 122,
+      "genres": [
+        "Drama"
+      ],
+      "country": "ru",
+      "certification": "14",
+      "age_rating": 17,
+      "matched_keywords": [
+        "crying-man",
+        "tv-news"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.038462,
+        "genres": 0.275862,
+        "imdb": 0.935625,
+        "year": 0.210889,
+        "runtime": 0.488002,
+        "age_certification": 0.359478,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": -0.003694
+      },
+      "sources": [
+        "user_list:best-ever"
+      ]
+    },
+    {
+      "title": "I, Daniel Blake",
+      "year": 2016,
+      "ids": {
+        "tmdb": 374473,
+        "imdb": "tt5168192",
+        "mdblist": "1h7c"
+      },
+      "score": 0.275824,
+      "imdb_value": 7.8,
+      "imdb_votes": 68591,
+      "runtime": 100,
+      "genres": [
+        "Drama"
+      ],
+      "country": "GB",
+      "certification": "R",
+      "age_rating": 15,
+      "matched_keywords": [
+        "death",
+        "doctor",
+        "telephone-call"
+      ],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.067308,
+        "genres": 0.275862,
+        "imdb": 0.811494,
+        "year": 0.183152,
+        "runtime": 0.322611,
+        "age_certification": 0.570736,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": -0.002393
+      },
+      "sources": [
+        "user_list:best-ever"
+      ]
+    },
+    {
+      "title": "Kadaisi Vivasayi",
+      "year": 2022,
+      "ids": {
+        "tmdb": 613703,
+        "imdb": "tt10300570",
+        "mdblist": "1ve2b"
+      },
+      "score": 0.248613,
+      "imdb_value": 8.7,
+      "imdb_votes": 10801,
+      "runtime": 145,
+      "genres": [
+        "Drama"
+      ],
+      "country": "in",
+      "certification": "NR",
+      "age_rating": null,
+      "matched_keywords": [],
+      "matched_genres": [
+        "Drama"
+      ],
+      "score_components": {
+        "keywords": 0.0,
+        "genres": 0.275862,
+        "imdb": 0.918086,
+        "year": 0.459394,
+        "runtime": 0.485311,
+        "age_certification": 0.0,
+        "country": 0.0,
+        "daily_bonus": 0.0,
+        "jitter": -0.014477
+      },
+      "sources": [
+        "catalog:Drama:score",
+        "catalog:all:score",
+        "catalog:all:score_average"
+      ]
+    }
+  ]
+}
